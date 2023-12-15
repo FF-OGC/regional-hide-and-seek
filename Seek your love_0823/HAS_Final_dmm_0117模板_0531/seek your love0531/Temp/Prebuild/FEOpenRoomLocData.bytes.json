@@ -1,0 +1,134 @@
+{
+ "KeyList": [
+  {
+   "Key": "SKILL_SCAN_COOLDOWN",
+   "LocList": [
+    {
+     "Lang": "UGCLANGUAGE_ENGLISH",
+     "Translation": "Scan skill cooldown"
+    },
+    {
+     "Lang": "UGCLANGUAGE_TRADITIONAL_CHINESE",
+     "Translation": "掃描CD"
+    },
+    {
+     "Lang": "UGCLANGUAGE_THAI",
+     "Translation": "สแกนทักษะคูลดาวน์"
+    },
+    {
+     "Lang": "UGCLANGUAGE_VIETNAMESE",
+     "Translation": "Thời gian hồi chiêu kỹ năng quét"
+    },
+    {
+     "Lang": "UGCLANGUAGE_INDONESIA",
+     "Translation": "Pindai cooldown keterampilan"
+    },
+    {
+     "Lang": "UGCLANGUAGE_BRAZILIAN_PORTUGUESE",
+     "Translation": "Excunhões de recarga de habilidades"
+    },
+    {
+     "Lang": "UGCLANGUAGE_SPANISH",
+     "Translation": "Escaneo de habilidad"
+    },
+    {
+     "Lang": "UGCLANGUAGE_RUSSIAN",
+     "Translation": "Сканирование навыка восстановления"
+    },
+    {
+     "Lang": "UGCLANGUAGE_FRENCH",
+     "Translation": "Scan Skill Recodownown"
+    },
+    {
+     "Lang": "UGCLANGUAGE_GERMAN",
+     "Translation": "Scan -Fähigkeit Abklingzeit"
+    },
+    {
+     "Lang": "UGCLANGUAGE_TURKISH",
+     "Translation": "Beceri bekleme süresi tarama"
+    },
+    {
+     "Lang": "UGCLANGUAGE_HINDI",
+     "Translation": "स्कैन कौशल कोल्डाउन"
+    },
+    {
+     "Lang": "UGCLANGUAGE_ROMANIAN",
+     "Translation": "Scanarea de compensare a abilităților"
+    },
+    {
+     "Lang": "UGCLANGUAGE_ARABIC",
+     "Translation": "مسح مهارة التباطؤ"
+    },
+    {
+     "Lang": "UGCLANGUAGE_BENGALI",
+     "Translation": "স্ক্যান দক্ষতা কোলডাউন"
+    }
+   ]
+  },
+  {
+   "Key": "SKILL_SCAN_DISTANCE",
+   "LocList": [
+    {
+     "Lang": "UGCLANGUAGE_ENGLISH",
+     "Translation": "Scan skill distance"
+    },
+    {
+     "Lang": "UGCLANGUAGE_TRADITIONAL_CHINESE",
+     "Translation": "掃描距離"
+    },
+    {
+     "Lang": "UGCLANGUAGE_THAI",
+     "Translation": "สแกนระยะทาง"
+    },
+    {
+     "Lang": "UGCLANGUAGE_VIETNAMESE",
+     "Translation": "Quét khoảng cách kỹ năng"
+    },
+    {
+     "Lang": "UGCLANGUAGE_INDONESIA",
+     "Translation": "Memindai jarak keterampilan"
+    },
+    {
+     "Lang": "UGCLANGUAGE_BRAZILIAN_PORTUGUESE",
+     "Translation": "Distância da habilidade de varredura"
+    },
+    {
+     "Lang": "UGCLANGUAGE_SPANISH",
+     "Translation": "Escanear distancia de habilidad"
+    },
+    {
+     "Lang": "UGCLANGUAGE_RUSSIAN",
+     "Translation": "Сканирование расстояния навыков"
+    },
+    {
+     "Lang": "UGCLANGUAGE_FRENCH",
+     "Translation": "Distance de compétences de numérisation"
+    },
+    {
+     "Lang": "UGCLANGUAGE_GERMAN",
+     "Translation": "Scan -Skillentfernung"
+    },
+    {
+     "Lang": "UGCLANGUAGE_TURKISH",
+     "Translation": "Beceri mesafesini tarama"
+    },
+    {
+     "Lang": "UGCLANGUAGE_HINDI",
+     "Translation": "स्कैन कौशल दूरी"
+    },
+    {
+     "Lang": "UGCLANGUAGE_ROMANIAN",
+     "Translation": "Distanța de abilități de scanare"
+    },
+    {
+     "Lang": "UGCLANGUAGE_ARABIC",
+     "Translation": "مسافة مهارة المسح"
+    },
+    {
+     "Lang": "UGCLANGUAGE_BENGALI",
+     "Translation": "স্ক্যান দক্ষতার দূরত্ব"
+    }
+   ]
+  }
+ ]
+}

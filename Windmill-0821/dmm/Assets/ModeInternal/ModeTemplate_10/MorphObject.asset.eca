@@ -1,0 +1,559 @@
+
+{
+    "blocks" : {
+        "languageVersion" : 0,
+        "blocks"          : [
+            {
+                "sid" : 234788,
+                "type" : "e",
+                "id"   : "960855387",
+                "extraState" : {
+                    "X" : 330
+                },
+                "fields"     : {
+                    "P1" : {
+                        "name" : "Weapon",
+                        "type" : "Weapon"
+                    }
+                },
+                "inputs"     : {
+                },
+                "next"       : {
+                    "block" : {
+                        "sid" : 234788,
+                        "type" : "ife",
+                        "id"   : "auto55159",
+                        "fields" : {
+                        },
+                        "inputs" : {
+                            "C" : {
+                                "block" : {
+                                    "sid" : 234788,
+                                    "type" : "opl",
+                                    "id"   : "960755955",
+                                    "fields" : {
+                                        "O" : "AND"
+                                    },
+                                    "inputs" : {
+                                        "V1" : {
+                                            "block" : {
+                                                "sid" : 234788,
+                                                "type" : "opc",
+                                                "id"   : "961350279",
+                                                "fields" : {
+                                                    "O" : "EQ"
+                                                },
+                                                "inputs" : {
+                                                    "V1" : {
+                                                        "block" : {
+                                                            "sid" : 234788,
+                                                            "type" : "prg",
+                                                            "id"   : "960648683",
+                                                            "fields" : {
+                                                                "P" : "FactionEntity:Player"
+                                                            },
+                                                            "inputs" : {
+                                                                "H" : {
+                                                                    "block" : {
+                                                                        "sid" : 234788,
+                                                                        "type" : "prg",
+                                                                        "id"   : "960868918",
+                                                                        "fields" : {
+                                                                            "P" : "Owner:Weapon"
+                                                                        },
+                                                                        "inputs" : {
+                                                                            "H" : {
+                                                                                "block" : {
+                                                                                    "sid" : 234788,
+                                                                                    "type" : "lcg",
+                                                                                    "id"   : "961138615",
+                                                                                    "extraState" : "960855387 P1",
+                                                                                    "fields"     : {
+                                                                                        "VR" : "Weapon"
+                                                                                    },
+                                                                                    "inputs"     : {
+                                                                                    }
+                                                                                }
+                                                                            }
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    },
+                                                    "V2" : {
+                                                        "block" : {
+                                                            "sid" : 234788,
+                                                            "type" : "exg",
+                                                            "id"   : "960958724",
+                                                            "fields" : {
+                                                                "G" : "3746b917f8e19764c8ee397d528cd04f",
+                                                                "VI" : "var995"
+                                                            },
+                                                            "inputs" : {
+                                                                "H" : {
+                                                                    "block" : {
+                                                                        "sid" : 234788,
+                                                                        "type" : "v",
+                                                                        "id"   : "960685485",
+                                                                        "extraState" : {
+                                                                            "L" : [
+                                                                            ],
+                                                                            "X" : 10007
+                                                                        },
+                                                                        "fields"     : {
+                                                                        },
+                                                                        "inputs"     : {
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        "V2" : {
+                                            "block" : {
+                                                "sid" : 234788,
+                                                "type" : "opc",
+                                                "id"   : "960743442",
+                                                "fields" : {
+                                                    "O" : "EQ"
+                                                },
+                                                "inputs" : {
+                                                    "V1" : {
+                                                        "block" : {
+                                                            "sid" : 234788,
+                                                            "type" : "prg",
+                                                            "id"   : "961161163",
+                                                            "fields" : {
+                                                                "P" : "MorphType:MorphObject"
+                                                            },
+                                                            "inputs" : {
+                                                                "H" : {
+                                                                    "block" : {
+                                                                        "sid" : 234788,
+                                                                        "type" : "ent",
+                                                                        "id"   : "960711508",
+                                                                        "fields" : {
+                                                                        },
+                                                                        "inputs" : {
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    },
+                                                    "V2" : {
+                                                        "block" : {
+                                                            "sid" : 234788,
+                                                            "type" : "ipi",
+                                                            "id"   : "961070771",
+                                                            "fields" : {
+                                                                "V" : 1
+                                                            },
+                                                            "inputs" : {
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            },
+                            "D" : {
+                                "block" : {
+                                    "sid" : 234788,
+                                    "type" : "prs",
+                                    "id"   : "961352050",
+                                    "fields" : {
+                                        "P" : "HitCount:MorphObject"
+                                    },
+                                    "inputs" : {
+                                        "H" : {
+                                            "block" : {
+                                                "sid" : 234788,
+                                                "type" : "ent",
+                                                "id"   : "960731872",
+                                                "fields" : {
+                                                },
+                                                "inputs" : {
+                                                }
+                                            }
+                                        },
+                                        "V" : {
+                                            "block" : {
+                                                "sid" : 234788,
+                                                "type" : "opa",
+                                                "id"   : "961267499",
+                                                "fields" : {
+                                                    "O" : "AD"
+                                                },
+                                                "inputs" : {
+                                                    "V1" : {
+                                                        "block" : {
+                                                            "sid" : 234788,
+                                                            "type" : "prg",
+                                                            "id"   : "961246922",
+                                                            "fields" : {
+                                                                "P" : "HitCount:MorphObject"
+                                                            },
+                                                            "inputs" : {
+                                                                "H" : {
+                                                                    "block" : {
+                                                                        "sid" : 234788,
+                                                                        "type" : "ent",
+                                                                        "id"   : "960527141",
+                                                                        "fields" : {
+                                                                        },
+                                                                        "inputs" : {
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    },
+                                                    "V2" : {
+                                                        "block" : {
+                                                            "sid" : 234788,
+                                                            "type" : "ipi",
+                                                            "id"   : "960727846",
+                                                            "fields" : {
+                                                                "V" : 1
+                                                            },
+                                                            "inputs" : {
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    },
+                                    "next"   : {
+                                        "block" : {
+                                            "sid" : 234788,
+                                            "type" : "ife",
+                                            "id"   : "960946911",
+                                            "fields" : {
+                                                "T" : "if"
+                                            },
+                                            "inputs" : {
+                                                "C" : {
+                                                    "block" : {
+                                                        "sid" : 234788,
+                                                        "type" : "opc",
+                                                        "id"   : "960772945",
+                                                        "fields" : {
+                                                            "O" : "GE"
+                                                        },
+                                                        "inputs" : {
+                                                            "V1" : {
+                                                                "block" : {
+                                                                    "sid" : 234788,
+                                                                    "type" : "prg",
+                                                                    "id"   : "961324248",
+                                                                    "fields" : {
+                                                                        "P" : "HitCount:MorphObject"
+                                                                    },
+                                                                    "inputs" : {
+                                                                        "H" : {
+                                                                            "block" : {
+                                                                                "sid" : 234788,
+                                                                                "type" : "ent",
+                                                                                "id"   : "960661365",
+                                                                                "fields" : {
+                                                                                },
+                                                                                "inputs" : {
+                                                                                }
+                                                                            }
+                                                                        }
+                                                                    }
+                                                                }
+                                                            },
+                                                            "V2" : {
+                                                                "block" : {
+                                                                    "sid" : 234788,
+                                                                    "type" : "glg",
+                                                                    "id"   : "1216286549",
+                                                                    "fields" : {
+                                                                        "P" : "PhantomHPNum:Global"
+                                                                    },
+                                                                    "inputs" : {
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                },
+                                                "D" : {
+                                                    "block" : {
+                                                        "sid" : 234788,
+                                                        "type" : "a",
+                                                        "id"   : "960989403",
+                                                        "extraState" : {
+                                                            "L" : [
+                                                                1
+                                                            ],
+                                                            "X" : 51
+                                                        },
+                                                        "fields"     : {
+                                                        },
+                                                        "inputs"     : {
+                                                            "P1" : {
+                                                                "block" : {
+                                                                    "sid" : 234788,
+                                                                    "type" : "v",
+                                                                    "id"   : "961254743",
+                                                                    "extraState" : {
+                                                                        "L" : [
+                                                                            1,
+                                                                            2
+                                                                        ],
+                                                                        "T" : "FormatString"
+                                                                    },
+                                                                    "fields"     : {
+                                                                    },
+                                                                    "inputs"     : {
+                                                                        "P1" : {
+                                                                            "block" : {
+                                                                                "sid" : 234788,
+                                                                                "type" : "ipt",
+                                                                                "id"   : "960978787",
+                                                                                "fields" : {
+                                                                                    "V" : "@zym 删除实体：%v"
+                                                                                },
+                                                                                "inputs" : {
+                                                                                }
+                                                                            }
+                                                                        },
+                                                                        "P2" : {
+                                                                            "block" : {
+                                                                                "sid" : 234788,
+                                                                                "type" : "lic",
+                                                                                "id"   : "960715792",
+                                                                                "extraState" : {
+                                                                                    "X" : 1
+                                                                                },
+                                                                                "fields"     : {
+                                                                                    "T" : "any"
+                                                                                },
+                                                                                "inputs"     : {
+                                                                                    "I0" : {
+                                                                                        "block" : {
+                                                                                            "sid" : 234788,
+                                                                                            "type" : "ent",
+                                                                                            "id"   : "961006628",
+                                                                                            "fields" : {
+                                                                                            },
+                                                                                            "inputs" : {
+                                                                                            }
+                                                                                        }
+                                                                                    }
+                                                                                }
+                                                                            }
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        },
+                                                        "next"       : {
+                                                            "block" : {
+                                                                "sid" : 234788,
+                                                                "type" : "exa",
+                                                                "id"   : "1898438720",
+                                                                "extraState" : {
+                                                                    "name" : "播放分身被击杀特效",
+                                                                    "returnType" : null,
+                                                                    "params"     : [
+                                                                        {
+                                                                            "name" : "跟随实体",
+                                                                            "id"   : "param78",
+                                                                            "type" : "MorphObject"
+                                                                        }
+                                                                    ],
+                                                                    "graphId"    : "235ecfe1be542fb49bd980c2e3af5fb5"
+                                                                },
+                                                                "fields"     : {
+                                                                    "T" : "S"
+                                                                },
+                                                                "inputs"     : {
+                                                                    "param78" : {
+                                                                        "block" : {
+                                                                            "sid" : 234788,
+                                                                            "type" : "ent",
+                                                                            "id"   : "1898132761",
+                                                                            "fields" : {
+                                                                            },
+                                                                            "inputs" : {
+                                                                            }
+                                                                        }
+                                                                    },
+                                                                    "H"       : {
+                                                                        "block" : {
+                                                                            "sid" : 234788,
+                                                                            "type" : "prg",
+                                                                            "id"   : "1898414434",
+                                                                            "fields" : {
+                                                                                "P" : "Player:MorphObject"
+                                                                            },
+                                                                            "inputs" : {
+                                                                                "H" : {
+                                                                                    "block" : {
+                                                                                        "sid" : 234788,
+                                                                                        "type" : "ent",
+                                                                                        "id"   : "1898544938",
+                                                                                        "fields" : {
+                                                                                        },
+                                                                                        "inputs" : {
+                                                                                        }
+                                                                                    }
+                                                                                }
+                                                                            }
+                                                                        }
+                                                                    }
+                                                                },
+                                                                "next"       : {
+                                                                    "block" : {
+                                                                        "sid" : 234788,
+                                                                        "type" : "exa",
+                                                                        "id"   : "961121133",
+                                                                        "extraState" : {
+                                                                            "name" : "删除分身",
+                                                                            "returnType" : null,
+                                                                            "params"     : [
+                                                                                {
+                                                                                    "name" : "targetEntity",
+                                                                                    "id"   : "param28",
+                                                                                    "type" : "LevelObject"
+                                                                                }
+                                                                            ],
+                                                                            "graphId"    : "736d7d39154ab76499ae8f148d4a3fae"
+                                                                        },
+                                                                        "fields"     : {
+                                                                            "T" : "S"
+                                                                        },
+                                                                        "inputs"     : {
+                                                                            "param28" : {
+                                                                                "block" : {
+                                                                                    "sid" : 234788,
+                                                                                    "type" : "ent",
+                                                                                    "id"   : "961022739",
+                                                                                    "fields" : {
+                                                                                    },
+                                                                                    "inputs" : {
+                                                                                    }
+                                                                                }
+                                                                            },
+                                                                            "H"       : {
+                                                                                "block" : {
+                                                                                    "sid" : 234788,
+                                                                                    "type" : "v",
+                                                                                    "id"   : "961087717",
+                                                                                    "extraState" : {
+                                                                                        "L" : [
+                                                                                        ],
+                                                                                        "X" : 10007
+                                                                                    },
+                                                                                    "fields"     : {
+                                                                                    },
+                                                                                    "inputs"     : {
+                                                                                    }
+                                                                                }
+                                                                            }
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "sid" : 234788,
+                "type" : "e",
+                "id"   : "244871934",
+                "extraState" : {
+                    "X" : 138
+                },
+                "fields"     : {
+                },
+                "inputs"     : {
+                },
+                "next"       : {
+                    "block" : {
+                        "sid" : 234788,
+                        "type" : "prs",
+                        "id"   : "244630691",
+                        "fields" : {
+                            "P" : "TagsList:Entity"
+                        },
+                        "inputs" : {
+                            "H" : {
+                                "block" : {
+                                    "sid" : 234788,
+                                    "type" : "ent",
+                                    "id"   : "244661688",
+                                    "fields" : {
+                                    },
+                                    "inputs" : {
+                                    }
+                                }
+                            },
+                            "V" : {
+                                "block" : {
+                                    "sid" : 234788,
+                                    "type" : "lic",
+                                    "id"   : "244484163",
+                                    "extraState" : {
+                                        "X" : 1
+                                    },
+                                    "fields"     : {
+                                        "T" : "String"
+                                    },
+                                    "inputs"     : {
+                                        "I0" : {
+                                            "block" : {
+                                                "sid" : 234788,
+                                                "type" : "grg",
+                                                "id"   : "245166406",
+                                                "fields" : {
+                                                    "VR" : "var66"
+                                                },
+                                                "inputs" : {
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        ]
+    },
+    "variables" : [
+        {
+            "name" : "var75",
+            "id"   : "var75",
+            "type" : "Int",
+            "value" : null
+        },
+        {
+            "name" : "tag",
+            "id"   : "var66",
+            "type" : "String",
+            "value" : "MORPH"
+        }
+    ]
+}

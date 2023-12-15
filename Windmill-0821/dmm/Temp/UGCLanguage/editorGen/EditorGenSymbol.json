@@ -1,0 +1,1589 @@
+{
+  "FileSpaces": [
+    {
+      "Path": "EditorGenLib.fcc",
+      "Symbol": {
+        "Components": [
+          {
+            "Name": "Global",
+            "ID": 11,
+            "Props": [
+              {
+                "ID": 11000,
+                "Name": "Hider阵营ID"
+              },
+              {
+                "ID": 11001,
+                "Name": "Seeker阵营ID"
+              },
+              {
+                "ID": 11002,
+                "Name": "SeekerNum"
+              },
+              {
+                "ID": 11003,
+                "Name": "ReviveSwitch"
+              },
+              {
+                "ID": 11004,
+                "Name": "Hider血量"
+              },
+              {
+                "ID": 11005,
+                "Name": "Identity_Normal"
+              },
+              {
+                "ID": 11006,
+                "Name": "Identity_Hider"
+              },
+              {
+                "ID": 11007,
+                "Name": "Identity_Seeker"
+              },
+              {
+                "ID": 11008,
+                "Name": "Identity_SubSeeker"
+              },
+              {
+                "ID": 11009,
+                "Name": "TransformCD"
+              },
+              {
+                "ID": 11010,
+                "Name": "PhantomCD"
+              },
+              {
+                "ID": 11011,
+                "Name": "PhantomNum"
+              },
+              {
+                "ID": 11012,
+                "Name": "Seeker阵营得分"
+              },
+              {
+                "ID": 11013,
+                "Name": "Hider阵营得分"
+              },
+              {
+                "ID": 11014,
+                "Name": "MaxHPHider"
+              },
+              {
+                "ID": 11015,
+                "Name": "MaxEPHider"
+              },
+              {
+                "ID": 11016,
+                "Name": "StartEPHider"
+              },
+              {
+                "ID": 11017,
+                "Name": "DamageHider"
+              },
+              {
+                "ID": 11018,
+                "Name": "DamagedHider"
+              },
+              {
+                "ID": 11019,
+                "Name": "MoveSpeedHider"
+              },
+              {
+                "ID": 11020,
+                "Name": "JumpHeightHider"
+              },
+              {
+                "ID": 11021,
+                "Name": "JumpHeightSeeker"
+              },
+              {
+                "ID": 11022,
+                "Name": "JumpHeightSubSeeker"
+              },
+              {
+                "ID": 11023,
+                "Name": "MoveSpeedSubSeeker"
+              },
+              {
+                "ID": 11024,
+                "Name": "MoveSpeedSeeker"
+              },
+              {
+                "ID": 11025,
+                "Name": "MaxHPSeeker"
+              },
+              {
+                "ID": 11026,
+                "Name": "MaxHPSubSeeker"
+              },
+              {
+                "ID": 11027,
+                "Name": "MaxEPSubSeeker"
+              },
+              {
+                "ID": 11028,
+                "Name": "MaxEPSeeker"
+              },
+              {
+                "ID": 11029,
+                "Name": "StartEPSeeker"
+              },
+              {
+                "ID": 11030,
+                "Name": "StartEPSubSeeker"
+              },
+              {
+                "ID": 11031,
+                "Name": "DamageSubSeeker"
+              },
+              {
+                "ID": 11032,
+                "Name": "DamageSeeker"
+              },
+              {
+                "ID": 11033,
+                "Name": "DamagedSeeker"
+              },
+              {
+                "ID": 11034,
+                "Name": "DamagedSubSeeker"
+              },
+              {
+                "ID": 11035,
+                "Name": "AmmoLimitSubSeeker"
+              },
+              {
+                "ID": 11036,
+                "Name": "AmmoLimitSeeker"
+              },
+              {
+                "ID": 11037,
+                "Name": "fevertimeNum"
+              },
+              {
+                "ID": 11038,
+                "Name": "PhantomHPNum"
+              },
+              {
+                "ID": 11039,
+                "Name": "fevertimehud"
+              },
+              {
+                "ID": 11040,
+                "Name": "MorphModeDisableTemplate"
+              },
+              {
+                "ID": 11041,
+                "Name": "Global_9730818_custom"
+              },
+              {
+                "ID": 11042,
+                "Name": "Global_18933892_custom"
+              },
+              {
+                "ID": 11043,
+                "Name": "Global_13019327_custom"
+              },
+              {
+                "ID": 11044,
+                "Name": "Global_93673398_custom"
+              },
+              {
+                "ID": 11045,
+                "Name": "Global_8836433_custom"
+              },
+              {
+                "ID": 11046,
+                "Name": "Global_87034660_custom"
+              },
+              {
+                "ID": 11047,
+                "Name": "Global_20308607_custom"
+              }
+            ]
+          },
+          {
+            "Name": "Player",
+            "ID": 14,
+            "Props": [
+              {
+                "ID": 14000,
+                "Name": "CanRevive"
+              },
+              {
+                "ID": 14001,
+                "Name": "AimedEntity"
+              },
+              {
+                "ID": 14002,
+                "Name": "PlayerFaction"
+              }
+            ]
+          },
+          {
+            "Name": "SkillButtonHud",
+            "ID": 1045,
+            "Props": [
+              {
+                "ID": 1045000,
+                "Name": "Locked"
+              }
+            ]
+          },
+          {
+            "Name": "SpawnPos",
+            "ID": 2500,
+            "Props": [
+              {
+                "ID": 2500000,
+                "Name": "Type"
+              }
+            ]
+          },
+          {
+            "Name": "SpawnBox",
+            "ID": 2510,
+            "Props": [
+              {
+                "ID": 2510000,
+                "Name": "SpawnPlayerCount"
+              }
+            ]
+          },
+          {
+            "Name": "MorphObject",
+            "ID": 101,
+            "Props": [
+              {
+                "ID": 101000,
+                "Name": "MorphType"
+              },
+              {
+                "ID": 101001,
+                "Name": "HitCount"
+              }
+            ]
+          },
+          {
+            "Name": "ChooseCardHud",
+            "ID": 1040,
+            "Props": []
+          },
+          {
+            "Name": "LevelObject",
+            "ID": 16,
+            "Props": []
+          },
+          {
+            "Name": "Weapon",
+            "ID": 79,
+            "Props": []
+          },
+          {
+            "Name": "Round",
+            "ID": 26,
+            "Props": []
+          },
+          {
+            "Name": "LeaderboardButtonHud",
+            "ID": 1035,
+            "Props": []
+          },
+          {
+            "Name": "SingleLeaderboardHud",
+            "ID": 1034,
+            "Props": []
+          }
+        ],
+        "Events": [],
+        "Graphs": [
+          {
+            "ID": "8733b8addb3a39f418d82f39998dce28",
+            "Name": "_8733b8addb3a39f418d82f39998dce28",
+            "Props": [],
+            "Funcs": []
+          },
+          {
+            "ID": "38212d6432bfd2a4e94070ce1ec7d6c7",
+            "Name": "_38212d6432bfd2a4e94070ce1ec7d6c7",
+            "Props": [
+              {
+                "ID": "var39",
+                "Name": "var39"
+              }
+            ],
+            "Funcs": []
+          },
+          {
+            "ID": "43636a8c58354924fa541099d90a3161",
+            "Name": "_43636a8c58354924fa541099d90a3161",
+            "Props": [
+              {
+                "ID": "var34",
+                "Name": "var34"
+              },
+              {
+                "ID": "var21",
+                "Name": "var21"
+              },
+              {
+                "ID": "var31",
+                "Name": "var31"
+              }
+            ],
+            "Funcs": [
+              {
+                "ID": "刷新阵营人数",
+                "Name": "_36"
+              },
+              {
+                "ID": "刷新阵营比分",
+                "Name": "_1050191541"
+              },
+              {
+                "ID": "创建队伍比分信息展示界面",
+                "Name": "_1660069314"
+              },
+              {
+                "ID": "读取阵营人数",
+                "Name": "_250363553"
+              },
+              {
+                "ID": "获取活着的阵营人数",
+                "Name": "_1811829521"
+              }
+            ]
+          },
+          {
+            "ID": "d2cfd95421c0a124281613918241a84f",
+            "Name": "d2cfd95421c0a124281613918241a84f",
+            "Props": [
+              {
+                "ID": "var47",
+                "Name": "var47"
+              }
+            ],
+            "Funcs": [
+              {
+                "ID": "modifyTime",
+                "Name": "_718497101"
+              }
+            ]
+          },
+          {
+            "ID": "19dd0c52571d53b4fb0d625c1dca24d1",
+            "Name": "_19dd0c52571d53b4fb0d625c1dca24d1",
+            "Props": [
+              {
+                "ID": "var21",
+                "Name": "var21_"
+              }
+            ],
+            "Funcs": []
+          },
+          {
+            "ID": "52b7116d49be4c346b4c16d729551b97",
+            "Name": "_52b7116d49be4c346b4c16d729551b97",
+            "Props": [
+              {
+                "ID": "var2",
+                "Name": "var2"
+              },
+              {
+                "ID": "var22",
+                "Name": "var22"
+              },
+              {
+                "ID": "var43",
+                "Name": "var43"
+              },
+              {
+                "ID": "var77",
+                "Name": "var77"
+              },
+              {
+                "ID": "var98",
+                "Name": "var98"
+              },
+              {
+                "ID": "var66",
+                "Name": "var66"
+              },
+              {
+                "ID": "var27",
+                "Name": "var27"
+              }
+            ],
+            "Funcs": [
+              {
+                "ID": "获取活着的阵营人数",
+                "Name": "_1845915827"
+              }
+            ]
+          },
+          {
+            "ID": "96c130a15c038b64caa039ff3deb887b",
+            "Name": "_96c130a15c038b64caa039ff3deb887b",
+            "Props": [
+              {
+                "ID": "var2",
+                "Name": "var2_"
+              },
+              {
+                "ID": "var22",
+                "Name": "var22_"
+              },
+              {
+                "ID": "var43",
+                "Name": "var43_"
+              },
+              {
+                "ID": "var77",
+                "Name": "var77_"
+              },
+              {
+                "ID": "var5",
+                "Name": "var5"
+              },
+              {
+                "ID": "var95",
+                "Name": "var95"
+              }
+            ],
+            "Funcs": []
+          },
+          {
+            "ID": "736d7d39154ab76499ae8f148d4a3fae",
+            "Name": "_736d7d39154ab76499ae8f148d4a3fae",
+            "Props": [
+              {
+                "ID": "var92",
+                "Name": "var92"
+              },
+              {
+                "ID": "var88",
+                "Name": "var88"
+              }
+            ],
+            "Funcs": [
+              {
+                "ID": "添加分身",
+                "Name": "_1245978771"
+              },
+              {
+                "ID": "删除分身",
+                "Name": "_1245818051"
+              },
+              {
+                "ID": "删除所有分身",
+                "Name": "_1246403219"
+              },
+              {
+                "ID": "分身技能按钮变灰",
+                "Name": "_565240413"
+              },
+              {
+                "ID": "获取分身技能HUD实体",
+                "Name": "_162943927"
+              }
+            ]
+          },
+          {
+            "ID": "54a450598790f7746b7df0d2543f750e",
+            "Name": "_54a450598790f7746b7df0d2543f750e",
+            "Props": [],
+            "Funcs": []
+          },
+          {
+            "ID": "1a70118356204354bbac8124ddc8da62",
+            "Name": "_1a70118356204354bbac8124ddc8da62",
+            "Props": [],
+            "Funcs": []
+          },
+          {
+            "ID": "06ac26df0aebad947a2a0e7355555005",
+            "Name": "_06ac26df0aebad947a2a0e7355555005",
+            "Props": [],
+            "Funcs": []
+          },
+          {
+            "ID": "3746b917f8e19764c8ee397d528cd04f",
+            "Name": "_3746b917f8e19764c8ee397d528cd04f",
+            "Props": [
+              {
+                "ID": "var87",
+                "Name": "var87"
+              },
+              {
+                "ID": "var99",
+                "Name": "var99"
+              },
+              {
+                "ID": "var26",
+                "Name": "var26"
+              },
+              {
+                "ID": "var81",
+                "Name": "var81"
+              },
+              {
+                "ID": "var995",
+                "Name": "var995"
+              },
+              {
+                "ID": "var50",
+                "Name": "var50"
+              },
+              {
+                "ID": "var46",
+                "Name": "var46"
+              },
+              {
+                "ID": "var47",
+                "Name": "var47_"
+              },
+              {
+                "ID": "var662",
+                "Name": "var662"
+              },
+              {
+                "ID": "var63",
+                "Name": "var63"
+              },
+              {
+                "ID": "var88",
+                "Name": "var88_"
+              },
+              {
+                "ID": "var41",
+                "Name": "var41"
+              }
+            ],
+            "Funcs": [
+              {
+                "ID": "获取当前玩家数量",
+                "Name": "_1573615550"
+              },
+              {
+                "ID": "从中随机多个不同的整数",
+                "Name": "_1573499725"
+              },
+              {
+                "ID": "列表是否包含",
+                "Name": "_1573891086"
+              },
+              {
+                "ID": "获取当前阵营成员数",
+                "Name": "_1903955104"
+              },
+              {
+                "ID": "ClearPlayer'sBag",
+                "Name": "i9WISX_w_2j2GsmgRG__"
+              },
+              {
+                "ID": "AllPlayerSetInvulnerable",
+                "Name": "_Q22B__8f_9__xgzMije"
+              }
+            ]
+          },
+          {
+            "ID": "765c4fdae5f3a9d4a8f76d20e48658f2",
+            "Name": "_765c4fdae5f3a9d4a8f76d20e48658f2",
+            "Props": [],
+            "Funcs": [
+              {
+                "ID": "ShowScoreTips",
+                "Name": "_61825861"
+              }
+            ]
+          },
+          {
+            "ID": "81b0de7aee4c0f14984f1ec57f5c7e89",
+            "Name": "_81b0de7aee4c0f14984f1ec57f5c7e89",
+            "Props": [
+              {
+                "ID": "var71",
+                "Name": "var71"
+              }
+            ],
+            "Funcs": [
+              {
+                "ID": "显示击杀图标",
+                "Name": "_1164268179"
+              },
+              {
+                "ID": "显示助攻图标",
+                "Name": "_1164961456"
+              },
+              {
+                "ID": "显示Seeker图标",
+                "Name": "_1164221508"
+              }
+            ]
+          },
+          {
+            "ID": "36642fddb43b4a6408f39da74816cd55",
+            "Name": "_36642fddb43b4a6408f39da74816cd55",
+            "Props": [],
+            "Funcs": [
+              {
+                "ID": "ShowIdentityNotifyHud",
+                "Name": "_482296169"
+              },
+              {
+                "ID": "ShowHud",
+                "Name": "_1663277764"
+              },
+              {
+                "ID": "ShowFeverTime",
+                "Name": "_682175107"
+              },
+              {
+                "ID": "创建音效",
+                "Name": "_610117563"
+              }
+            ]
+          },
+          {
+            "ID": "a6cddc1f0c12a944aa0dbeb2cf5b87bc",
+            "Name": "a6cddc1f0c12a944aa0dbeb2cf5b87bc",
+            "Props": [
+              {
+                "ID": "var78",
+                "Name": "var78"
+              }
+            ],
+            "Funcs": []
+          },
+          {
+            "ID": "4f759d629282ba447aa3a2518cb5957e",
+            "Name": "_4f759d629282ba447aa3a2518cb5957e",
+            "Props": [],
+            "Funcs": []
+          },
+          {
+            "ID": "5eddf6c38bce0cf4d9c8636cb0734712",
+            "Name": "_5eddf6c38bce0cf4d9c8636cb0734712",
+            "Props": [
+              {
+                "ID": "var99",
+                "Name": "var99_"
+              }
+            ],
+            "Funcs": [
+              {
+                "ID": "GetLockedState",
+                "Name": "_565891227"
+              }
+            ]
+          },
+          {
+            "ID": "fff7f591ea4ed654a8ab588285bdd6d0",
+            "Name": "fff7f591ea4ed654a8ab588285bdd6d0",
+            "Props": [
+              {
+                "ID": "var73",
+                "Name": "var73"
+              },
+              {
+                "ID": "var68",
+                "Name": "var68"
+              }
+            ],
+            "Funcs": []
+          },
+          {
+            "ID": "bb6a6c1e32d92e14380197a6e40a9ab8",
+            "Name": "bb6a6c1e32d92e14380197a6e40a9ab8",
+            "Props": [
+              {
+                "ID": "var29",
+                "Name": "var29"
+              }
+            ],
+            "Funcs": [
+              {
+                "ID": "创建结算界面",
+                "Name": "_2085465612"
+              }
+            ]
+          },
+          {
+            "ID": "743e19ba45e615f46bf7b4235ceb5305",
+            "Name": "_743e19ba45e615f46bf7b4235ceb5305",
+            "Props": [
+              {
+                "ID": "var75",
+                "Name": "var75"
+              },
+              {
+                "ID": "var66",
+                "Name": "var66_"
+              }
+            ],
+            "Funcs": []
+          },
+          {
+            "ID": "6d211b01eb7b1314d82755a678b28af6",
+            "Name": "_6d211b01eb7b1314d82755a678b28af6",
+            "Props": [
+              {
+                "ID": "var56",
+                "Name": "var56"
+              }
+            ],
+            "Funcs": []
+          },
+          {
+            "ID": "54fc3513f83b0f5448fb67490a5e8d0a",
+            "Name": "_54fc3513f83b0f5448fb67490a5e8d0a",
+            "Props": [],
+            "Funcs": [
+              {
+                "ID": "创建音效",
+                "Name": "_943356888"
+              }
+            ]
+          },
+          {
+            "ID": "82f2666a090df37499d13206b44860ad",
+            "Name": "_82f2666a090df37499d13206b44860ad",
+            "Props": [],
+            "Funcs": []
+          },
+          {
+            "ID": "d8006aedf74188d48b2803700e7125b2",
+            "Name": "d8006aedf74188d48b2803700e7125b2",
+            "Props": [
+              {
+                "ID": "var89",
+                "Name": "var89"
+              }
+            ],
+            "Funcs": []
+          },
+          {
+            "ID": "3a27ca9677194704294f36e13270af13",
+            "Name": "_3a27ca9677194704294f36e13270af13",
+            "Props": [],
+            "Funcs": []
+          },
+          {
+            "ID": "235ecfe1be542fb49bd980c2e3af5fb5",
+            "Name": "_235ecfe1be542fb49bd980c2e3af5fb5",
+            "Props": [],
+            "Funcs": [
+              {
+                "ID": "播放1P玩家特效",
+                "Name": "_898895356"
+              },
+              {
+                "ID": "播放3P玩家特效",
+                "Name": "_899179978"
+              },
+              {
+                "ID": "播放分身特效",
+                "Name": "_898855433"
+              },
+              {
+                "ID": "播放变身特效",
+                "Name": "_898766008"
+              },
+              {
+                "ID": "播放被击杀特效",
+                "Name": "_899178618"
+              },
+              {
+                "ID": "播放分身被击杀特效",
+                "Name": "_899337575"
+              },
+              {
+                "ID": "播放暴走特效",
+                "Name": "_899011732"
+              },
+              {
+                "ID": "播放音效",
+                "Name": "_565443518"
+              }
+            ]
+          },
+          {
+            "ID": "f1ae4805116c3134180d7b0e37bd9b1e",
+            "Name": "f1ae4805116c3134180d7b0e37bd9b1e",
+            "Props": [
+              {
+                "ID": "var52",
+                "Name": "var52"
+              },
+              {
+                "ID": "var64",
+                "Name": "var64"
+              },
+              {
+                "ID": "var34",
+                "Name": "var34_"
+              },
+              {
+                "ID": "var58",
+                "Name": "var58"
+              },
+              {
+                "ID": "var56",
+                "Name": "var56_"
+              },
+              {
+                "ID": "var89",
+                "Name": "var89_"
+              },
+              {
+                "ID": "var80",
+                "Name": "var80"
+              }
+            ],
+            "Funcs": [
+              {
+                "ID": "设置玩家总积分",
+                "Name": "_12860269"
+              },
+              {
+                "ID": "设置玩家生存时长",
+                "Name": "_1255447596"
+              },
+              {
+                "ID": "HiderScoreTips",
+                "Name": "_325136164"
+              }
+            ]
+          },
+          {
+            "ID": "1843bc7ef3e273b4bb6141c677ef1983",
+            "Name": "_1843bc7ef3e273b4bb6141c677ef1983",
+            "Props": [
+              {
+                "ID": "var68",
+                "Name": "var68_"
+              },
+              {
+                "ID": "var43",
+                "Name": "var43_"
+              }
+            ],
+            "Funcs": [
+              {
+                "ID": "当前玩家是否是Hider阵营",
+                "Name": "_117"
+              }
+            ]
+          },
+          {
+            "ID": "f3c1d9add5c67b544bce765afd45e30d",
+            "Name": "f3c1d9add5c67b544bce765afd45e30d",
+            "Props": [
+              {
+                "ID": "var50",
+                "Name": "var50_"
+              }
+            ],
+            "Funcs": []
+          },
+          {
+            "ID": "33c70659680d5954986b99bc28ee4bc7",
+            "Name": "_33c70659680d5954986b99bc28ee4bc7",
+            "Props": [
+              {
+                "ID": "var60",
+                "Name": "var60"
+              },
+              {
+                "ID": "var96",
+                "Name": "var96"
+              },
+              {
+                "ID": "var73",
+                "Name": "var73_"
+              }
+            ],
+            "Funcs": []
+          },
+          {
+            "ID": "0839f5408df85ce49871f57bcb317c33",
+            "Name": "_0839f5408df85ce49871f57bcb317c33",
+            "Props": [
+              {
+                "ID": "var42",
+                "Name": "var42"
+              }
+            ],
+            "Funcs": [
+              {
+                "ID": "OpenHud",
+                "Name": "_602020836"
+              }
+            ]
+          },
+          {
+            "ID": "442c7814f28d24745bcfd4fd8d2f2f42",
+            "Name": "_442c7814f28d24745bcfd4fd8d2f2f42",
+            "Props": [],
+            "Funcs": []
+          },
+          {
+            "ID": "4abfe143d9f7de74c85313bb5f693f14",
+            "Name": "_4abfe143d9f7de74c85313bb5f693f14",
+            "Props": [
+              {
+                "ID": "var61",
+                "Name": "var61"
+              }
+            ],
+            "Funcs": [
+              {
+                "ID": "获取玩家出生点",
+                "Name": "_1413368238"
+              },
+              {
+                "ID": "设置出生点类型",
+                "Name": "_1562278053"
+              }
+            ]
+          },
+          {
+            "ID": "1aba92b2acd0dfd4780734b38fc6874f",
+            "Name": "_1aba92b2acd0dfd4780734b38fc6874f",
+            "Props": [
+              {
+                "ID": "var86",
+                "Name": "var86"
+              },
+              {
+                "ID": "var30",
+                "Name": "var30"
+              },
+              {
+                "ID": "vCXouH1hM",
+                "Name": "vCXouH1hM"
+              }
+            ],
+            "Funcs": [
+              {
+                "ID": "ShowSwitchCampHud",
+                "Name": "_1754177447"
+              }
+            ]
+          },
+          {
+            "ID": "690b5df3af5a9d44b8839895675dbed3",
+            "Name": "_690b5df3af5a9d44b8839895675dbed3",
+            "Props": [],
+            "Funcs": [
+              {
+                "ID": "切换到Seeker阵营",
+                "Name": "_262369160"
+              },
+              {
+                "ID": "设置次级seeker属性",
+                "Name": "_RJYFnqWNlpY_M__EEPm"
+              }
+            ]
+          },
+          {
+            "ID": "63f51ec2e198cd84aaf28787079447e6",
+            "Name": "_63f51ec2e198cd84aaf28787079447e6",
+            "Props": [],
+            "Funcs": []
+          },
+          {
+            "ID": "69335179e0d55d943b942d06ec7b594d",
+            "Name": "_69335179e0d55d943b942d06ec7b594d",
+            "Props": [
+              {
+                "ID": "var30",
+                "Name": "var30_"
+              }
+            ],
+            "Funcs": [
+              {
+                "ID": "ShowTips",
+                "Name": "_245785044"
+              }
+            ]
+          },
+          {
+            "ID": "e35e749da6b46d74894549d0b6f6a682",
+            "Name": "e35e749da6b46d74894549d0b6f6a682",
+            "Props": [
+              {
+                "ID": "var86",
+                "Name": "var86_"
+              },
+              {
+                "ID": "var71",
+                "Name": "var71_"
+              },
+              {
+                "ID": "var39",
+                "Name": "var39_"
+              }
+            ],
+            "Funcs": [
+              {
+                "ID": "创建回合结束展示实体",
+                "Name": "_1216480629"
+              },
+              {
+                "ID": "获取MVP玩家",
+                "Name": "_1725842639"
+              }
+            ]
+          },
+          {
+            "ID": "963c393cd7fbf9d42a78b563ffe635b2",
+            "Name": "_963c393cd7fbf9d42a78b563ffe635b2",
+            "Props": [
+              {
+                "ID": "var47",
+                "Name": "var47_"
+              },
+              {
+                "ID": "var62",
+                "Name": "var62"
+              }
+            ],
+            "Funcs": [
+              {
+                "ID": "modifyTime",
+                "Name": "_718497101_"
+              },
+              {
+                "ID": "获取活着的阵营人数",
+                "Name": "_1845915827_"
+              },
+              {
+                "ID": "InitHud",
+                "Name": "_880237458"
+              }
+            ]
+          },
+          {
+            "ID": "bc9d10d05703c6c43bad5cc3f610d260",
+            "Name": "bc9d10d05703c6c43bad5cc3f610d260",
+            "Props": [
+              {
+                "ID": "var39",
+                "Name": "var39_"
+              }
+            ],
+            "Funcs": [
+              {
+                "ID": "modifyTime",
+                "Name": "_607215227"
+              },
+              {
+                "ID": "获取活着的阵营人数",
+                "Name": "_607634386"
+              },
+              {
+                "ID": "InitHud",
+                "Name": "_607277166"
+              }
+            ]
+          },
+          {
+            "ID": "96a2091ea5dcb3549856ef4f6bee58f8",
+            "Name": "_96a2091ea5dcb3549856ef4f6bee58f8",
+            "Props": [],
+            "Funcs": [
+              {
+                "ID": "ShowFindHider",
+                "Name": "_1663537229"
+              }
+            ]
+          },
+          {
+            "ID": "e7b92b515985ab149a0e6f84492ee81d",
+            "Name": "e7b92b515985ab149a0e6f84492ee81d",
+            "Props": [
+              {
+                "ID": "var24",
+                "Name": "var24"
+              }
+            ],
+            "Funcs": [
+              {
+                "ID": "OpenRoundResultHud",
+                "Name": "_1577528134"
+              }
+            ]
+          },
+          {
+            "ID": "ca19f1ff-8904-4773-92fa-9dc1285a6522",
+            "Name": "ca19f1ff_8904_4773_92fa_9dc1285a6522",
+            "Props": [
+              {
+                "ID": "vjSgiuqV9",
+                "Name": "vjSgiuqV9"
+              },
+              {
+                "ID": "veV18XTkC",
+                "Name": "veV18XTkC"
+              },
+              {
+                "ID": "vUzYzyRK0",
+                "Name": "vUzYzyRK0"
+              },
+              {
+                "ID": "vt54oh7D4",
+                "Name": "vt54oh7D4"
+              },
+              {
+                "ID": "vYx7kZPoi",
+                "Name": "vYx7kZPoi"
+              },
+              {
+                "ID": "vcSqdI7el",
+                "Name": "vcSqdI7el"
+              },
+              {
+                "ID": "vKw6LdN2N",
+                "Name": "vKw6LdN2N"
+              },
+              {
+                "ID": "v6SSCi885",
+                "Name": "v6SSCi885"
+              },
+              {
+                "ID": "vzk5uNEuy",
+                "Name": "vzk5uNEuy"
+              },
+              {
+                "ID": "vEfpDx9K8",
+                "Name": "vEfpDx9K8"
+              },
+              {
+                "ID": "vQDClFmdm",
+                "Name": "vQDClFmdm"
+              },
+              {
+                "ID": "vnpaM2VWX",
+                "Name": "vnpaM2VWX"
+              },
+              {
+                "ID": "vNE4qQQCg",
+                "Name": "vNE4qQQCg"
+              },
+              {
+                "ID": "vBJ72ak8Z",
+                "Name": "vBJ72ak8Z"
+              },
+              {
+                "ID": "vW7K18Kwo",
+                "Name": "vW7K18Kwo"
+              },
+              {
+                "ID": "vvlGJPFrA",
+                "Name": "vvlGJPFrA"
+              },
+              {
+                "ID": "vbPMUSMhC",
+                "Name": "vbPMUSMhC"
+              },
+              {
+                "ID": "vZfGNFEZ3",
+                "Name": "vZfGNFEZ3"
+              },
+              {
+                "ID": "vLNzmIub7",
+                "Name": "vLNzmIub7"
+              }
+            ],
+            "Funcs": [
+              {
+                "ID": "LocatorParameterINI",
+                "Name": "__nS____nW__Qfx_X5cl"
+              },
+              {
+                "ID": "LocatorArrayINI",
+                "Name": "gL1_X6__RX__e2bd_ibW"
+              },
+              {
+                "ID": "ClearAllLocatorEffect&Icon",
+                "Name": "Y63b94xG9Z__jY___S_0"
+              },
+              {
+                "ID": "Search_LocatorShowHider",
+                "Name": "D_l7x__R9Z_Rbg_3_Cyq"
+              },
+              {
+                "ID": "GetRandomExposeHider",
+                "Name": "o_mn__r7sS_IAnR_B7Mj"
+              },
+              {
+                "ID": "RefreshLocatorStatus_On_PlayerArray",
+                "Name": "qzqjNGADk_XGSN_c5_PF"
+              },
+              {
+                "ID": "GetLocatorStatus_ON_HiderNum",
+                "Name": "tM___uy73za57_0_Dg_8"
+              },
+              {
+                "ID": "GetRandomElementIndexArray",
+                "Name": "jgh_PQoAbM5H_g3M___g"
+              },
+              {
+                "ID": "CreatLocatorMarkEffect",
+                "Name": "ZH_d_DgTU_2C54zTI_q4"
+              },
+              {
+                "ID": "LocatorMarkHider",
+                "Name": "AEbjWmF___Rir__LBku_"
+              },
+              {
+                "ID": "CreatLocatorMarkIcon",
+                "Name": "b_GTF_jN5fFz__3_qJ5_"
+              },
+              {
+                "ID": "ActivateLocatorWarning",
+                "Name": "_FX_r_hUN_TrT_dgx_Vc"
+              },
+              {
+                "ID": "LocatorMarkTips",
+                "Name": "e_____P_Vel4PpCveBKQ"
+              },
+              {
+                "ID": "Creat_Trigger_DeactivateLocator",
+                "Name": "_k6EX_j__8SS9HmrK6_i"
+              },
+              {
+                "ID": "RemoveTrigger_DeactivateLocator",
+                "Name": "hLV31g_r__EAmS_7b_Gg"
+              },
+              {
+                "ID": "NoLocatorWarning",
+                "Name": "_7C_HK87UtnN7O_Gz__AE"
+              },
+              {
+                "ID": "CheckLocatorNumShowWarning",
+                "Name": "YRpkJX_6xWCCc_LI_rtW"
+              },
+              {
+                "ID": "RoundBeginParameterINI",
+                "Name": "_a0DwmOK___MO_c__CY4"
+              },
+              {
+                "ID": "Fever_LocatorShowHider",
+                "Name": "H_dHCe____A_3_ROCzTS"
+              },
+              {
+                "ID": "FeverTimeSetParameter",
+                "Name": "_6_3yV6Whwt__x_IdX_pk"
+              },
+              {
+                "ID": "HiderRoundBeginTips",
+                "Name": "Oz_jhh_D_vtYo7YBfo9t"
+              },
+              {
+                "ID": "SeekerRoundBeginTips",
+                "Name": "IR_Va_5DzRzaT_t_RG4_"
+              },
+              {
+                "ID": "SetTrigger_DeactivateLocator_Loc",
+                "Name": "m89Y7Ia_gj7k_m_Y_AX_"
+              },
+              {
+                "ID": "GetRandomTriggerLoc",
+                "Name": "M__PV_hV_85RVh__IQr7"
+              },
+              {
+                "ID": "StartMove_Trigger_DeLocator",
+                "Name": "pw___YvR0uhw_sZB____"
+              },
+              {
+                "ID": "TriggerMoveCountDownTips",
+                "Name": "_Lu_JIjs___rP__oxpVH"
+              }
+            ]
+          },
+          {
+            "ID": "7e04b12c-bda8-4fb0-93ac-c9b2b0621e53",
+            "Name": "_7e04b12c_bda8_4fb0_93ac_c9b2b0621e53",
+            "Props": [],
+            "Funcs": []
+          },
+          {
+            "ID": "ec0f5ac4-0595-4066-b806-27998b5e4fb7",
+            "Name": "ec0f5ac4_0595_4066_b806_27998b5e4fb7",
+            "Props": [
+              {
+                "ID": "v0mSjrWeL",
+                "Name": "v0mSjrWeL"
+              },
+              {
+                "ID": "vJ7aElDSZ",
+                "Name": "vJ7aElDSZ"
+              }
+            ],
+            "Funcs": [
+              {
+                "ID": "LocatorStatusINI",
+                "Name": "V_m_ICA1Qjq__w_K_pA_"
+              },
+              {
+                "ID": "ActivateHiderLocator",
+                "Name": "_1_A_C_yu_pMQ___Lo3n_"
+              },
+              {
+                "ID": "DeactivateHiderLocator",
+                "Name": "oRkN_e_l9__AWwr5b_vN"
+              },
+              {
+                "ID": "EnterCloseLocatorTriggerArea",
+                "Name": "B_d____IY2GqwSoud_gW"
+              },
+              {
+                "ID": "ExitCloseLocatorTriggerArea",
+                "Name": "y_L_K_7F0_CW825_d___"
+              },
+              {
+                "ID": "CloseLocatorButton_OnClick",
+                "Name": "_9d0SqWsx___I_tVuUk_B"
+              },
+              {
+                "ID": "CloseAllLocatorUI",
+                "Name": "_Q_ul__U_iD__y_P____"
+              },
+              {
+                "ID": "RemoveBody",
+                "Name": "Hr_9__b__W_k_IG2_3__"
+              },
+              {
+                "ID": "MarkedSlowDown",
+                "Name": "_wD___FjX3nEC3W_DJE6"
+              },
+              {
+                "ID": "ParameterINI",
+                "Name": "y56__36__RZyCKORKd__"
+              },
+              {
+                "ID": "ClearAllMarkedSlowDownEffect",
+                "Name": "_47S_tGsXeLniBx_6D_b_"
+              }
+            ]
+          },
+          {
+            "ID": "5e02cc5a-24aa-4e06-8988-34aee139201a",
+            "Name": "_5e02cc5a_24aa_4e06_8988_34aee139201a",
+            "Props": [
+              {
+                "ID": "v3pwJful3",
+                "Name": "v3pwJful3"
+              }
+            ],
+            "Funcs": [
+              {
+                "ID": "CreatAllHud",
+                "Name": "En_4_HaL_P_FdBc_Sv_N"
+              },
+              {
+                "ID": "SetAllHudActiveStatus",
+                "Name": "q____jXA_ejg_g_DLj__"
+              },
+              {
+                "ID": "SetHudActiveStatus",
+                "Name": "_oa_ljbKDNYS_v_N_V__"
+              },
+              {
+                "ID": "GetCloseLocatorUI",
+                "Name": "_6Jm_HVF_5aX___Ht_C3_"
+              },
+              {
+                "ID": "DeleteAllHud",
+                "Name": "__UcK7_9_XQ_d9__N__E"
+              },
+              {
+                "ID": "GetLocatorStatusUI",
+                "Name": "IDYWIBN_FbQ__oYqInK_"
+              },
+              {
+                "ID": "GetBlockUI",
+                "Name": "AZE_B1__EQzHCw__x__g"
+              }
+            ]
+          },
+          {
+            "ID": "c64b1ab2-a79c-4f96-b836-cf4cd1cd9bf8",
+            "Name": "c64b1ab2_a79c_4f96_b836_cf4cd1cd9bf8",
+            "Props": [
+              {
+                "ID": "vHeJgn1U1",
+                "Name": "vHeJgn1U1"
+              },
+              {
+                "ID": "vWM9JcWI2",
+                "Name": "vWM9JcWI2"
+              },
+              {
+                "ID": "vKt1p8ypY",
+                "Name": "vKt1p8ypY"
+              },
+              {
+                "ID": "vLMdYQ3xd",
+                "Name": "vLMdYQ3xd"
+              },
+              {
+                "ID": "vyutkkaPf",
+                "Name": "vyutkkaPf"
+              },
+              {
+                "ID": "vhuAYYy6P",
+                "Name": "vhuAYYy6P"
+              },
+              {
+                "ID": "vs34Vddfb",
+                "Name": "vs34Vddfb"
+              },
+              {
+                "ID": "vyZdTuTVs",
+                "Name": "vyZdTuTVs"
+              }
+            ],
+            "Funcs": [
+              {
+                "ID": "CreatScanSkillButtonHud",
+                "Name": "_y_O1bseTrPt1Sc_2_hM"
+              },
+              {
+                "ID": "Skill_Scan_ParameterINI",
+                "Name": "_2JMV_dW1_PD_UnIdpPw"
+              },
+              {
+                "ID": "RoundBeginINI",
+                "Name": "_9yV7ViVaEkBF_s2QQpW_"
+              },
+              {
+                "ID": "GetSkillScanButtonHud",
+                "Name": "_162943927_"
+              },
+              {
+                "ID": "ResetScanButton",
+                "Name": "Dz_EHyh753_2iCe_D___"
+              },
+              {
+                "ID": "OpenAllSeekerScanSkillButtonHud",
+                "Name": "l____hIP____P_bsx_b_"
+              },
+              {
+                "ID": "DeletePlayerSkillScanButtonHud",
+                "Name": "Vn1Ha8ZsZ_QJlq_ky_c_"
+              },
+              {
+                "ID": "SetPlayerSkillScanButtonHudGrey",
+                "Name": "_9Z_rJlG_099__EvC_K__"
+              },
+              {
+                "ID": "ConsumeSkillScanRecharge1",
+                "Name": "_GUMEq_8tRl___b6TG6S"
+              },
+              {
+                "ID": "CastSkillScan",
+                "Name": "_4_914C__1mN____KQGkP"
+              },
+              {
+                "ID": "PlayScanEffect",
+                "Name": "nq_HT_RZL0_D_u_N_TGR"
+              },
+              {
+                "ID": "SkillScanCheckHider",
+                "Name": "___Wl_i6ehCr__S_2Aw_"
+              },
+              {
+                "ID": "ScanMarkHider",
+                "Name": "_O_CO__Gi____G__P_Sp"
+              },
+              {
+                "ID": "Skill_Scan_ArrayINI",
+                "Name": "____3u__8_G__S_eh_dc"
+              },
+              {
+                "ID": "Skill_ScanButton_OnClick",
+                "Name": "_IzAJu__w__V_z_l_x_U"
+              },
+              {
+                "ID": "ClearAllScanSkillEffect&Icon",
+                "Name": "_a_SbAkutQ_aWD_F2_Pg"
+              },
+              {
+                "ID": "CreatScanMarkEffect",
+                "Name": "ZH_d_DgTU_2C54zTI_q4_"
+              },
+              {
+                "ID": "CreatScanMarkIcon",
+                "Name": "b_GTF_jN5fFz__3_qJ5__"
+              },
+              {
+                "ID": "ScanMarkTips",
+                "Name": "k_6ikg_l7NSgz_____px"
+              },
+              {
+                "ID": "OpenSkillScanButtonHud",
+                "Name": "_qi_ey__RFQqpQ62vMPr"
+              }
+            ]
+          },
+          {
+            "ID": "8b54381b-2a3c-47cd-aa6a-0cbd22cb422f",
+            "Name": "_8b54381b_2a3c_47cd_aa6a_0cbd22cb422f",
+            "Props": [],
+            "Funcs": []
+          },
+          {
+            "ID": "1b05ee7b-0141-427a-90f3-3496ce22933b",
+            "Name": "_1b05ee7b_0141_427a_90f3_3496ce22933b",
+            "Props": [],
+            "Funcs": []
+          },
+          {
+            "ID": "d31055ee-89ea-4e65-b890-f3578e5b03b9",
+            "Name": "d31055ee_89ea_4e65_b890_f3578e5b03b9",
+            "Props": [],
+            "Funcs": [
+              {
+                "ID": "OpenBlockUI",
+                "Name": "_9nMg1_6O_JP_Q__k3l_G"
+              },
+              {
+                "ID": "CloseBlockUI",
+                "Name": "id_PxJBjojptZjTxk_pM"
+              }
+            ]
+          },
+          {
+            "ID": "c1646a95-6961-42dc-8a13-28b204e6a7f5",
+            "Name": "c1646a95_6961_42dc_8a13_28b204e6a7f5",
+            "Props": [
+              {
+                "ID": "v5zvNjx0M",
+                "Name": "v5zvNjx0M"
+              },
+              {
+                "ID": "vNNoIiSo7",
+                "Name": "vNNoIiSo7"
+              }
+            ],
+            "Funcs": [
+              {
+                "ID": "DisplayFloatingNot",
+                "Name": "_A_Nr_g_C5_pBZPdlx_R"
+              }
+            ]
+          },
+          {
+            "ID": "ecd47293-460b-44ca-96e0-a579e8ec77dd",
+            "Name": "ecd47293_460b_44ca_96e0_a579e8ec77dd",
+            "Props": [],
+            "Funcs": []
+          }
+        ]
+      }
+    }
+  ]
+}

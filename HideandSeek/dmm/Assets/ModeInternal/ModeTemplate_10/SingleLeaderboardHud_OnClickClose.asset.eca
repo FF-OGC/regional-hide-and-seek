@@ -1,0 +1,61 @@
+
+{
+    "blocks" : {
+        "languageVersion" : 0,
+        "blocks"          : [
+            {
+                "sid" : 234788,
+                "type" : "e",
+                "id"   : "2100348809",
+                "extraState" : {
+                    "T" : "OnInternalHUDClick"
+                },
+                "fields"     : {
+                    "P1" : {
+                        "name" : "ButtonName",
+                        "type" : "String"
+                    }
+                },
+                "inputs"     : {
+                },
+                "next"       : {
+                    "block" : {
+                        "sid" : 234788,
+                        "type" : "prs",
+                        "id"   : "2100551323",
+                        "fields" : {
+                            "P" : "OpenState:SingleLeaderboardHud"
+                        },
+                        "inputs" : {
+                            "H" : {
+                                "block" : {
+                                    "sid" : 234788,
+                                    "type" : "ent",
+                                    "id"   : "2101283108",
+                                    "fields" : {
+                                    },
+                                    "inputs" : {
+                                    }
+                                }
+                            },
+                            "V" : {
+                                "block" : {
+                                    "sid" : 234788,
+                                    "type" : "ipb",
+                                    "id"   : "2101276043",
+                                    "fields" : {
+                                        "V" : "F"
+                                    },
+                                    "inputs" : {
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        ]
+    },
+    "variables" : [
+    ]
+}

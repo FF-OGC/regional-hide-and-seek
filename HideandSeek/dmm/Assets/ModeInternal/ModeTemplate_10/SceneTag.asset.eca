@@ -1,0 +1,290 @@
+
+{
+    "blocks" : {
+        "languageVersion" : 0,
+        "blocks"          : [
+            {
+                "sid" : 225472,
+                "type" : "e",
+                "id"   : "1659109644",
+                "extraState" : {
+                    "X" : 138
+                },
+                "fields"     : {
+                },
+                "inputs"     : {
+                },
+                "next"       : {
+                    "block" : {
+                        "sid" : 225472,
+                        "type" : "a",
+                        "id"   : "1705950634",
+                        "extraState" : {
+                            "L" : [
+                            ],
+                            "X" : 31
+                        },
+                        "fields"     : {
+                        },
+                        "inputs"     : {
+                        },
+                        "next"       : {
+                            "block" : {
+                                "sid" : 225472,
+                                "type" : "grs",
+                                "id"   : "1186118007",
+                                "fields" : {
+                                    "VR" : "var60"
+                                },
+                                "inputs" : {
+                                    "V" : {
+                                        "block" : {
+                                            "sid" : 225472,
+                                            "type" : "prg",
+                                            "id"   : "1186856890",
+                                            "fields" : {
+                                                "P" : "ItemID:LevelObject"
+                                            },
+                                            "inputs" : {
+                                                "H" : {
+                                                    "block" : {
+                                                        "sid" : 225472,
+                                                        "type" : "ent",
+                                                        "id"   : "1186682143",
+                                                        "fields" : {
+                                                        },
+                                                        "inputs" : {
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                },
+                                "next"   : {
+                                    "block" : {
+                                        "sid" : 225472,
+                                        "type" : "ife",
+                                        "id"   : "1659533298",
+                                        "fields" : {
+                                            "T" : "if"
+                                        },
+                                        "inputs" : {
+                                            "C" : {
+                                                "block" : {
+                                                    "sid" : 225472,
+                                                    "type" : "v",
+                                                    "id"   : "1659845881",
+                                                    "extraState" : {
+                                                        "L" : [
+                                                            1,
+                                                            2
+                                                        ],
+                                                        "X" : 171
+                                                    },
+                                                    "fields"     : {
+                                                    },
+                                                    "inputs"     : {
+                                                        "P1" : {
+                                                            "block" : {
+                                                                "sid" : 225472,
+                                                                "type" : "grg",
+                                                                "id"   : "1659647630",
+                                                                "fields" : {
+                                                                    "VR" : "var73"
+                                                                },
+                                                                "inputs" : {
+                                                                }
+                                                            }
+                                                        },
+                                                        "P2" : {
+                                                            "block" : {
+                                                                "sid" : 225472,
+                                                                "type" : "grg",
+                                                                "id"   : "1186543477",
+                                                                "fields" : {
+                                                                    "VR" : "var60"
+                                                                },
+                                                                "inputs" : {
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            },
+                                            "D" : {
+                                                "block" : {
+                                                    "sid" : 225472,
+                                                    "type" : "a",
+                                                    "id"   : "1186289134",
+                                                    "extraState" : {
+                                                        "L" : [
+                                                            1
+                                                        ],
+                                                        "X" : 51
+                                                    },
+                                                    "fields"     : {
+                                                    },
+                                                    "inputs"     : {
+                                                        "P1" : {
+                                                            "block" : {
+                                                                "sid" : 225472,
+                                                                "type" : "ipt",
+                                                                "id"   : "1186134901",
+                                                                "fields" : {
+                                                                    "V" : "baohu"
+                                                                },
+                                                                "inputs" : {
+                                                                }
+                                                            }
+                                                        }
+                                                    },
+                                                    "next"       : {
+                                                        "block" : {
+                                                            "sid" : 225472,
+                                                            "type" : "prs",
+                                                            "id"   : "269405189",
+                                                            "fields" : {
+                                                                "P" : "TagsList:Entity"
+                                                            },
+                                                            "inputs" : {
+                                                                "H" : {
+                                                                    "block" : {
+                                                                        "sid" : 225472,
+                                                                        "type" : "ent",
+                                                                        "id"   : "269458130",
+                                                                        "fields" : {
+                                                                        },
+                                                                        "inputs" : {
+                                                                        }
+                                                                    }
+                                                                },
+                                                                "V" : {
+                                                                    "block" : {
+                                                                        "sid" : 225472,
+                                                                        "type" : "lic",
+                                                                        "id"   : "269248728",
+                                                                        "extraState" : {
+                                                                            "X" : 1
+                                                                        },
+                                                                        "fields"     : {
+                                                                            "T" : "String"
+                                                                        },
+                                                                        "inputs"     : {
+                                                                            "I0" : {
+                                                                                "block" : {
+                                                                                    "sid" : 225472,
+                                                                                    "type" : "grg",
+                                                                                    "id"   : "269244922",
+                                                                                    "fields" : {
+                                                                                        "VR" : "var96"
+                                                                                    },
+                                                                                    "inputs" : {
+                                                                                    }
+                                                                                }
+                                                                            }
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        ]
+    },
+    "variables" : [
+        {
+            "name" : "itemid",
+            "id"   : "var60",
+            "type" : "Int",
+            "value" : null
+        },
+        {
+            "name" : "Highlight_tag",
+            "id"   : "var96",
+            "type" : "String",
+            "value" : "MORPH"
+        },
+        {
+            "name" : "不可高亮物件列表",
+            "id"   : "var73",
+            "type" : "ListT_Int",
+            "value" : {
+                "type" : "ListT_any",
+                "value" : [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    16,
+                    17,
+                    22,
+                    23,
+                    35,
+                    81,
+                    83,
+                    87,
+                    88,
+                    89,
+                    100,
+                    119,
+                    125,
+                    137,
+                    145,
+                    149,
+                    150,
+                    151,
+                    152,
+                    153,
+                    156,
+                    157,
+                    158,
+                    159,
+                    160,
+                    161,
+                    162,
+                    163,
+                    164,
+                    165,
+                    166,
+                    167,
+                    168,
+                    169,
+                    170,
+                    171,
+                    172,
+                    173,
+                    174,
+                    175,
+                    176,
+                    177,
+                    178,
+                    179,
+                    181,
+                    182,
+                    195,
+                    201,
+                    203,
+                    204,
+                    206,
+                    207,
+                    210
+                ]
+            }
+        }
+    ]
+}

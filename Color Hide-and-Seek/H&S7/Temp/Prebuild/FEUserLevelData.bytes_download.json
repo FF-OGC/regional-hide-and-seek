@@ -1,0 +1,189 @@
+{
+ "PackageList": [
+  {
+   "PackageUUID": "a-a48abe26-3b48-4a5b-9228-ca44c6ca7d93",
+   "FileList": [
+    {
+     "SubFileID": "Android.pck",
+     "SHA1": "bh5DKGCgaqFup+AhpLLdevmfQ2k=",
+     "FileSize": 2097916,
+     "URL": "Atlas/a-a48abe26-3b48-4a5b-9228-ca44c6ca7d93/Android.pck",
+     "PlatformRequireMask": 1
+    },
+    {
+     "SubFileID": "Ios.pck",
+     "SHA1": "vLm6cCgaotEgncyFc/nuIGY+HPE=",
+     "FileSize": 936474,
+     "URL": "Atlas/a-a48abe26-3b48-4a5b-9228-ca44c6ca7d93/Ios.pck",
+     "PlatformRequireMask": 2
+    },
+    {
+     "SubFileID": "WebGL.pck",
+     "SHA1": "CuekwGRS60j+WQ+zJtoPZCTJQOw=",
+     "FileSize": 2097916,
+     "URL": "Atlas/a-a48abe26-3b48-4a5b-9228-ca44c6ca7d93/WebGL.pck",
+     "PlatformRequireMask": 4
+    }
+   ]
+  },
+  {
+   "PackageUUID": "a-fc684945-ad35-4955-b38f-9a83cad57287",
+   "FileList": [
+    {
+     "SubFileID": "Android.pck",
+     "SHA1": "urEG2OQxrwo6EsoUmMwr3jsoQ9c=",
+     "FileSize": 66161,
+     "URL": "Atlas/a-fc684945-ad35-4955-b38f-9a83cad57287/Android.pck",
+     "PlatformRequireMask": 1
+    },
+    {
+     "SubFileID": "Ios.pck",
+     "SHA1": "8KQBxrJH65fqPTKPQURgLIE8480=",
+     "FileSize": 30209,
+     "URL": "Atlas/a-fc684945-ad35-4955-b38f-9a83cad57287/Ios.pck",
+     "PlatformRequireMask": 2
+    },
+    {
+     "SubFileID": "WebGL.pck",
+     "SHA1": "dcdsUignrPf1vj2MniGBNWFKpVg=",
+     "FileSize": 66161,
+     "URL": "Atlas/a-fc684945-ad35-4955-b38f-9a83cad57287/WebGL.pck",
+     "PlatformRequireMask": 4
+    }
+   ]
+  },
+  {
+   "PackageUUID": "a-0e6bbc33-7103-401a-9284-c083eb4a355a",
+   "FileList": [
+    {
+     "SubFileID": "Android.pck",
+     "SHA1": "yjhZA36qi9r2Odk2y3c6mDZv4dM=",
+     "FileSize": 66163,
+     "URL": "Atlas/a-0e6bbc33-7103-401a-9284-c083eb4a355a/Android.pck",
+     "PlatformRequireMask": 1
+    },
+    {
+     "SubFileID": "Ios.pck",
+     "SHA1": "a8+XNXWHOY4y1/JtzWPmB0+pvTc=",
+     "FileSize": 30211,
+     "URL": "Atlas/a-0e6bbc33-7103-401a-9284-c083eb4a355a/Ios.pck",
+     "PlatformRequireMask": 2
+    },
+    {
+     "SubFileID": "WebGL.pck",
+     "SHA1": "4fj//RUOIJMv0tFz4ocJe3kFXTA=",
+     "FileSize": 66163,
+     "URL": "Atlas/a-0e6bbc33-7103-401a-9284-c083eb4a355a/WebGL.pck",
+     "PlatformRequireMask": 4
+    }
+   ]
+  },
+  {
+   "PackageUUID": "TerrainCommon_pABvm76t",
+   "FileList": [
+    {
+     "SubFileID": "Client",
+     "SHA1": "hpCaWK2lIHBDLvYp6LPU+lixHBY=",
+     "FileSize": 220146,
+     "URL": "packages/TerrainCommon_pABvm76t/Client",
+     "PlatformRequireMask": 7
+    },
+    {
+     "SubFileID": "Server",
+     "SHA1": "2ojJorYf//Z8rEAIe5ArnF6e8B4=",
+     "FileSize": 93736,
+     "URL": "packages/TerrainCommon_pABvm76t/Server",
+     "PlatformRequireMask": 8
+    }
+   ],
+   "DownloadPriority": 0
+  },
+  {
+   "PackageUUID": "TerrainPlatformed_lqp5NpJR",
+   "FileList": [
+    {
+     "SubFileID": "Android",
+     "SHA1": "DHwxoA0KTSLIrezqLsXWfNCTsYg=",
+     "FileSize": 349781,
+     "URL": "packages/TerrainPlatformed_lqp5NpJR/Android",
+     "PlatformRequireMask": 1
+    },
+    {
+     "SubFileID": "Ios",
+     "SHA1": "w/r+tJXXNf181rMluSG6F/VSxpU=",
+     "FileSize": 158661,
+     "URL": "packages/TerrainPlatformed_lqp5NpJR/Ios",
+     "PlatformRequireMask": 2
+    },
+    {
+     "SubFileID": "WebGL",
+     "SHA1": "N9OABxWum1hgC1i2tPruLT69c5I=",
+     "FileSize": 349781,
+     "URL": "packages/TerrainPlatformed_lqp5NpJR/WebGL",
+     "PlatformRequireMask": 4
+    }
+   ],
+   "DownloadPriority": 0
+  },
+  {
+   "PackageUUID": "TerrainClient_V0Wzp3mJ",
+   "FileList": [
+    {
+     "SubFileID": "Client",
+     "SHA1": "M0gLAfrLQlQ5As6jzqXkA3+HUWs=",
+     "FileSize": 320,
+     "URL": "packages/TerrainClient_V0Wzp3mJ/Client",
+     "PlatformRequireMask": 7
+    }
+   ],
+   "DownloadPriority": 0
+  },
+  {
+   "PackageUUID": "ColliderCommon_grgEHl6X",
+   "FileList": [
+    {
+     "SubFileID": "Client",
+     "SHA1": "6PH2PkaKRQrM6Q3GS9nqKwNj5iw=",
+     "FileSize": 1371,
+     "URL": "packages/ColliderCommon_grgEHl6X/Client",
+     "PlatformRequireMask": 7
+    },
+    {
+     "SubFileID": "Server",
+     "SHA1": "6PH2PkaKRQrM6Q3GS9nqKwNj5iw=",
+     "FileSize": 1371,
+     "URL": "packages/ColliderCommon_grgEHl6X/Server",
+     "PlatformRequireMask": 8
+    }
+   ],
+   "DownloadPriority": 0
+  },
+  {
+   "PackageUUID": "AutoPlatformed_RTMjKv6F",
+   "FileList": [
+    {
+     "SubFileID": "Android",
+     "SHA1": "Ky7Q55IyNOtJ+OPl2zbJ3J+nXZY=",
+     "FileSize": 349780,
+     "URL": "packages/AutoPlatformed_RTMjKv6F/Android",
+     "PlatformRequireMask": 1
+    },
+    {
+     "SubFileID": "Ios",
+     "SHA1": "BXWJiHLGBx5fDQdsoEGUn1mmMVI=",
+     "FileSize": 158660,
+     "URL": "packages/AutoPlatformed_RTMjKv6F/Ios",
+     "PlatformRequireMask": 2
+    },
+    {
+     "SubFileID": "WebGL",
+     "SHA1": "qUDJxJPEqnDcRNLQdkMobGDqYeU=",
+     "FileSize": 349780,
+     "URL": "packages/AutoPlatformed_RTMjKv6F/WebGL",
+     "PlatformRequireMask": 4
+    }
+   ],
+   "DownloadPriority": 0
+  }
+ ]
+}

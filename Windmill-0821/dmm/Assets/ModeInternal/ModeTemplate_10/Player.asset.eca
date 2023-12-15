@@ -1,0 +1,790 @@
+
+{
+    "blocks" : {
+        "languageVersion" : 0,
+        "blocks"          : [
+            {
+                "sid" : 234788,
+                "type" : "e",
+                "id"   : "1910021923",
+                "extraState" : {
+                    "X" : 327
+                },
+                "fields"     : {
+                    "P1" : {
+                        "name" : "Entity",
+                        "type" : "AimableEntity"
+                    }
+                },
+                "inputs"     : {
+                },
+                "next"       : {
+                    "block" : {
+                        "sid" : 234788,
+                        "type" : "prs",
+                        "id"   : "566038262",
+                        "fields" : {
+                            "P" : "AimedEntity:Player"
+                        },
+                        "inputs" : {
+                            "H" : {
+                                "block" : {
+                                    "sid" : 234788,
+                                    "type" : "ent",
+                                    "id"   : "565688044",
+                                    "fields" : {
+                                    },
+                                    "inputs" : {
+                                    }
+                                }
+                            },
+                            "V" : {
+                                "block" : {
+                                    "sid" : 234788,
+                                    "type" : "tya",
+                                    "id"   : "565937532",
+                                    "fields" : {
+                                        "T" : "LevelObject"
+                                    },
+                                    "inputs" : {
+                                        "V" : {
+                                            "block" : {
+                                                "sid" : 234788,
+                                                "type" : "lcg",
+                                                "id"   : "565379595",
+                                                "extraState" : "1910021923 P1",
+                                                "fields"     : {
+                                                    "VR" : "Entity"
+                                                },
+                                                "inputs"     : {
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "sid" : 234788,
+                "type" : "e",
+                "id"   : "565682599",
+                "extraState" : {
+                    "X" : 3
+                },
+                "fields"     : {
+                    "P1" : {
+                        "name" : "RoundIndex",
+                        "type" : "Int"
+                    }
+                },
+                "inputs"     : {
+                },
+                "next"       : {
+                    "block" : {
+                        "sid" : 234788,
+                        "type" : "prs",
+                        "id"   : "565788823",
+                        "fields" : {
+                            "P" : "AimedEntity:Player"
+                        },
+                        "inputs" : {
+                            "H" : {
+                                "block" : {
+                                    "sid" : 234788,
+                                    "type" : "ent",
+                                    "id"   : "565433709",
+                                    "fields" : {
+                                    },
+                                    "inputs" : {
+                                    }
+                                }
+                            },
+                            "V" : {
+                                "block" : {
+                                    "sid" : 234788,
+                                    "type" : "nul",
+                                    "id"   : "auto16774",
+                                    "fields" : {
+                                    },
+                                    "inputs" : {
+                                    }
+                                }
+                            }
+                        },
+                        "next"   : {
+                            "block" : {
+                                "sid" : 234788,
+                                "type" : "a",
+                                "id"   : "77996166",
+                                "extraState" : {
+                                    "L" : [
+                                        1
+                                    ],
+                                    "X" : 334
+                                },
+                                "fields"     : {
+                                },
+                                "inputs"     : {
+                                    "P1" : {
+                                        "block" : {
+                                            "sid" : 234788,
+                                            "type" : "ent",
+                                            "id"   : "78234845",
+                                            "fields" : {
+                                            },
+                                            "inputs" : {
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "sid" : 234788,
+                "type" : "e",
+                "id"   : "682150605",
+                "extraState" : {
+                    "X" : 10
+                },
+                "fields"     : {
+                    "P1" : {
+                        "name" : "Player",
+                        "type" : "Player"
+                    }
+                },
+                "inputs"     : {
+                },
+                "next"       : {
+                    "block" : {
+                        "sid" : 234788,
+                        "type" : "lpe",
+                        "id"   : "682184053",
+                        "fields" : {
+                            "X" : {
+                                "name" : "index",
+                                "type" : "Int"
+                            },
+                            "I" : {
+                                "name" : "hud",
+                                "type" : "Entity"
+                            }
+                        },
+                        "inputs" : {
+                            "RN" : {
+                                "block" : {
+                                    "sid" : 234788,
+                                    "type" : "exg",
+                                    "id"   : "681722944",
+                                    "fields" : {
+                                        "G" : "6d211b01eb7b1314d82755a678b28af6",
+                                        "VI" : "var56"
+                                    },
+                                    "inputs" : {
+                                        "H" : {
+                                            "block" : {
+                                                "sid" : 234788,
+                                                "type" : "v",
+                                                "id"   : "681616298",
+                                                "extraState" : {
+                                                    "L" : [
+                                                    ],
+                                                    "X" : 10007
+                                                },
+                                                "fields"     : {
+                                                },
+                                                "inputs"     : {
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            },
+                            "D"  : {
+                                "block" : {
+                                    "sid" : 234788,
+                                    "type" : "ife",
+                                    "id"   : "681778335",
+                                    "fields" : {
+                                        "T" : "if"
+                                    },
+                                    "inputs" : {
+                                        "C" : {
+                                            "block" : {
+                                                "sid" : 234788,
+                                                "type" : "opc",
+                                                "id"   : "681698617",
+                                                "fields" : {
+                                                    "O" : "EQ"
+                                                },
+                                                "inputs" : {
+                                                    "V1" : {
+                                                        "block" : {
+                                                            "sid" : 234788,
+                                                            "type" : "v",
+                                                            "id"   : "682349254",
+                                                            "extraState" : {
+                                                                "L" : [
+                                                                    1
+                                                                ],
+                                                                "X" : 121
+                                                            },
+                                                            "fields"     : {
+                                                            },
+                                                            "inputs"     : {
+                                                                "P1" : {
+                                                                    "block" : {
+                                                                        "sid" : 234788,
+                                                                        "type" : "lcg",
+                                                                        "id"   : "681734164",
+                                                                        "extraState" : "682184053 I",
+                                                                        "fields"     : {
+                                                                            "VR" : "hud"
+                                                                        },
+                                                                        "inputs"     : {
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    },
+                                                    "V2" : {
+                                                        "block" : {
+                                                            "sid" : 234788,
+                                                            "type" : "lcg",
+                                                            "id"   : "682433894",
+                                                            "extraState" : "682150605 P1",
+                                                            "fields"     : {
+                                                                "VR" : "Player"
+                                                            },
+                                                            "inputs"     : {
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        "D" : {
+                                            "block" : {
+                                                "sid" : 234788,
+                                                "type" : "prs",
+                                                "id"   : "682194244",
+                                                "fields" : {
+                                                    "P" : "OpenState:SkillButtonHud"
+                                                },
+                                                "inputs" : {
+                                                    "H" : {
+                                                        "block" : {
+                                                            "sid" : 234788,
+                                                            "type" : "tya",
+                                                            "id"   : "681759979",
+                                                            "fields" : {
+                                                                "T" : "SkillButtonHud"
+                                                            },
+                                                            "inputs" : {
+                                                                "V" : {
+                                                                    "block" : {
+                                                                        "sid" : 234788,
+                                                                        "type" : "lcg",
+                                                                        "id"   : "681894947",
+                                                                        "extraState" : "682184053 I",
+                                                                        "fields"     : {
+                                                                            "VR" : "hud"
+                                                                        },
+                                                                        "inputs"     : {
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    },
+                                                    "V" : {
+                                                        "block" : {
+                                                            "sid" : 234788,
+                                                            "type" : "ipb",
+                                                            "id"   : "682390200",
+                                                            "fields" : {
+                                                                "V" : "F"
+                                                            },
+                                                            "inputs" : {
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        "next"   : {
+                            "block" : {
+                                "sid" : 234788,
+                                "type" : "lpe",
+                                "id"   : "682619088",
+                                "fields" : {
+                                    "X" : {
+                                        "name" : "index",
+                                        "type" : "Int"
+                                    },
+                                    "I" : {
+                                        "name" : "hud",
+                                        "type" : "Entity"
+                                    }
+                                },
+                                "inputs" : {
+                                    "RN" : {
+                                        "block" : {
+                                            "sid" : 234788,
+                                            "type" : "exg",
+                                            "id"   : "681973126",
+                                            "fields" : {
+                                                "G" : "5eddf6c38bce0cf4d9c8636cb0734712",
+                                                "VI" : "var99"
+                                            },
+                                            "inputs" : {
+                                                "H" : {
+                                                    "block" : {
+                                                        "sid" : 234788,
+                                                        "type" : "v",
+                                                        "id"   : "681665148",
+                                                        "extraState" : {
+                                                            "L" : [
+                                                            ],
+                                                            "X" : 10007
+                                                        },
+                                                        "fields"     : {
+                                                        },
+                                                        "inputs"     : {
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    },
+                                    "D"  : {
+                                        "block" : {
+                                            "sid" : 234788,
+                                            "type" : "ife",
+                                            "id"   : "682268590",
+                                            "fields" : {
+                                                "T" : "if"
+                                            },
+                                            "inputs" : {
+                                                "C" : {
+                                                    "block" : {
+                                                        "sid" : 234788,
+                                                        "type" : "opc",
+                                                        "id"   : "682336189",
+                                                        "fields" : {
+                                                            "O" : "EQ"
+                                                        },
+                                                        "inputs" : {
+                                                            "V1" : {
+                                                                "block" : {
+                                                                    "sid" : 234788,
+                                                                    "type" : "v",
+                                                                    "id"   : "682194137",
+                                                                    "extraState" : {
+                                                                        "L" : [
+                                                                            1
+                                                                        ],
+                                                                        "X" : 121
+                                                                    },
+                                                                    "fields"     : {
+                                                                    },
+                                                                    "inputs"     : {
+                                                                        "P1" : {
+                                                                            "block" : {
+                                                                                "sid" : 234788,
+                                                                                "type" : "lcg",
+                                                                                "id"   : "681610110",
+                                                                                "extraState" : "682619088 I",
+                                                                                "fields"     : {
+                                                                                    "VR" : "hud"
+                                                                                },
+                                                                                "inputs"     : {
+                                                                                }
+                                                                            }
+                                                                        }
+                                                                    }
+                                                                }
+                                                            },
+                                                            "V2" : {
+                                                                "block" : {
+                                                                    "sid" : 234788,
+                                                                    "type" : "lcg",
+                                                                    "id"   : "682357906",
+                                                                    "extraState" : "682150605 P1",
+                                                                    "fields"     : {
+                                                                        "VR" : "Player"
+                                                                    },
+                                                                    "inputs"     : {
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                },
+                                                "D" : {
+                                                    "block" : {
+                                                        "sid" : 234788,
+                                                        "type" : "prs",
+                                                        "id"   : "682289685",
+                                                        "fields" : {
+                                                            "P" : "OpenState:SkillButtonHud"
+                                                        },
+                                                        "inputs" : {
+                                                            "H" : {
+                                                                "block" : {
+                                                                    "sid" : 234788,
+                                                                    "type" : "tya",
+                                                                    "id"   : "681971414",
+                                                                    "fields" : {
+                                                                        "T" : "SkillButtonHud"
+                                                                    },
+                                                                    "inputs" : {
+                                                                        "V" : {
+                                                                            "block" : {
+                                                                                "sid" : 234788,
+                                                                                "type" : "lcg",
+                                                                                "id"   : "681651375",
+                                                                                "extraState" : "682619088 I",
+                                                                                "fields"     : {
+                                                                                    "VR" : "hud"
+                                                                                },
+                                                                                "inputs"     : {
+                                                                                }
+                                                                            }
+                                                                        }
+                                                                    }
+                                                                }
+                                                            },
+                                                            "V" : {
+                                                                "block" : {
+                                                                    "sid" : 234788,
+                                                                    "type" : "ipb",
+                                                                    "id"   : "682193322",
+                                                                    "fields" : {
+                                                                        "V" : "F"
+                                                                    },
+                                                                    "inputs" : {
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                },
+                                "next"   : {
+                                    "block" : {
+                                        "sid" : 234788,
+                                        "type" : "lpe",
+                                        "id"   : "681674779",
+                                        "fields" : {
+                                            "X" : {
+                                                "name" : "index",
+                                                "type" : "Int"
+                                            },
+                                            "I" : {
+                                                "name" : "hud",
+                                                "type" : "Entity"
+                                            }
+                                        },
+                                        "inputs" : {
+                                            "RN" : {
+                                                "block" : {
+                                                    "sid" : 234788,
+                                                    "type" : "exg",
+                                                    "id"   : "682066916",
+                                                    "fields" : {
+                                                        "G" : "736d7d39154ab76499ae8f148d4a3fae",
+                                                        "VI" : "var92"
+                                                    },
+                                                    "inputs" : {
+                                                        "H" : {
+                                                            "block" : {
+                                                                "sid" : 234788,
+                                                                "type" : "v",
+                                                                "id"   : "682080887",
+                                                                "extraState" : {
+                                                                    "L" : [
+                                                                    ],
+                                                                    "X" : 10007
+                                                                },
+                                                                "fields"     : {
+                                                                },
+                                                                "inputs"     : {
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            },
+                                            "D"  : {
+                                                "block" : {
+                                                    "sid" : 234788,
+                                                    "type" : "ife",
+                                                    "id"   : "682549485",
+                                                    "fields" : {
+                                                        "T" : "if"
+                                                    },
+                                                    "inputs" : {
+                                                        "C" : {
+                                                            "block" : {
+                                                                "sid" : 234788,
+                                                                "type" : "opc",
+                                                                "id"   : "682445950",
+                                                                "fields" : {
+                                                                    "O" : "EQ"
+                                                                },
+                                                                "inputs" : {
+                                                                    "V1" : {
+                                                                        "block" : {
+                                                                            "sid" : 234788,
+                                                                            "type" : "v",
+                                                                            "id"   : "681645687",
+                                                                            "extraState" : {
+                                                                                "L" : [
+                                                                                    1
+                                                                                ],
+                                                                                "X" : 121
+                                                                            },
+                                                                            "fields"     : {
+                                                                            },
+                                                                            "inputs"     : {
+                                                                                "P1" : {
+                                                                                    "block" : {
+                                                                                        "sid" : 234788,
+                                                                                        "type" : "lcg",
+                                                                                        "id"   : "682000116",
+                                                                                        "extraState" : "681674779 I",
+                                                                                        "fields"     : {
+                                                                                            "VR" : "hud"
+                                                                                        },
+                                                                                        "inputs"     : {
+                                                                                        }
+                                                                                    }
+                                                                                }
+                                                                            }
+                                                                        }
+                                                                    },
+                                                                    "V2" : {
+                                                                        "block" : {
+                                                                            "sid" : 234788,
+                                                                            "type" : "lcg",
+                                                                            "id"   : "682478908",
+                                                                            "extraState" : "682150605 P1",
+                                                                            "fields"     : {
+                                                                                "VR" : "Player"
+                                                                            },
+                                                                            "inputs"     : {
+                                                                            }
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        },
+                                                        "D" : {
+                                                            "block" : {
+                                                                "sid" : 234788,
+                                                                "type" : "prs",
+                                                                "id"   : "682138182",
+                                                                "fields" : {
+                                                                    "P" : "OpenState:SkillButtonHud"
+                                                                },
+                                                                "inputs" : {
+                                                                    "H" : {
+                                                                        "block" : {
+                                                                            "sid" : 234788,
+                                                                            "type" : "tya",
+                                                                            "id"   : "682227306",
+                                                                            "fields" : {
+                                                                                "T" : "SkillButtonHud"
+                                                                            },
+                                                                            "inputs" : {
+                                                                                "V" : {
+                                                                                    "block" : {
+                                                                                        "sid" : 234788,
+                                                                                        "type" : "lcg",
+                                                                                        "id"   : "682078104",
+                                                                                        "extraState" : "681674779 I",
+                                                                                        "fields"     : {
+                                                                                            "VR" : "hud"
+                                                                                        },
+                                                                                        "inputs"     : {
+                                                                                        }
+                                                                                    }
+                                                                                }
+                                                                            }
+                                                                        }
+                                                                    },
+                                                                    "V" : {
+                                                                        "block" : {
+                                                                            "sid" : 234788,
+                                                                            "type" : "ipb",
+                                                                            "id"   : "682134770",
+                                                                            "fields" : {
+                                                                                "V" : "F"
+                                                                            },
+                                                                            "inputs" : {
+                                                                            }
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "sid" : 234788,
+                "type" : "e",
+                "id"   : "243646990",
+                "extraState" : {
+                    "X" : 214
+                },
+                "fields"     : {
+                    "P1" : {
+                        "name" : "WeaponEntity",
+                        "type" : "Weapon"
+                    }
+                },
+                "inputs"     : {
+                },
+                "next"       : {
+                    "block" : {
+                        "sid" : 234788,
+                        "type" : "ife",
+                        "id"   : "auto19011",
+                        "fields" : {
+                        },
+                        "inputs" : {
+                            "C" : {
+                                "block" : {
+                                    "sid" : 234788,
+                                    "type" : "opc",
+                                    "id"   : "243860751",
+                                    "fields" : {
+                                        "O" : "EQ"
+                                    },
+                                    "inputs" : {
+                                        "V1" : {
+                                            "block" : {
+                                                "sid" : 234788,
+                                                "type" : "prg",
+                                                "id"   : "1068067773",
+                                                "fields" : {
+                                                    "P" : "PhaseIndex:Phase"
+                                                },
+                                                "inputs" : {
+                                                    "H" : {
+                                                        "block" : {
+                                                            "sid" : 234788,
+                                                            "type" : "exg",
+                                                            "id"   : "243457876",
+                                                            "fields" : {
+                                                                "G" : "3746b917f8e19764c8ee397d528cd04f",
+                                                                "VI" : "var47"
+                                                            },
+                                                            "inputs" : {
+                                                                "H" : {
+                                                                    "block" : {
+                                                                        "sid" : 234788,
+                                                                        "type" : "v",
+                                                                        "id"   : "243577511",
+                                                                        "extraState" : {
+                                                                            "L" : [
+                                                                            ],
+                                                                            "X" : 10007
+                                                                        },
+                                                                        "fields"     : {
+                                                                        },
+                                                                        "inputs"     : {
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        "V2" : {
+                                            "block" : {
+                                                "sid" : 234788,
+                                                "type" : "ipe",
+                                                "id"   : "243539040",
+                                                "extraState" : 10009,
+                                                "fields"     : {
+                                                    "I" : "FeverTime"
+                                                },
+                                                "inputs"     : {
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            },
+                            "D" : {
+                                "block" : {
+                                    "sid" : 234788,
+                                    "type" : "prs",
+                                    "id"   : "244131717",
+                                    "fields" : {
+                                        "P" : "CostAmmo:Weapon"
+                                    },
+                                    "inputs" : {
+                                        "H" : {
+                                            "block" : {
+                                                "sid" : 234788,
+                                                "type" : "lcg",
+                                                "id"   : "244094346",
+                                                "extraState" : "243646990 P1",
+                                                "fields"     : {
+                                                    "VR" : "WeaponEntity"
+                                                },
+                                                "inputs"     : {
+                                                }
+                                            }
+                                        },
+                                        "V" : {
+                                            "block" : {
+                                                "sid" : 234788,
+                                                "type" : "ipb",
+                                                "id"   : "243290934",
+                                                "fields" : {
+                                                    "V" : "F"
+                                                },
+                                                "inputs" : {
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        ]
+    },
+    "variables" : [
+    ]
+}

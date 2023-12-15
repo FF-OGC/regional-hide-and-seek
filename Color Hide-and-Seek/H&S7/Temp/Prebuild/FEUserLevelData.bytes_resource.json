@@ -1,0 +1,167 @@
+{
+ "OptionalResourceNames": [
+  "SOUND_UI_NOTICE_PEEKABOO_TRANSFORM",
+  "SOUND_ACTIVESKILLREADY",
+  "UGC_T_36_M_WS_VFX6",
+  "UGC_T_34_LY_WS_VFX3",
+  "UGC_T_34_LY_WS_VFX6",
+  "SOUND_PVE_JOIN",
+  "SOUND_BGM_MODE_INFECTION_FINALPHASE",
+  "UGC_T_38_WZY_WS_VFX2",
+  "UGC_T_34_LY_WS_VFX2",
+  "SOUND_TELEPORTDOOR_STARTUSE",
+  "SOUND_SHRINK_MESSAGEBOX",
+  "SCENEEDIT_CUBE_TEXTURE_COLORFULCUBE001_D",
+  "VFX_Line001",
+  "SceneEdit_Cube_Texture_Bamboo_01",
+  "SOUND_VEHICLE_AIRSHIP_BOX_OPEN",
+  "SceneEdit_Cube_Texture_Wood_01",
+  "SceneEdit_Cube_Texture_Stone_01",
+  "SceneEdit_Cube_Texture_Cement_01",
+  "SceneEdit_Cube_Texture_Wall_01",
+  "SOUND_UI_NOTICE_PEEKABOO_HEARTBEAT_FAST",
+  "SOUND_UI_NOTICE_PEEKABOO_HEARTBEAT_MEDIUM",
+  "SOUND_UI_NOTICE_PEEKABOO_HEARTBEAT_SLOW",
+  "SOUND_ING_CHAT_TACTICS",
+  "T_34_M_WS_ICON_HEART",
+  "FF_UI_SmallWindow_Botton",
+  "T_34_M_WS_ICON_GLASSES",
+  "ui_icon_skill_RunSpeedUp",
+  "T_34_M_WS_ICON_PLUS",
+  "T_34_M_WS_ICON_SQUARE",
+  "FF_WS_Report_Room_icon",
+  "T_34_M_WS_ICON_CIRCULAR"
+ ],
+ "MapIds": [
+  10
+ ],
+ "ItemIds": [
+  91,
+  17,
+  3,
+  18,
+  100,
+  158,
+  147,
+  21,
+  146,
+  203,
+  85,
+  105,
+  40,
+  87,
+  103,
+  117,
+  143,
+  159,
+  108,
+  204,
+  240,
+  32,
+  248,
+  250,
+  249,
+  120,
+  121,
+  136,
+  252,
+  215,
+  239,
+  151,
+  255,
+  216,
+  31,
+  63,
+  226,
+  256,
+  225,
+  200,
+  194,
+  163,
+  253,
+  162,
+  145,
+  185,
+  186,
+  172,
+  175,
+  171,
+  176,
+  137,
+  224,
+  23
+ ],
+ "ResourcePackageInfo": {
+  "DataFormatVersion": 0,
+  "RefPackages": [
+   {
+    "Name": "Atlas-a-a48abe26-3b48-4a5b-9228-ca44c6ca7d93",
+    "UUID": "a-a48abe26-3b48-4a5b-9228-ca44c6ca7d93",
+    "UseVersionMD5": "Byf6BjQ1fxczAEMPy94kCSJSMUs=",
+    "WhoRequire": "ClientOnly",
+    "PlatformSpecial": true
+   },
+   {
+    "Name": "Atlas-a-fc684945-ad35-4955-b38f-9a83cad57287",
+    "UUID": "a-fc684945-ad35-4955-b38f-9a83cad57287",
+    "UseVersionMD5": "1JXU/13fmIq6R2YQVi7UjhM3bIY=",
+    "WhoRequire": "ClientOnly",
+    "PlatformSpecial": true
+   },
+   {
+    "Name": "Atlas-a-0e6bbc33-7103-401a-9284-c083eb4a355a",
+    "UUID": "a-0e6bbc33-7103-401a-9284-c083eb4a355a",
+    "UseVersionMD5": "w6FGgak/7zTPjefDEpVvAxmFqrA=",
+    "WhoRequire": "ClientOnly",
+    "PlatformSpecial": true
+   },
+   {
+    "Name": "TerrainCommon_pABvm76t",
+    "UUID": "TerrainCommon_pABvm76t",
+    "UseVersionMD5": "EScSevxgivnExEVrSF9L3kpd4Tg=",
+    "WhoRequire": "ClientServer",
+    "PlatformSpecial": false
+   },
+   {
+    "Name": "TerrainPlatformed_lqp5NpJR",
+    "UUID": "TerrainPlatformed_lqp5NpJR",
+    "UseVersionMD5": "FoOrYXgk25uSwJ9zarElJQ7Jl2k=",
+    "WhoRequire": "ClientOnly",
+    "PlatformSpecial": true
+   },
+   {
+    "Name": "TerrainClient_V0Wzp3mJ",
+    "UUID": "TerrainClient_V0Wzp3mJ",
+    "UseVersionMD5": "OQ+aES/Z7QcKlZc3HfcE0R9Wg2Y=",
+    "WhoRequire": "ClientOnly",
+    "PlatformSpecial": false
+   },
+   {
+    "Name": "ColliderCommon_grgEHl6X",
+    "UUID": "ColliderCommon_grgEHl6X",
+    "UseVersionMD5": "TLSNIPKlqnA7FAeb9nsfkO1w490=",
+    "WhoRequire": "ClientServer",
+    "PlatformSpecial": false
+   },
+   {
+    "Name": "AutoPlatformed_RTMjKv6F",
+    "UUID": "AutoPlatformed_RTMjKv6F",
+    "UseVersionMD5": "G3KdC0y0FE7dlRarKEzSZTOCJuQ=",
+    "WhoRequire": "ClientOnly",
+    "PlatformSpecial": true
+   }
+  ],
+  "BuildinPackages": [
+   {
+    "Name": "BuiltIn",
+    "UUID": "BuiltIn",
+    "ShareType": "Private",
+    "PackageType": "FFBuildinResource",
+    "UseableType": "ClientOnly",
+    "Version": "1.0.0",
+    "DataFormatVersion": 1
+   }
+  ]
+ },
+ "NotNecessaryResData": {}
+}

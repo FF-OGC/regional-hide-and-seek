@@ -1,0 +1,374 @@
+{
+ "variables": [
+  {
+   "id": 1,
+   "intValue": 10
+  },
+  {
+   "id": 6,
+   "intValue": 1
+  },
+  {
+   "id": 7,
+   "intValue": 12
+  },
+  {
+   "id": 3,
+   "boolValue": false,
+   "intValue": 0,
+   "floatValue": 0
+  },
+  {
+   "id": 5,
+   "boolValue": false,
+   "intValue": 100,
+   "floatValue": 100
+  },
+  {
+   "id": 15,
+   "boolValue": false,
+   "intValue": 200,
+   "floatValue": 200
+  },
+  {
+   "id": 16,
+   "boolValue": false,
+   "intValue": 200,
+   "floatValue": 200
+  },
+  {
+   "id": 17,
+   "boolValue": false,
+   "intValue": 0,
+   "floatValue": 0
+  },
+  {
+   "id": 18,
+   "boolValue": false,
+   "intValue": 0,
+   "floatValue": 0
+  },
+  {
+   "id": 19,
+   "boolValue": false,
+   "intValue": 100,
+   "floatValue": 100
+  },
+  {
+   "id": 20,
+   "boolValue": false,
+   "intValue": 100,
+   "floatValue": 100
+  },
+  {
+   "id": 21,
+   "boolValue": false,
+   "intValue": 100,
+   "floatValue": 100
+  },
+  {
+   "id": 22,
+   "boolValue": false,
+   "intValue": 100,
+   "floatValue": 100
+  },
+  {
+   "id": 30,
+   "boolValue": false,
+   "intValue": 0,
+   "floatValue": 0
+  },
+  {
+   "id": 31,
+   "boolValue": false,
+   "intValue": 0,
+   "floatValue": 0
+  },
+  {
+   "id": 32,
+   "boolValue": false,
+   "intValue": 100,
+   "floatValue": 100
+  },
+  {
+   "id": 33,
+   "boolValue": false,
+   "intValue": 100,
+   "floatValue": 100
+  },
+  {
+   "id": 34,
+   "boolValue": false,
+   "intValue": 100,
+   "floatValue": 100
+  },
+  {
+   "id": 35,
+   "boolValue": false,
+   "intValue": 100,
+   "floatValue": 100
+  },
+  {
+   "id": 36,
+   "boolValue": false,
+   "intValue": 100,
+   "floatValue": 100
+  },
+  {
+   "id": 37,
+   "boolValue": false,
+   "intValue": 100,
+   "floatValue": 100
+  },
+  {
+   "id": 38,
+   "boolValue": false,
+   "intValue": 100,
+   "floatValue": 100
+  },
+  {
+   "id": 40,
+   "boolValue": false,
+   "intValue": 100,
+   "floatValue": 100
+  },
+  {
+   "id": 41,
+   "boolValue": false,
+   "intValue": 100,
+   "floatValue": 100
+  },
+  {
+   "id": 42,
+   "boolValue": false,
+   "intValue": 100,
+   "floatValue": 100
+  },
+  {
+   "id": 43,
+   "boolValue": false,
+   "intValue": 100,
+   "floatValue": 100
+  },
+  {
+   "id": 44,
+   "boolValue": false,
+   "intValue": 100,
+   "floatValue": 100
+  },
+  {
+   "id": 88,
+   "boolValue": false,
+   "intValue": 0,
+   "floatValue": 0
+  },
+  {
+   "id": 89,
+   "boolValue": true,
+   "intValue": 0,
+   "floatValue": 0
+  },
+  {
+   "id": 95,
+   "boolValue": false,
+   "intValue": 100,
+   "floatValue": 100
+  },
+  {
+   "id": 96,
+   "boolValue": false,
+   "intValue": 100,
+   "floatValue": 100
+  },
+  {
+   "id": 97,
+   "boolValue": false,
+   "intValue": 100,
+   "floatValue": 100
+  },
+  {
+   "id": 98,
+   "boolValue": false,
+   "intValue": 100,
+   "floatValue": 100
+  },
+  {
+   "id": 144,
+   "boolValue": false,
+   "intValue": 0,
+   "floatValue": 0
+  },
+  {
+   "id": 145,
+   "boolValue": false,
+   "intValue": 0,
+   "floatValue": 0
+  },
+  {
+   "id": 146,
+   "boolValue": false,
+   "intValue": 0,
+   "floatValue": 0
+  },
+  {
+   "id": 141,
+   "boolValue": true,
+   "intValue": 0,
+   "floatValue": 0
+  },
+  {
+   "id": 142,
+   "boolValue": true,
+   "intValue": 0,
+   "floatValue": 0
+  },
+  {
+   "id": 99,
+   "boolValue": false,
+   "intValue": 1,
+   "floatValue": 1
+  },
+  {
+   "id": 151,
+   "boolValue": false
+  },
+  {
+   "id": 152,
+   "boolValue": false
+  },
+  {
+   "id": 153,
+   "boolValue": false
+  },
+  {
+   "id": 154,
+   "boolValue": true
+  },
+  {
+   "id": 134,
+   "boolValue": true,
+   "intValue": 0,
+   "floatValue": 0
+  },
+  {
+   "id": 130,
+   "boolValue": true,
+   "intValue": 0,
+   "floatValue": 0
+  },
+  {
+   "id": 129,
+   "boolValue": false,
+   "intValue": 1,
+   "floatValue": 1
+  },
+  {
+   "id": 8,
+   "boolValue": false,
+   "intValue": 3,
+   "floatValue": 3
+  },
+  {
+   "id": 27,
+   "boolValue": true,
+   "intValue": 0,
+   "floatValue": 0
+  },
+  {
+   "id": 17,
+   "boolValue": false,
+   "intValue": 100,
+   "floatValue": 100
+  },
+  {
+   "id": 18,
+   "boolValue": true,
+   "intValue": 0,
+   "floatValue": 0
+  },
+  {
+   "id": 82,
+   "boolValue": false,
+   "intValue": 6,
+   "floatValue": 6
+  },
+  {
+   "id": 135,
+   "boolValue": false,
+   "intValue": 12,
+   "floatValue": 12
+  },
+  {
+   "id": 136,
+   "boolValue": false,
+   "intValue": 0,
+   "floatValue": 0
+  },
+  {
+   "id": 137,
+   "boolValue": false,
+   "intValue": 120,
+   "floatValue": 120
+  },
+  {
+   "id": 138,
+   "boolValue": true,
+   "intValue": 0,
+   "floatValue": 0
+  },
+  {
+   "id": 139,
+   "boolValue": false,
+   "intValue": 5,
+   "floatValue": 5
+  },
+  {
+   "id": 140,
+   "boolValue": true,
+   "intValue": 0,
+   "floatValue": 0
+  },
+  {
+   "id": 143,
+   "boolValue": true,
+   "intValue": 0,
+   "floatValue": 0
+  },
+  {
+   "id": 148,
+   "boolValue": false,
+   "intValue": 0,
+   "floatValue": 0
+  },
+  {
+   "id": 149,
+   "boolValue": false,
+   "intValue": 20,
+   "floatValue": 20
+  },
+  {
+   "id": 150,
+   "boolValue": false,
+   "intValue": 0,
+   "floatValue": 0
+  },
+  {
+   "id": 155,
+   "boolValue": false,
+   "intValue": 0,
+   "floatValue": 0
+  },
+  {
+   "id": 156,
+   "boolValue": false,
+   "intValue": 0,
+   "floatValue": 0
+  },
+  {
+   "id": 157,
+   "boolValue": false,
+   "intValue": 0,
+   "floatValue": 0
+  }
+ ]
+}

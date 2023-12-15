@@ -1,0 +1,878 @@
+{
+ "GameName": "DMM0822",
+ "GameDesc": "Hiders must disguise as objects in the scenery to hide and survive till the end. Seekers must find and eliminate all the Hiders.",
+ "GameMode": 53,
+ "GroupMode": 11,
+ "TeamCount": 1,
+ "GameResourceCount": "300",
+ "GameTotalCost": "3010",
+ "UpdateTime": "0",
+ "Tags": [
+  23
+ ],
+ "WorkshopBitMap": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8A8AAAAAAAAAAAAAAP8AAAAAAAAAAAAAAPAPAAAAAAAAAAAAAAD/AAAAAAAAAAAAAADwDwAAAAAAAAAAAAAA/wAAAAAAAAAAAAAA8A8AAAAAAAAAAAAAAP8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACA//////////8fAAAA/P//////////AwAAwAECAAD/AQAAMAAAAAwgGADwHwAGEAMAAMAAgoEB/2FgADAAAAAMIJgY8B9GBgMDAADAAAIIAP8ZBDAwAAAADCD4APCfwWcDAwAAwACCDxj/AXw2MAAAAAwg+LDxn80HAwMAAMDAAwgb/9kEMDAAAADMHJiAAQBABgADAADADIABAPgAYAAwAAAADA8YAIAPAAYEAwAAwP8AAAAAAAAAMAAAAAwAcA4AAOcAAAMAAMD/////////BzAAAAD8////////fwADAADA/////////x8wAAAA/P////////8BAwAAwP////////9/MAAAAPz/////////AwMAAMD/////////HzAAAAD8////////fwADAADA/////////wcwAAAA/P///////38QAwAAwP////////9HMAAAAPz///////9/AAMAAMD/////////BzAAAAD8////////fwADAADA/////////wcwAAAA/P///////38AAwAAwP/////////nPwAAAPz///////9/AAMAAMD/////////BzAAAAD8////////fwADAADA/////////wcwAAAA/P///////38AAwAAwP////////8HMAAAAPz/////////fAMAAMD/////////zzcAAAD8/////////3wDAADA/////////883AAAA/P////////98AwAAwP/////////PNwAAAPz/////////fAMAAMD/////////zzcAAAD8////////fwADAADA/////////wcwAAAA/P///////38AAwAAwP/////////nPwAAAPz///////9/AAMAAMD/////////BzAAAAD8////////fwADAADA/////////+cwAAAA/P///////38OAwAAwP/////////nMAAAAPz/////////AwMAAMD/////////PzAAAAD8/////////+MDAADA/////////wcwAAAA/P///////38AAwAAwP////////8HNgAAAPz///////9/AAMAAMD/////////BzAAAAD8////////fxgDAADA/////////4cxAAAA/P////////8YAwAAwP////////+HMQAAAPz///////9/GAMAAMD//////////z8AAAD4//////////8BAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=",
+ "WorkshopIconMap": "CgcIjwEQFBgUCgcIjwEQOBhP",
+ "ModeSettings": {
+  "mode_data": "CgQIARgKCgQIBhgBCgQIBxgMCgsIAxAAGAAlAAAAAAoLCAUQABhkJQAAyEIKDAgPEAAYyAElAABIQwoMCBAQABjIASUAAEhDCgsIERAAGAAlAAAAAAoLCBIQABgAJQAAAAAKCwgTEAAYZCUAAMhCCgsIFBAAGGQlAADIQgoLCBUQABhkJQAAyEIKCwgWEAAYZCUAAMhCCgsIHhAAGAAlAAAAAAoLCB8QABgAJQAAAAAKCwggEAAYZCUAAMhCCgsIIRAAGGQlAADIQgoLCCIQABhkJQAAyEIKCwgjEAAYZCUAAMhCCgsIJBAAGGQlAADIQgoLCCUQABhkJQAAyEIKCwgmEAAYZCUAAMhCCgsIKBAAGGQlAADIQgoLCCkQABhkJQAAyEIKCwgqEAAYZCUAAMhCCgsIKxAAGGQlAADIQgoLCCwQABhkJQAAyEIKCwhYEAAYACUAAAAACgsIWRABGAAlAAAAAAoLCF8QABhkJQAAyEIKCwhgEAAYZCUAAMhCCgsIYRAAGGQlAADIQgoLCGIQABhkJQAAyEIKDAiQARAAGAAlAAAAAAoMCJEBEAAYACUAAAAACgwIkgEQABgAJQAAAAAKDAiNARABGAAlAAAAAAoMCI4BEAEYACUAAAAACgsIYxAAGAElAACAPwoFCJcBEAAKBQiYARAACgUImQEQAAoFCJoBEAEKDAiGARABGAAlAAAAAAoMCIIBEAEYACUAAAAACgwIgQEQABgBJQAAgD8KCwgIEAAYAyUAAEBACgsIGxABGAAlAAAAAAoLCBEQABhkJQAAyEIKCwgSEAEYACUAAAAACgsIUhAAGAYlAADAQAoMCIcBEAAYBiUAAMBACgwIiAEQABgAJQAAAAAKDAiJARAAGHglAADwQgoMCIoBEAEYACUAAAAACgwIiwEQABgFJQAAoEAKDAiMARABGAAlAAAAAAoMCI8BEAEYACUAAAAACgwIlAEQABgAJQAAAAAKDAiVARAAGBQlAACgQQoMCJYBEAAYACUAAAAACgwImwEQABgAJQAAAAAKDAicARAAGAAlAAAAAAoMCJ0BEAAYACUAAAAA",
+  "general_data": {
+   "max_hp": 200,
+   "max_ep": 200,
+   "start_ep": 0,
+   "auto_healing": false,
+   "damage": 100,
+   "receive_damage": 100,
+   "move_speed": 100,
+   "jump_height": 100,
+   "limited_ammo": true,
+   "enable_active_skill": false,
+   "enable_passive_skill": false,
+   "global_active_skill_cd_percent": 100,
+   "playerskill_transform_cd_percent": 100,
+   "playerskill_epchangetohp_cd_percent": 100,
+   "playerskill_healingdance_cd_percent": 100,
+   "playerskill_graffitimonitor_cd_percent": 100,
+   "playerskill_detective_cd_percent": 100,
+   "playerskill_epfastandupper_cd_percent": 100,
+   "playerskill_adddamagebycosthp_cd_percent": 0,
+   "playerskill_spaceshield_cd_percent": 100,
+   "playerskill_blowupicewall_cd_percent": 100,
+   "playerskill_tempincreasehp_cd_percent": 100,
+   "playerskill_addhpandrescure_cd_percent": 100,
+   "playerskill_dwshield_cd_percent": 100,
+   "playerskill_throwsilence_cd_percent": 100,
+   "playerskill_createflightbomb_cd_percent": 100,
+   "playerskill_markicewall_cd_percent": 100,
+   "playerskill_runspeedup_cd_percent": 100,
+   "unlimited_bullet": false,
+   "unlimited_gloowall": false,
+   "unlimited_throwables": false
+  },
+  "version": 1,
+  "collision_matrix": [
+   1,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ]
+ },
+ "RuntimeDataLength": "351225",
+ "ProjectDataLength": "0",
+ "UserDataForCensorship": {
+  "CustomStrings": [
+   {
+    "StringList": [
+     "Waiting"
+    ],
+    "WordFilterType": 1,
+    "GraphID": "29ab7583-997d-4c17-aa58-f151daae32fe",
+    "ID": "fffb02e7-1511-4add-89a7-90086bebe570"
+   },
+   {
+    "StringList": [
+     "UI_BLOCKLOBBY_WAIT"
+    ],
+    "WordFilterType": 1,
+    "GraphID": "29ab7583-997d-4c17-aa58-f151daae32fe",
+    "ID": "fffb02e7-1511-4add-89a7-90086bebe570"
+   },
+   {
+    "StringList": [
+     "等待中"
+    ],
+    "WordFilterType": 1,
+    "GraphID": "29ab7583-997d-4c17-aa58-f151daae32fe",
+    "ID": "fffb02e7-1511-4add-89a7-90086bebe570"
+   },
+   {
+    "StringList": [
+     "กำลังรอ"
+    ],
+    "WordFilterType": 1,
+    "GraphID": "29ab7583-997d-4c17-aa58-f151daae32fe",
+    "ID": "fffb02e7-1511-4add-89a7-90086bebe570"
+   },
+   {
+    "StringList": [
+     "Đang chờ"
+    ],
+    "WordFilterType": 1,
+    "GraphID": "29ab7583-997d-4c17-aa58-f151daae32fe",
+    "ID": "fffb02e7-1511-4add-89a7-90086bebe570"
+   },
+   {
+    "StringList": [
+     "Menunggu"
+    ],
+    "WordFilterType": 1,
+    "GraphID": "29ab7583-997d-4c17-aa58-f151daae32fe",
+    "ID": "fffb02e7-1511-4add-89a7-90086bebe570"
+   },
+   {
+    "StringList": [
+     "Esperando"
+    ],
+    "WordFilterType": 1,
+    "GraphID": "29ab7583-997d-4c17-aa58-f151daae32fe",
+    "ID": "fffb02e7-1511-4add-89a7-90086bebe570"
+   },
+   {
+    "StringList": [
+     "Espera"
+    ],
+    "WordFilterType": 1,
+    "GraphID": "29ab7583-997d-4c17-aa58-f151daae32fe",
+    "ID": "fffb02e7-1511-4add-89a7-90086bebe570"
+   },
+   {
+    "StringList": [
+     "Ожидание..."
+    ],
+    "WordFilterType": 1,
+    "GraphID": "29ab7583-997d-4c17-aa58-f151daae32fe",
+    "ID": "fffb02e7-1511-4add-89a7-90086bebe570"
+   },
+   {
+    "StringList": [
+     "En attendant"
+    ],
+    "WordFilterType": 1,
+    "GraphID": "29ab7583-997d-4c17-aa58-f151daae32fe",
+    "ID": "fffb02e7-1511-4add-89a7-90086bebe570"
+   },
+   {
+    "StringList": [
+     "Warten"
+    ],
+    "WordFilterType": 1,
+    "GraphID": "29ab7583-997d-4c17-aa58-f151daae32fe",
+    "ID": "fffb02e7-1511-4add-89a7-90086bebe570"
+   },
+   {
+    "StringList": [
+     "Bekleniyor"
+    ],
+    "WordFilterType": 1,
+    "GraphID": "29ab7583-997d-4c17-aa58-f151daae32fe",
+    "ID": "fffb02e7-1511-4add-89a7-90086bebe570"
+   },
+   {
+    "StringList": [
+     "इंतज़ार में"
+    ],
+    "WordFilterType": 1,
+    "GraphID": "29ab7583-997d-4c17-aa58-f151daae32fe",
+    "ID": "fffb02e7-1511-4add-89a7-90086bebe570"
+   },
+   {
+    "StringList": [
+     "Aşteptare"
+    ],
+    "WordFilterType": 1,
+    "GraphID": "29ab7583-997d-4c17-aa58-f151daae32fe",
+    "ID": "fffb02e7-1511-4add-89a7-90086bebe570"
+   },
+   {
+    "StringList": [
+     "في انتظار"
+    ],
+    "WordFilterType": 1,
+    "GraphID": "29ab7583-997d-4c17-aa58-f151daae32fe",
+    "ID": "fffb02e7-1511-4add-89a7-90086bebe570"
+   },
+   {
+    "StringList": [
+     "অপেক্ষমান"
+    ],
+    "WordFilterType": 1,
+    "GraphID": "29ab7583-997d-4c17-aa58-f151daae32fe",
+    "ID": "fffb02e7-1511-4add-89a7-90086bebe570"
+   },
+   {
+    "StringList": [
+     "%v / %v"
+    ],
+    "WordFilterType": 8,
+    "GraphID": "38212d6432bfd2a4e94070ce1ec7d6c7",
+    "ID": "{\"blockName\":\"Text\",\"blockId\":\"1235327020\"}"
+   },
+   {
+    "StringList": [
+     "FF_ingame_hud_UGC_Peekaboo_Hiders"
+    ],
+    "WordFilterType": 8,
+    "GraphID": "43636a8c58354924fa541099d90a3161",
+    "ID": "{\"blockName\":\"Text\",\"blockId\":\"1761390660\"}"
+   },
+   {
+    "StringList": [
+     "FF_ingame_hud_UGC_Peekaboo_Seekers"
+    ],
+    "WordFilterType": 8,
+    "GraphID": "43636a8c58354924fa541099d90a3161",
+    "ID": "{\"blockName\":\"Text\",\"blockId\":\"1760861853\"}"
+   },
+   {
+    "StringList": [
+     "T_38_HZ_WS_CAT_WAITINGCOUNTDOWN"
+    ],
+    "WordFilterType": 8,
+    "GraphID": "d2cfd95421c0a124281613918241a84f",
+    "ID": "{\"blockName\":\"Text\",\"blockId\":\"1307900456\"}"
+   },
+   {
+    "StringList": [
+     "winner"
+    ],
+    "WordFilterType": 8,
+    "GraphID": "52b7116d49be4c346b4c16d729551b97",
+    "ID": "{\"blockName\":\"Text\",\"blockId\":\"321800310\"}"
+   },
+   {
+    "StringList": [
+     "hider_member_cnt"
+    ],
+    "WordFilterType": 8,
+    "GraphID": "52b7116d49be4c346b4c16d729551b97",
+    "ID": "{\"blockName\":\"Text\",\"blockId\":\"321283160\"}"
+   },
+   {
+    "StringList": [
+     "seeker_member_cnt"
+    ],
+    "WordFilterType": 8,
+    "GraphID": "52b7116d49be4c346b4c16d729551b97",
+    "ID": "{\"blockName\":\"Text\",\"blockId\":\"321375925\"}"
+   },
+   {
+    "StringList": [
+     "round_duration"
+    ],
+    "WordFilterType": 8,
+    "GraphID": "52b7116d49be4c346b4c16d729551b97",
+    "ID": "{\"blockName\":\"Text\",\"blockId\":\"663925474\"}"
+   },
+   {
+    "StringList": [
+     "faction"
+    ],
+    "WordFilterType": 8,
+    "GraphID": "96c130a15c038b64caa039ff3deb887b",
+    "ID": "{\"blockName\":\"Text\",\"blockId\":\"2114965593\"}"
+   },
+   {
+    "StringList": [
+     "death_pos_x"
+    ],
+    "WordFilterType": 8,
+    "GraphID": "96c130a15c038b64caa039ff3deb887b",
+    "ID": "{\"blockName\":\"Text\",\"blockId\":\"2113968123\"}"
+   },
+   {
+    "StringList": [
+     "death_pos_y"
+    ],
+    "WordFilterType": 8,
+    "GraphID": "96c130a15c038b64caa039ff3deb887b",
+    "ID": "{\"blockName\":\"Text\",\"blockId\":\"2114789740\"}"
+   },
+   {
+    "StringList": [
+     "death_pos_z"
+    ],
+    "WordFilterType": 8,
+    "GraphID": "96c130a15c038b64caa039ff3deb887b",
+    "ID": "{\"blockName\":\"Text\",\"blockId\":\"2114909230\"}"
+   },
+   {
+    "StringList": [
+     "death_item_id"
+    ],
+    "WordFilterType": 8,
+    "GraphID": "96c130a15c038b64caa039ff3deb887b",
+    "ID": "{\"blockName\":\"Text\",\"blockId\":\"2114544225\"}"
+   },
+   {
+    "StringList": [
+     "FF_ingame_hud_UGC_Peekaboo_Doppelganger"
+    ],
+    "WordFilterType": 8,
+    "GraphID": "736d7d39154ab76499ae8f148d4a3fae",
+    "ID": "{\"blockName\":\"Text\",\"blockId\":\"1302492249\"}"
+   },
+   {
+    "StringList": [
+     "Skill_Erec"
+    ],
+    "WordFilterType": 8,
+    "GraphID": "736d7d39154ab76499ae8f148d4a3fae",
+    "ID": "{\"blockName\":\"Text\",\"blockId\":\"1302886313\"}"
+   },
+   {
+    "StringList": [
+     "T_38_HZ_WS_CAT_MORPHTIPS2"
+    ],
+    "WordFilterType": 8,
+    "GraphID": "54a450598790f7746b7df0d2543f750e",
+    "ID": "{\"blockName\":\"Text\",\"blockId\":\"566189856\"}"
+   },
+   {
+    "StringList": [
+     "SEEKER"
+    ],
+    "WordFilterType": 8,
+    "GraphID": "3746b917f8e19764c8ee397d528cd04f",
+    "ID": "{\"blockName\":\"Text\",\"blockId\":\"1953386572\"}"
+   },
+   {
+    "StringList": [
+     "HIDER"
+    ],
+    "WordFilterType": 8,
+    "GraphID": "3746b917f8e19764c8ee397d528cd04f",
+    "ID": "{\"blockName\":\"Text\",\"blockId\":\"764157234\"}"
+   },
+   {
+    "StringList": [
+     "T_38_HZ_WS_CAT_SCORETIPS2"
+    ],
+    "WordFilterType": 8,
+    "GraphID": "765c4fdae5f3a9d4a8f76d20e48658f2",
+    "ID": "{\"blockName\":\"Text\",\"blockId\":\"1947422133\"}"
+   },
+   {
+    "StringList": [
+     "Icon_Infection_Infectedkill_01"
+    ],
+    "WordFilterType": 8,
+    "GraphID": "81b0de7aee4c0f14984f1ec57f5c7e89",
+    "ID": "{\"blockName\":\"Text\",\"blockId\":\"1164509122\"}"
+   },
+   {
+    "StringList": [
+     "Icon_Infection_InfectedAssists_01"
+    ],
+    "WordFilterType": 8,
+    "GraphID": "81b0de7aee4c0f14984f1ec57f5c7e89",
+    "ID": "{\"blockName\":\"Text\",\"blockId\":\"1164284766\"}"
+   },
+   {
+    "StringList": [
+     "Icon_Infection_PromptAppears_01"
+    ],
+    "WordFilterType": 8,
+    "GraphID": "81b0de7aee4c0f14984f1ec57f5c7e89",
+    "ID": "{\"blockName\":\"Text\",\"blockId\":\"1164246526\"}"
+   },
+   {
+    "StringList": [
+     "You are Hider"
+    ],
+    "WordFilterType": 8,
+    "GraphID": "36642fddb43b4a6408f39da74816cd55",
+    "ID": "{\"blockName\":\"Text\",\"blockId\":\"1663374217\"}"
+   },
+   {
+    "StringList": [
+     "FF_ingame_hud_UGC_Peekaboo_Hider"
+    ],
+    "WordFilterType": 8,
+    "GraphID": "36642fddb43b4a6408f39da74816cd55",
+    "ID": "{\"blockName\":\"Text\",\"blockId\":\"1663648259\"}"
+   },
+   {
+    "StringList": [
+     "You are Seeker"
+    ],
+    "WordFilterType": 8,
+    "GraphID": "36642fddb43b4a6408f39da74816cd55",
+    "ID": "{\"blockName\":\"Text\",\"blockId\":\"1664026339\"}"
+   },
+   {
+    "StringList": [
+     "FF_ingame_hud_UGC_Peekaboo_Seeker"
+    ],
+    "WordFilterType": 8,
+    "GraphID": "36642fddb43b4a6408f39da74816cd55",
+    "ID": "{\"blockName\":\"Text\",\"blockId\":\"1663490459\"}"
+   },
+   {
+    "StringList": [
+     "Rush Time"
+    ],
+    "WordFilterType": 8,
+    "GraphID": "36642fddb43b4a6408f39da74816cd55",
+    "ID": "{\"blockName\":\"Text\",\"blockId\":\"681782866\"}"
+   },
+   {
+    "StringList": [
+     "FF_ingame_hud_UGC_Peekaboo_FeverTime"
+    ],
+    "WordFilterType": 8,
+    "GraphID": "36642fddb43b4a6408f39da74816cd55",
+    "ID": "{\"blockName\":\"Text\",\"blockId\":\"682283820\"}"
+   },
+   {
+    "StringList": [
+     "Skill_Lock"
+    ],
+    "WordFilterType": 8,
+    "GraphID": "5eddf6c38bce0cf4d9c8636cb0734712",
+    "ID": "{\"blockName\":\"Text\",\"blockId\":\"506695146\"}"
+   },
+   {
+    "StringList": [
+     "FF_ingame_hud_UGC_Peekaboo_Lock"
+    ],
+    "WordFilterType": 8,
+    "GraphID": "5eddf6c38bce0cf4d9c8636cb0734712",
+    "ID": "{\"blockName\":\"Text\",\"blockId\":\"1886735935\"}"
+   },
+   {
+    "StringList": [
+     "Skill_Morph"
+    ],
+    "WordFilterType": 8,
+    "GraphID": "6d211b01eb7b1314d82755a678b28af6",
+    "ID": "{\"blockName\":\"Text\",\"blockId\":\"506487618\"}"
+   },
+   {
+    "StringList": [
+     "FF_ingame_hud_UGC_Peekaboo_Transform"
+    ],
+    "WordFilterType": 8,
+    "GraphID": "6d211b01eb7b1314d82755a678b28af6",
+    "ID": "{\"blockName\":\"Text\",\"blockId\":\"1887161888\"}"
+   },
+   {
+    "StringList": [
+     "MORPH"
+    ],
+    "WordFilterType": 8,
+    "GraphID": "54fc3513f83b0f5448fb67490a5e8d0a",
+    "ID": "{\"blockName\":\"Text\",\"blockId\":\"566764741\"}"
+   },
+   {
+    "StringList": [
+     "T_38_HZ_WS_CAT_MORPHTIPS"
+    ],
+    "WordFilterType": 8,
+    "GraphID": "54fc3513f83b0f5448fb67490a5e8d0a",
+    "ID": "{\"blockName\":\"Text\",\"blockId\":\"823080241\"}"
+   },
+   {
+    "StringList": [
+     "T_38_HZ_WS_CAT_MORPHTIPS1"
+    ],
+    "WordFilterType": 8,
+    "GraphID": "54fc3513f83b0f5448fb67490a5e8d0a",
+    "ID": "{\"blockName\":\"Text\",\"blockId\":\"2033719239\"}"
+   },
+   {
+    "StringList": [
+     "FF_ingame_hud_UGC_Peekaboo_Banner"
+    ],
+    "WordFilterType": 8,
+    "GraphID": "82f2666a090df37499d13206b44860ad",
+    "ID": "{\"blockName\":\"Text\",\"blockId\":\"183274097\"}"
+   },
+   {
+    "StringList": [
+     "T_37_HZ_WS_CATMODEDESC1"
+    ],
+    "WordFilterType": 8,
+    "GraphID": "82f2666a090df37499d13206b44860ad",
+    "ID": "{\"blockName\":\"Text\",\"blockId\":\"682560617\"}"
+   },
+   {
+    "StringList": [
+     "T_37_HZ_WS_CAT_MODEDESC2"
+    ],
+    "WordFilterType": 8,
+    "GraphID": "82f2666a090df37499d13206b44860ad",
+    "ID": "{\"blockName\":\"Text\",\"blockId\":\"681704575\"}"
+   },
+   {
+    "StringList": [
+     "UGC_T_38_WZY_WS_VFX6"
+    ],
+    "WordFilterType": 8,
+    "GraphID": "235ecfe1be542fb49bd980c2e3af5fb5",
+    "ID": "{\"blockName\":\"Text\",\"blockId\":\"898752096\"}"
+   },
+   {
+    "StringList": [
+     "UGC_T_38_WZY_WS_VFX5"
+    ],
+    "WordFilterType": 8,
+    "GraphID": "235ecfe1be542fb49bd980c2e3af5fb5",
+    "ID": "{\"blockName\":\"Text\",\"blockId\":\"898630081\"}"
+   },
+   {
+    "StringList": [
+     "UGC_T_38_WZY_WS_VFX1"
+    ],
+    "WordFilterType": 8,
+    "GraphID": "235ecfe1be542fb49bd980c2e3af5fb5",
+    "ID": "{\"blockName\":\"Text\",\"blockId\":\"899359053\"}"
+   },
+   {
+    "StringList": [
+     "UGC_T_38_WZY_WS_VFX1FAKE"
+    ],
+    "WordFilterType": 8,
+    "GraphID": "235ecfe1be542fb49bd980c2e3af5fb5",
+    "ID": "{\"blockName\":\"Text\",\"blockId\":\"898947154\"}"
+   },
+   {
+    "StringList": [
+     "UGC_T_38_WZY_WS_VFX2"
+    ],
+    "WordFilterType": 8,
+    "GraphID": "235ecfe1be542fb49bd980c2e3af5fb5",
+    "ID": "{\"blockName\":\"Text\",\"blockId\":\"899445426\"}"
+   },
+   {
+    "StringList": [
+     "T_38_HZ_WS_CAT_SCORETIPS1"
+    ],
+    "WordFilterType": 8,
+    "GraphID": "f1ae4805116c3134180d7b0e37bd9b1e",
+    "ID": "{\"blockName\":\"Text\",\"blockId\":\"325896901\"}"
+   },
+   {
+    "StringList": [
+     "T_33_ZF_R_SCORE_SHOW"
+    ],
+    "WordFilterType": 8,
+    "GraphID": "f3c1d9add5c67b544bce765afd45e30d",
+    "ID": "{\"blockName\":\"Text\",\"blockId\":\"964031494\"}"
+   },
+   {
+    "StringList": [
+     "T_38_HZ_WS_CAT_REVIVEDES2"
+    ],
+    "WordFilterType": 8,
+    "GraphID": "1aba92b2acd0dfd4780734b38fc6874f",
+    "ID": "{\"blockName\":\"Text\",\"blockId\":\"1754097736\"}"
+   },
+   {
+    "StringList": [
+     "T_38_HZ_WS_CAT_REVIVEDES1"
+    ],
+    "WordFilterType": 8,
+    "GraphID": "1aba92b2acd0dfd4780734b38fc6874f",
+    "ID": "{\"blockName\":\"Text\",\"blockId\":\"1754061980\"}"
+   },
+   {
+    "StringList": [
+     "Seeker"
+    ],
+    "WordFilterType": 8,
+    "GraphID": "1aba92b2acd0dfd4780734b38fc6874f",
+    "ID": "{\"blockName\":\"Text\",\"blockId\":\"1753678327\"}"
+   },
+   {
+    "StringList": [
+     "T_38_HZ_WS_CAT_FACTIONDES1"
+    ],
+    "WordFilterType": 8,
+    "GraphID": "1aba92b2acd0dfd4780734b38fc6874f",
+    "ID": "{\"blockName\":\"Text\",\"blockId\":\"1753778661\"}"
+   },
+   {
+    "StringList": [
+     "TXT_OB10_ZJS_ROOM_JOIN_OB"
+    ],
+    "WordFilterType": 8,
+    "GraphID": "1aba92b2acd0dfd4780734b38fc6874f",
+    "ID": "{\"blockName\":\"Text\",\"blockId\":\"1753885224\"}"
+   },
+   {
+    "StringList": [
+     "T_38_ZD_DPFH_R"
+    ],
+    "WordFilterType": 8,
+    "GraphID": "1aba92b2acd0dfd4780734b38fc6874f",
+    "ID": "{\"blockName\":\"Text\",\"blockId\":\"1753693100\"}"
+   },
+   {
+    "StringList": [
+     "Button-0"
+    ],
+    "WordFilterType": 8,
+    "GraphID": "690b5df3af5a9d44b8839895675dbed3",
+    "ID": "{\"blockName\":\"Text\",\"blockId\":\"1754036509\"}"
+   },
+   {
+    "StringList": [
+     "Button-1"
+    ],
+    "WordFilterType": 8,
+    "GraphID": "690b5df3af5a9d44b8839895675dbed3",
+    "ID": "{\"blockName\":\"Text\",\"blockId\":\"1753574833\"}"
+   },
+   {
+    "StringList": [
+     "GAME START"
+    ],
+    "WordFilterType": 8,
+    "GraphID": "63f51ec2e198cd84aaf28787079447e6",
+    "ID": "{\"blockName\":\"Text\",\"blockId\":\"1189988759\"}"
+   },
+   {
+    "StringList": [
+     "T_26_YP_HISTORY_LOSE"
+    ],
+    "WordFilterType": 8,
+    "GraphID": "e35e749da6b46d74894549d0b6f6a682",
+    "ID": "{\"blockName\":\"Text\",\"blockId\":\"192027609\"}"
+   },
+   {
+    "StringList": [
+     "T_37_HZ_WS_CAT_HIDER"
+    ],
+    "WordFilterType": 8,
+    "GraphID": "e35e749da6b46d74894549d0b6f6a682",
+    "ID": "{\"blockName\":\"Text\",\"blockId\":\"191996398\"}"
+   },
+   {
+    "StringList": [
+     "T_37_HZ_WS_CAT_SEEKER"
+    ],
+    "WordFilterType": 8,
+    "GraphID": "e35e749da6b46d74894549d0b6f6a682",
+    "ID": "{\"blockName\":\"Text\",\"blockId\":\"192624107\"}"
+   },
+   {
+    "StringList": [
+     "T_26_YP_HISTORY_WIN"
+    ],
+    "WordFilterType": 8,
+    "GraphID": "e35e749da6b46d74894549d0b6f6a682",
+    "ID": "{\"blockName\":\"Text\",\"blockId\":\"192428084\"}"
+   },
+   {
+    "StringList": [
+     "T_34_PD_FlagBattle_SCORE"
+    ],
+    "WordFilterType": 8,
+    "GraphID": "e35e749da6b46d74894549d0b6f6a682",
+    "ID": "{\"blockName\":\"Text\",\"blockId\":\"1761331893\"}"
+   },
+   {
+    "StringList": [
+     "T_35_PD_INFECTION_RANK"
+    ],
+    "WordFilterType": 8,
+    "GraphID": "e35e749da6b46d74894549d0b6f6a682",
+    "ID": "{\"blockName\":\"Text\",\"blockId\":\"1400429754\"}"
+   },
+   {
+    "StringList": [
+     "T_35_PD_INFECTION_DMG"
+    ],
+    "WordFilterType": 8,
+    "GraphID": "e35e749da6b46d74894549d0b6f6a682",
+    "ID": "{\"blockName\":\"Text\",\"blockId\":\"1400608089\"}"
+   },
+   {
+    "StringList": [
+     "T_38_SP_WS_CAT_WAITINGCOUNTDOWN_02"
+    ],
+    "WordFilterType": 8,
+    "GraphID": "963c393cd7fbf9d42a78b563ffe635b2",
+    "ID": "{\"blockName\":\"Text\",\"blockId\":\"1307900456\"}"
+   },
+   {
+    "StringList": [
+     "T_38_SP_WS_CAT_WAITINGCOUNTDOWN"
+    ],
+    "WordFilterType": 8,
+    "GraphID": "963c393cd7fbf9d42a78b563ffe635b2",
+    "ID": "{\"blockName\":\"Text\",\"blockId\":\"390028414\"}"
+   },
+   {
+    "StringList": [
+     "Find A Hider"
+    ],
+    "WordFilterType": 8,
+    "GraphID": "96a2091ea5dcb3549856ef4f6bee58f8",
+    "ID": "{\"blockName\":\"Text\",\"blockId\":\"1663264892\"}"
+   },
+   {
+    "StringList": [
+     "Skill_Scan"
+    ],
+    "WordFilterType": 8,
+    "GraphID": "d6777c8a-5e81-4c6e-923e-04a1d11a77ad",
+    "ID": "{\"blockName\":\"Text\",\"blockId\":\"506487618\"}"
+   },
+   {
+    "StringList": [
+     "FF_ingame_hud_UGC_Peekaboo_Flash"
+    ],
+    "WordFilterType": 8,
+    "GraphID": "d6777c8a-5e81-4c6e-923e-04a1d11a77ad",
+    "ID": "{\"blockName\":\"Text\",\"blockId\":\"1887161888\"}"
+   },
+   {
+    "StringList": [
+     ""
+    ],
+    "WordFilterType": 0,
+    "GraphID": "18779b1f-0dfd-478d-b419-08051fc87510",
+    "ID": "498124a7253ed8c468ead0415e12cc54"
+   }
+  ]
+ },
+ "MapID": 10,
+ "RuntimeDataMD5": "qgy7z1X+iWoXF5KU11vFiQ==",
+ "ModeTemplateId": 10,
+ "SecEdit": false,
+ "PublicVersion": 104,
+ "OriginalWorkshopCode": "",
+ "GameNameKey": "GAME_NAME",
+ "GameDescKey": "GAME_DESCRIPTION",
+ "LocData": [
+  {
+   "DefaultLang": "UGCLANGUAGE_ENGLISH",
+   "KeyList": [
+    {
+     "Key": "GAME_NAME",
+     "LocList": [
+      {
+       "Lang": "UGCLANGUAGE_ENGLISH",
+       "Translation": "Hide-and-Seek"
+      },
+      {
+       "Lang": "UGCLANGUAGE_TRADITIONAL_CHINESE",
+       "Translation": "躲貓貓模式"
+      },
+      {
+       "Lang": "UGCLANGUAGE_THAI",
+       "Translation": "ซ่อนหา"
+      },
+      {
+       "Lang": "UGCLANGUAGE_VIETNAMESE",
+       "Translation": "Trốn tìm"
+      },
+      {
+       "Lang": "UGCLANGUAGE_INDONESIA",
+       "Translation": "Hide-and-Seek"
+      },
+      {
+       "Lang": "UGCLANGUAGE_BRAZILIAN_PORTUGUESE",
+       "Translation": "Esconde-esconde"
+      },
+      {
+       "Lang": "UGCLANGUAGE_SPANISH",
+       "Translation": "Escondite"
+      },
+      {
+       "Lang": "UGCLANGUAGE_RUSSIAN",
+       "Translation": "Прятки"
+      },
+      {
+       "Lang": "UGCLANGUAGE_FRENCH",
+       "Translation": "Cache-cache"
+      },
+      {
+       "Lang": "UGCLANGUAGE_GERMAN",
+       "Translation": "Hide-and-Seek"
+      },
+      {
+       "Lang": "UGCLANGUAGE_TURKISH",
+       "Translation": "Saklambaç"
+      },
+      {
+       "Lang": "UGCLANGUAGE_HINDI",
+       "Translation": "हाईड और सीक"
+      },
+      {
+       "Lang": "UGCLANGUAGE_ROMANIAN",
+       "Translation": "Hide-and-Seek"
+      },
+      {
+       "Lang": "UGCLANGUAGE_ARABIC",
+       "Translation": "لعبة الغميضة"
+      },
+      {
+       "Lang": "UGCLANGUAGE_BENGALI",
+       "Translation": "হাইড এন্ড সিক"
+      }
+     ]
+    },
+    {
+     "Key": "GAME_DESCRIPTION",
+     "LocList": [
+      {
+       "Lang": "UGCLANGUAGE_ENGLISH",
+       "Translation": "Hiders must disguise as objects in the scenery to hide and survive till the end. Seekers must find and eliminate all the Hiders."
+      },
+      {
+       "Lang": "UGCLANGUAGE_TRADITIONAL_CHINESE",
+       "Translation": "躲藏者需要偽裝成場景物品，隱藏自己活到最後來獲勝；搜尋者需要尋找並淘汰所有躲藏者來獲勝"
+      },
+      {
+       "Lang": "UGCLANGUAGE_THAI",
+       "Translation": "ผู้ซ่อน : พรางตัวเป็นวัตถุรอบ ๆ ตัวคุณ ซ่อนตัวและเอาตัวรอดจนหมดเวลาให้ได้\\nผู้หา: ค้นหา และกำจัดผู้ซ่อนทั้งหมด"
+      },
+      {
+       "Lang": "UGCLANGUAGE_INDONESIA",
+       "Translation": "Hider harus sembunyi sebagai objek dan bertahan hingga akhir. Seeker harus menemukan dan mengeliminasi semua Hider."
+      },
+      {
+       "Lang": "UGCLANGUAGE_BRAZILIAN_PORTUGUESE",
+       "Translation": "Oportunistas devem se disfarçar como objetos do cenário para sobreviver até o fim. Rastreadores devem procurar e eliminar todos os oportunistas."
+      },
+      {
+       "Lang": "UGCLANGUAGE_SPANISH",
+       "Translation": "Escondido: Disfrázate como un objeto de tu entorno para esconderte y sobrevivir hasta el final.Buscador: Busca y elimina a todos los Escondidos. "
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "RoomParams": "",
+ "OpenRoomLocDataMD5": "1B2M2Y8AsgTpgAmY7PhCfg==",
+ "halfWayJoinRule": {
+  "RecommendStartGameNumber": 6,
+  "EnableHalfWayJoin": false,
+  "EnableHalfWayJoinEffectTime": true,
+  "HalfWayJoinEffectTime": 120,
+  "HalfWayJoinNumberLimit": true,
+  "HalfWayJoinNumber": 5,
+  "EnableHalfwaySubmitMatchStats": false
+ },
+ "SubDesc": "T_32_T_WS_ME_CUSTOM",
+ "notify_subscriber": false
+}

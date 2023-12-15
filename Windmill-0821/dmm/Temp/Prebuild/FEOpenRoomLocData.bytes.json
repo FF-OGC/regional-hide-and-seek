@@ -1,0 +1,459 @@
+{
+ "KeyList": [
+  {
+   "Key": "GAME_Para_BulletQuantity",
+   "LocList": [
+    {
+     "Lang": "UGCLANGUAGE_ENGLISH",
+     "Translation": "Bullet quantity"
+    },
+    {
+     "Lang": "UGCLANGUAGE_TRADITIONAL_CHINESE",
+     "Translation": "子彈數量"
+    },
+    {
+     "Lang": "UGCLANGUAGE_THAI",
+     "Translation": "ปริมาณกระสุน"
+    },
+    {
+     "Lang": "UGCLANGUAGE_VIETNAMESE",
+     "Translation": "Số lượng đạn"
+    },
+    {
+     "Lang": "UGCLANGUAGE_INDONESIA",
+     "Translation": "Jumlah peluru"
+    },
+    {
+     "Lang": "UGCLANGUAGE_BRAZILIAN_PORTUGUESE",
+     "Translation": "Quantidade de bala"
+    },
+    {
+     "Lang": "UGCLANGUAGE_SPANISH",
+     "Translation": "Cantidad de bala"
+    },
+    {
+     "Lang": "UGCLANGUAGE_RUSSIAN",
+     "Translation": "Количество пули"
+    },
+    {
+     "Lang": "UGCLANGUAGE_FRENCH",
+     "Translation": "Quantité de balles"
+    },
+    {
+     "Lang": "UGCLANGUAGE_GERMAN",
+     "Translation": "Kugel"
+    },
+    {
+     "Lang": "UGCLANGUAGE_TURKISH",
+     "Translation": "Mermi miktarı"
+    },
+    {
+     "Lang": "UGCLANGUAGE_HINDI",
+     "Translation": "बुलेट मात्रा"
+    },
+    {
+     "Lang": "UGCLANGUAGE_ROMANIAN",
+     "Translation": "Cantitatea glonțului"
+    },
+    {
+     "Lang": "UGCLANGUAGE_ARABIC",
+     "Translation": "كمية الرصاصة"
+    },
+    {
+     "Lang": "UGCLANGUAGE_BENGALI",
+     "Translation": "বুলেট পরিমাণ"
+    }
+   ]
+  },
+  {
+   "Key": "GAME_Para_HiderMaxHP",
+   "LocList": [
+    {
+     "Lang": "UGCLANGUAGE_ENGLISH",
+     "Translation": "Hider's Max HP"
+    },
+    {
+     "Lang": "UGCLANGUAGE_TRADITIONAL_CHINESE",
+     "Translation": "躲藏者的最大血量"
+    },
+    {
+     "Lang": "UGCLANGUAGE_THAI",
+     "Translation": "HID MAX HP ของ HIDER"
+    },
+    {
+     "Lang": "UGCLANGUAGE_VIETNAMESE",
+     "Translation": "Hider's Max HP"
+    },
+    {
+     "Lang": "UGCLANGUAGE_INDONESIA",
+     "Translation": "Max HP Hider"
+    },
+    {
+     "Lang": "UGCLANGUAGE_BRAZILIAN_PORTUGUESE",
+     "Translation": "Max HP de Hider"
+    },
+    {
+     "Lang": "UGCLANGUAGE_SPANISH",
+     "Translation": "Max HP de Hider"
+    },
+    {
+     "Lang": "UGCLANGUAGE_RUSSIAN",
+     "Translation": "Hider's Max HP"
+    },
+    {
+     "Lang": "UGCLANGUAGE_FRENCH",
+     "Translation": "Hider's Max HP"
+    },
+    {
+     "Lang": "UGCLANGUAGE_GERMAN",
+     "Translation": "Hiders Max HP"
+    },
+    {
+     "Lang": "UGCLANGUAGE_TURKISH",
+     "Translation": "Hider's Max HP"
+    },
+    {
+     "Lang": "UGCLANGUAGE_HINDI",
+     "Translation": "Hider's Max HP"
+    },
+    {
+     "Lang": "UGCLANGUAGE_ROMANIAN",
+     "Translation": "HIDER MAX HP"
+    },
+    {
+     "Lang": "UGCLANGUAGE_ARABIC",
+     "Translation": "Max HP's Hider"
+    },
+    {
+     "Lang": "UGCLANGUAGE_BENGALI",
+     "Translation": "হাইডারের সর্বোচ্চ এইচপি"
+    }
+   ]
+  },
+  {
+   "Key": "GAME_Para_SystemScanInterval",
+   "LocList": [
+    {
+     "Lang": "UGCLANGUAGE_ENGLISH",
+     "Translation": "System scan interval"
+    },
+    {
+     "Lang": "UGCLANGUAGE_TRADITIONAL_CHINESE",
+     "Translation": "系統掃描間隔"
+    },
+    {
+     "Lang": "UGCLANGUAGE_THAI",
+     "Translation": "ช่วงเวลาสแกนระบบ"
+    },
+    {
+     "Lang": "UGCLANGUAGE_VIETNAMESE",
+     "Translation": "Khoảng thời gian quét hệ thống"
+    },
+    {
+     "Lang": "UGCLANGUAGE_INDONESIA",
+     "Translation": "Interval pemindaian sistem"
+    },
+    {
+     "Lang": "UGCLANGUAGE_BRAZILIAN_PORTUGUESE",
+     "Translation": "Intervalo de varredura do sistema"
+    },
+    {
+     "Lang": "UGCLANGUAGE_SPANISH",
+     "Translation": "Intervalo de escaneo del sistema"
+    },
+    {
+     "Lang": "UGCLANGUAGE_RUSSIAN",
+     "Translation": "Интервал сканирования системы"
+    },
+    {
+     "Lang": "UGCLANGUAGE_FRENCH",
+     "Translation": "Intervalle de balayage du système"
+    },
+    {
+     "Lang": "UGCLANGUAGE_GERMAN",
+     "Translation": "Systemscan -Intervall"
+    },
+    {
+     "Lang": "UGCLANGUAGE_TURKISH",
+     "Translation": "Sistem tarama aralığı"
+    },
+    {
+     "Lang": "UGCLANGUAGE_HINDI",
+     "Translation": "तंत्र स्कैन अंतराल"
+    },
+    {
+     "Lang": "UGCLANGUAGE_ROMANIAN",
+     "Translation": "Interval de scanare a sistemului"
+    },
+    {
+     "Lang": "UGCLANGUAGE_ARABIC",
+     "Translation": "الفاصل الزمني لفحص النظام"
+    },
+    {
+     "Lang": "UGCLANGUAGE_BENGALI",
+     "Translation": "সিস্টেম স্ক্যান ব্যবধান"
+    }
+   ]
+  },
+  {
+   "Key": "GAME_Para_ScanSkillCD",
+   "LocList": [
+    {
+     "Lang": "UGCLANGUAGE_ENGLISH",
+     "Translation": "Scan skill cooldown(seconds)"
+    },
+    {
+     "Lang": "UGCLANGUAGE_TRADITIONAL_CHINESE",
+     "Translation": "掃描技能冷卻時間（秒）"
+    },
+    {
+     "Lang": "UGCLANGUAGE_THAI",
+     "Translation": "สแกนทักษะคูลดาวน์ (วินาที)"
+    },
+    {
+     "Lang": "UGCLANGUAGE_VIETNAMESE",
+     "Translation": "Thời gian hồi chiêu kỹ năng quét (giây)"
+    },
+    {
+     "Lang": "UGCLANGUAGE_INDONESIA",
+     "Translation": "COOLDOWN SCAN SHREAM COOLDOWN (detik)"
+    },
+    {
+     "Lang": "UGCLANGUAGE_BRAZILIAN_PORTUGUESE",
+     "Translation": "Skill Skill recarregada (segundos)"
+    },
+    {
+     "Lang": "UGCLANGUAGE_SPANISH",
+     "Translation": "Escaneo de habilidades de reiujo (segundos)"
+    },
+    {
+     "Lang": "UGCLANGUAGE_RUSSIAN",
+     "Translation": "Установка навыков сканирования (секунды)"
+    },
+    {
+     "Lang": "UGCLANGUAGE_FRENCH",
+     "Translation": "SCAN SCHIENS COLADONWOWN (SECONDES)"
+    },
+    {
+     "Lang": "UGCLANGUAGE_GERMAN",
+     "Translation": "Scan -Fähigkeitsabklingzeit (Sekunden)"
+    },
+    {
+     "Lang": "UGCLANGUAGE_TURKISH",
+     "Translation": "Scan Beceri bekleme süresi (saniye)"
+    },
+    {
+     "Lang": "UGCLANGUAGE_HINDI",
+     "Translation": "स्कैन स्किल कोल्डाउन (सेकंड)"
+    },
+    {
+     "Lang": "UGCLANGUAGE_ROMANIAN",
+     "Translation": "Scanarea de compensare a abilităților (secunde)"
+    },
+    {
+     "Lang": "UGCLANGUAGE_ARABIC",
+     "Translation": "مسح مهارة التباطؤ (ثواني)"
+    },
+    {
+     "Lang": "UGCLANGUAGE_BENGALI",
+     "Translation": "স্ক্যান দক্ষতা কোলডাউন (সেকেন্ড)"
+    }
+   ]
+  },
+  {
+   "Key": "GAME_Para_ScanSkillRechargeTiems",
+   "LocList": [
+    {
+     "Lang": "UGCLANGUAGE_ENGLISH",
+     "Translation": "Scan skill recharge times"
+    },
+    {
+     "Lang": "UGCLANGUAGE_TRADITIONAL_CHINESE",
+     "Translation": "掃描技能充能次數"
+    },
+    {
+     "Lang": "UGCLANGUAGE_THAI",
+     "Translation": "สแกน Skill Skill Times"
+    },
+    {
+     "Lang": "UGCLANGUAGE_VIETNAMESE",
+     "Translation": "Quét thời gian sạc lại"
+    },
+    {
+     "Lang": "UGCLANGUAGE_INDONESIA",
+     "Translation": "Memindai waktu pengisian keterampilan"
+    },
+    {
+     "Lang": "UGCLANGUAGE_BRAZILIAN_PORTUGUESE",
+     "Translation": "VENÇÃO DE RECARGA DE Habilidades de varredura"
+    },
+    {
+     "Lang": "UGCLANGUAGE_SPANISH",
+     "Translation": "Tiempos de recarga de habilidades de escaneo"
+    },
+    {
+     "Lang": "UGCLANGUAGE_RUSSIAN",
+     "Translation": "Время перезарядки сканирования"
+    },
+    {
+     "Lang": "UGCLANGUAGE_FRENCH",
+     "Translation": "Temps de recharge des compétences de numérisation"
+    },
+    {
+     "Lang": "UGCLANGUAGE_GERMAN",
+     "Translation": "SCAN -Fähigkeiten lädt die Zeiten ab"
+    },
+    {
+     "Lang": "UGCLANGUAGE_TURKISH",
+     "Translation": "Beceri Yeniden Şarj Süreleri Tarama"
+    },
+    {
+     "Lang": "UGCLANGUAGE_HINDI",
+     "Translation": "स्कैन कौशल पुनर्भरण समय"
+    },
+    {
+     "Lang": "UGCLANGUAGE_ROMANIAN",
+     "Translation": "Scanarea abilităților de reîncărcare a abilităților"
+    },
+    {
+     "Lang": "UGCLANGUAGE_ARABIC",
+     "Translation": "مسح مهارات إعادة شحن أوقات الشحن"
+    },
+    {
+     "Lang": "UGCLANGUAGE_BENGALI",
+     "Translation": "স্ক্যান দক্ষতা রিচার্জ সময়"
+    }
+   ]
+  },
+  {
+   "Key": "GAME_Para_ScanSkillRange",
+   "LocList": [
+    {
+     "Lang": "UGCLANGUAGE_ENGLISH",
+     "Translation": "Scan skill range"
+    },
+    {
+     "Lang": "UGCLANGUAGE_TRADITIONAL_CHINESE",
+     "Translation": "掃描技能範圍"
+    },
+    {
+     "Lang": "UGCLANGUAGE_THAI",
+     "Translation": "ช่วงทักษะการสแกน"
+    },
+    {
+     "Lang": "UGCLANGUAGE_VIETNAMESE",
+     "Translation": "Quét phạm vi kỹ năng"
+    },
+    {
+     "Lang": "UGCLANGUAGE_INDONESIA",
+     "Translation": "Pindai keterampilan"
+    },
+    {
+     "Lang": "UGCLANGUAGE_BRAZILIAN_PORTUGUESE",
+     "Translation": "Excesso de habilidade"
+    },
+    {
+     "Lang": "UGCLANGUAGE_SPANISH",
+     "Translation": "Gama de habilidades de escaneo"
+    },
+    {
+     "Lang": "UGCLANGUAGE_RUSSIAN",
+     "Translation": "Диапазон сканирования навыков"
+    },
+    {
+     "Lang": "UGCLANGUAGE_FRENCH",
+     "Translation": "Gamme de compétences de balayage"
+    },
+    {
+     "Lang": "UGCLANGUAGE_GERMAN",
+     "Translation": "Scan -Fähigkeitsbereich"
+    },
+    {
+     "Lang": "UGCLANGUAGE_TURKISH",
+     "Translation": "Beceri Aralığı Tarama"
+    },
+    {
+     "Lang": "UGCLANGUAGE_HINDI",
+     "Translation": "स्कैन कौशल सीमा"
+    },
+    {
+     "Lang": "UGCLANGUAGE_ROMANIAN",
+     "Translation": "Gama de abilități de scanare"
+    },
+    {
+     "Lang": "UGCLANGUAGE_ARABIC",
+     "Translation": "نطاق مهارة المسح الضوئي"
+    },
+    {
+     "Lang": "UGCLANGUAGE_BENGALI",
+     "Translation": "স্ক্যান দক্ষতার পরিসীমা"
+    }
+   ]
+  },
+  {
+   "Key": "GAME_Para_MarkedSlowDown",
+   "LocList": [
+    {
+     "Lang": "UGCLANGUAGE_ENGLISH",
+     "Translation": "Slowing effect when marked"
+    },
+    {
+     "Lang": "UGCLANGUAGE_TRADITIONAL_CHINESE",
+     "Translation": "被標記後的減速效果"
+    },
+    {
+     "Lang": "UGCLANGUAGE_THAI",
+     "Translation": "เอฟเฟกต์ชะลอตัวเมื่อทำเครื่องหมาย"
+    },
+    {
+     "Lang": "UGCLANGUAGE_VIETNAMESE",
+     "Translation": "Hiệu quả chậm lại khi được đánh dấu"
+    },
+    {
+     "Lang": "UGCLANGUAGE_INDONESIA",
+     "Translation": "Efek memperlambat saat ditandai"
+    },
+    {
+     "Lang": "UGCLANGUAGE_BRAZILIAN_PORTUGUESE",
+     "Translation": "Efeito de desaceleração quando marcado"
+    },
+    {
+     "Lang": "UGCLANGUAGE_SPANISH",
+     "Translation": "Efecto de desaceleración cuando se marca"
+    },
+    {
+     "Lang": "UGCLANGUAGE_RUSSIAN",
+     "Translation": "Замедление эффекта при отмечении"
+    },
+    {
+     "Lang": "UGCLANGUAGE_FRENCH",
+     "Translation": "Ralentissement de l'effet lorsqu'il est marqué"
+    },
+    {
+     "Lang": "UGCLANGUAGE_GERMAN",
+     "Translation": "Verlangsamungseffekt bei markiert"
+    },
+    {
+     "Lang": "UGCLANGUAGE_TURKISH",
+     "Translation": "İşaretlendiğinde yavaşlama etkisi"
+    },
+    {
+     "Lang": "UGCLANGUAGE_HINDI",
+     "Translation": "चिह्नित होने पर धीमा प्रभाव"
+    },
+    {
+     "Lang": "UGCLANGUAGE_ROMANIAN",
+     "Translation": "Încetinirea efectului atunci când este marcat"
+    },
+    {
+     "Lang": "UGCLANGUAGE_ARABIC",
+     "Translation": "تباطؤ التأثير عند وضع علامة عليه"
+    },
+    {
+     "Lang": "UGCLANGUAGE_BENGALI",
+     "Translation": "চিহ্নিত হলে ধীরগতির প্রভাব"
+    }
+   ]
+  }
+ ]
+}

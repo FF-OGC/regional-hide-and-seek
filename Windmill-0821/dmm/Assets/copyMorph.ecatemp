@@ -1,0 +1,51 @@
+
+{
+  "content":
+  {
+    "type": "e",
+    "id": "M8W5;WI#;|D_QO9]zt9w",
+    "extraState":
+    {
+      "X": 8,
+      "L": [1, 2, 3],
+      "T": "OnPlayerRoundScoreChange",
+      "OT": null
+    },
+    "fields":
+    {
+      "P1":
+      {
+        "name": "Triggering player",
+        "type": "Player"
+      },
+      "P2":
+      {
+        "name": "Score type",
+        "type": "ScoreType"
+      },
+      "P3":
+      {
+        "name": "Score",
+        "type": "Int"
+      }
+    },
+    "next":
+    {
+      "block":
+      {
+        "type": "a",
+        "id": "s(du7iYEzY6qyn6`.l^z",
+        "extraState":
+        {          
+          "L": [1,2],
+          "T": "CopyMorphObjectBySelf",
+          "OT": null
+        }
+       }
+    }
+  },
+  "name": "bbb",
+  "remarks": "",
+  "source": "customized",
+  "id": "af7d948d-88e6-46fb-945f-a80513bd6d50"
+}

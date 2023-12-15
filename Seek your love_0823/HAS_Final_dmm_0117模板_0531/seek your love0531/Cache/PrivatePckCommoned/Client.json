@@ -1,0 +1,10 @@
+{
+ "Name": "PrivatePckCommoned",
+ "UUID": "PrivatePckCommoned",
+ "ShareType": "Private",
+ "PackageType": "Custom",
+ "UseableType": "ClientOnly",
+ "Platform": "Any",
+ "Version": "1.0.0",
+ "DataFormatVersion": 1
+}

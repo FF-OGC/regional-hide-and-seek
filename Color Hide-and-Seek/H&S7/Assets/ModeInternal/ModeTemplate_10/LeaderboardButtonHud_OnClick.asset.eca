@@ -1,0 +1,142 @@
+
+{
+    "blocks" : {
+        "languageVersion" : 0,
+        "blocks"          : [
+            {
+                "sid" : 234788,
+                "type" : "e",
+                "id"   : "2100770922",
+                "extraState" : {
+                    "T" : "OnInternalHUDClick"
+                },
+                "fields"     : {
+                    "P1" : {
+                        "name" : "ButtonName",
+                        "type" : "String"
+                    }
+                },
+                "inputs"     : {
+                },
+                "next"       : {
+                    "block" : {
+                        "sid" : 234788,
+                        "type" : "ife",
+                        "id"   : "auto96237",
+                        "fields" : {
+                        },
+                        "inputs" : {
+                            "C" : {
+                                "block" : {
+                                    "sid" : 234788,
+                                    "type" : "opc",
+                                    "id"   : "2100910460",
+                                    "fields" : {
+                                        "O" : "GT"
+                                    },
+                                    "inputs" : {
+                                        "V1" : {
+                                            "block" : {
+                                                "sid" : 234788,
+                                                "type" : "glg",
+                                                "id"   : "2100374291",
+                                                "fields" : {
+                                                    "P" : "CurPhaseIndex:Global"
+                                                },
+                                                "inputs" : {
+                                                }
+                                            }
+                                        },
+                                        "V2" : {
+                                            "block" : {
+                                                "sid" : 234788,
+                                                "type" : "ipe",
+                                                "id"   : "2100424219",
+                                                "extraState" : 10009,
+                                                "fields"     : {
+                                                    "I" : "Loading"
+                                                },
+                                                "inputs"     : {
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            },
+                            "D" : {
+                                "block" : {
+                                    "sid" : 234788,
+                                    "type" : "exa",
+                                    "id"   : "602029885",
+                                    "extraState" : {
+                                        "name" : "OpenHud",
+                                        "returnType" : null,
+                                        "params"     : [
+                                            {
+                                                "name" : "player",
+                                                "id"   : "param71",
+                                                "type" : "Player"
+                                            }
+                                        ],
+                                        "graphId"    : "0839f5408df85ce49871f57bcb317c33"
+                                    },
+                                    "fields"     : {
+                                        "T" : "S"
+                                    },
+                                    "inputs"     : {
+                                        "param71" : {
+                                            "block" : {
+                                                "sid" : 234788,
+                                                "type" : "v",
+                                                "id"   : "602112892",
+                                                "extraState" : {
+                                                    "L" : [
+                                                        1
+                                                    ],
+                                                    "X" : 121
+                                                },
+                                                "fields"     : {
+                                                },
+                                                "inputs"     : {
+                                                    "P1" : {
+                                                        "block" : {
+                                                            "sid" : 234788,
+                                                            "type" : "ent",
+                                                            "id"   : "602790597",
+                                                            "fields" : {
+                                                            },
+                                                            "inputs" : {
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        "H"       : {
+                                            "block" : {
+                                                "sid" : 234788,
+                                                "type" : "v",
+                                                "id"   : "602084846",
+                                                "extraState" : {
+                                                    "L" : [
+                                                    ],
+                                                    "X" : 10007
+                                                },
+                                                "fields"     : {
+                                                },
+                                                "inputs"     : {
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        ]
+    },
+    "variables" : [
+    ]
+}

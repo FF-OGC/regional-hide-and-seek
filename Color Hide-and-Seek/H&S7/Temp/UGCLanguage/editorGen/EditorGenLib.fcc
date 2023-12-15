@@ -1,0 +1,1131 @@
+import "StdLibrary.fcc" as std
+
+
+
+
+// 扫描距离
+partial component Global {
+    // Hider阵营ID
+    Hider阵营ID int
+
+    // Seeker阵营ID
+    Seeker阵营ID int
+
+    // 搜寻者百分比
+    SeekerNum float
+
+    // 复活开关
+    ReviveSwitch bool
+
+    // Hider血量
+    Hider血量 int
+
+    // 普通玩家
+    Identity_Normal int
+
+    // 躲藏者
+    Identity_Hider int
+
+    // 搜寻者
+    Identity_Seeker int
+
+    // 次级搜寻者
+    Identity_SubSeeker int
+
+    // 变身CD
+    TransformCD float
+
+    // 分身CD
+    PhantomCD float
+
+    // 分身次数
+    PhantomNum int
+
+    // Seeker阵营得分
+    Seeker阵营得分 int
+
+    // Hider阵营得分
+    Hider阵营得分 int
+
+    // 最大血量 (Hider）
+    MaxHPHider int
+
+    // 最大EP(Hider）
+    MaxEPHider int
+
+    // 初始EP(Hider）
+    StartEPHider int
+
+    // 伤害比率(Hider）
+    DamageHider int
+
+    // 受伤比率(Hider）
+    DamagedHider int
+
+    // 移动速度 (Hider）
+    MoveSpeedHider float
+
+    // 跳跃高度  (Hider）
+    JumpHeightHider float
+
+    // 跳跃高度  (Seeker）
+    JumpHeightSeeker float
+
+    // 跳跃高度  (SubSeeker）
+    JumpHeightSubSeeker float
+
+    // 移动速度 (SubSeeker）
+    MoveSpeedSubSeeker float
+
+    // 移动速度 (Seeker）
+    MoveSpeedSeeker float
+
+    // 最大血量  (Seeker）
+    MaxHPSeeker int
+
+    // 最大血量  (SubSeeker）
+    MaxHPSubSeeker int
+
+    // 最大EP  (SubSeeker）
+    MaxEPSubSeeker int
+
+    // 最大EP (Seeker）
+    MaxEPSeeker int
+
+    // 初始EP (Seeker）
+    StartEPSeeker int
+
+    // 初始EP (SubSeeker）
+    StartEPSubSeeker int
+
+    // 伤害比率 (SubSeeker）
+    DamageSubSeeker int
+
+    // 伤害比率 (Seeker）
+    DamageSeeker int
+
+    // 受伤比率(Seeker）
+    DamagedSeeker int
+
+    // 受伤比率 (SubSeeker）
+    DamagedSubSeeker int
+
+    // 弹药限制 (SubSeeker）
+    AmmoLimitSubSeeker bool
+
+    // 弹药限制 (Seeker）
+    AmmoLimitSeeker bool
+
+    // fevertime人数
+    fevertimeNum int
+
+    // 分身受击次数
+    PhantomHPNum int
+
+    // hud
+    fevertimehud entity<CountdownReminderHud>
+
+    // 躲猫猫模板开关
+    MorphModeDisableTemplate bool
+
+    // 扫描CD
+    Global_6561932_custom float
+
+    // 扫描持续时间
+    Global_59517658_custom float
+
+    // 扫描距离
+    Global_38159513_custom float
+
+    // 心跳更新帧数
+    Global_18519912_custom int
+
+}
+
+// undefined
+partial component Player {
+    // Hider是否可复活
+    CanRevive bool
+
+    // 当前瞄准的实体
+    AimedEntity entity<Entity>
+
+    // 躲猫猫阵营ID
+    PlayerFaction int
+
+}
+
+// 技能按钮HUD实体
+partial component SkillButtonHud {
+    // 是否锁住
+    Locked bool
+
+}
+
+// 出生点
+partial component SpawnPos {
+    // 出生点类型（0表示Hider,1表示Seeker）
+    Type int
+
+}
+
+// undefined
+partial component SpawnBox {
+    // 已出生玩家数量
+    SpawnPlayerCount int
+
+}
+
+// 伪装实体
+partial component MorphObject {
+    // 类型（0表示变身，1表示分身）
+    MorphType int
+
+    // 受击次数
+    HitCount int
+
+}
+
+// undefined
+partial component ChooseCardHud {
+}
+
+// undefined
+partial component LevelObject {
+}
+
+// undefined
+partial component Weapon {
+}
+
+// undefined
+partial component Round {
+}
+
+// undefined
+partial component LeaderboardButtonHud {
+}
+
+// undefined
+partial component SingleLeaderboardHud {
+}
+
+
+
+
+// Assets\ModeInternal\ModeTemplate_10\Cat_MatchResultConfig.asset.eca
+declare graph _8733b8addb3a39f418d82f39998dce28 {
+}
+
+// Assets\ModeInternal\ModeTemplate_10\Cat_UI_MatchInfoSubTitleHud.asset.eca
+declare graph _38212d6432bfd2a4e94070ce1ec7d6c7 {
+    // 回合显示实体
+    var39 entity<MatchInfoSubTitleHud>
+
+}
+
+// Assets\ModeInternal\ModeTemplate_10\Cat_UI_TwoTeamInfoHud.asset.eca
+declare graph _43636a8c58354924fa541099d90a3161 {
+    // 阵营信息Hud
+    var34 entity<TwoTeamMatchInfoSimpleHud>
+
+    // Hider阵营人数
+    var21 int
+
+    // Seeker阵营人数
+    var31 int
+
+    // 刷新阵营人数()
+    func _36 () 
+
+    // 刷新阵营比分()
+    func _1050191541 () 
+
+    // 创建队伍比分信息展示界面()
+    func _1660069314 () 
+
+    // 读取阵营人数()
+    func _250363553 () 
+
+    // 获取活着的阵营人数(阵营实体 Faction)
+    func _1811829521 (param0 entity<Faction>) int
+
+}
+
+// Assets\ModeInternal\ModeTemplate_10\ChooseCampWatingHud.asset.eca
+declare graph d2cfd95421c0a124281613918241a84f {
+    // 随机倒计时提示HUD
+    var47 entity<CountdownReminderHud>
+
+    // modifyTime(计时提示界面 CountdownReminderHud, 时间 Int)
+    func _718497101 (param0 entity<CountdownReminderHud>, param1 int) 
+
+}
+
+// Assets\ModeInternal\ModeTemplate_10\CommonHudSwitchHud.asset.eca
+declare graph _19dd0c52571d53b4fb0d625c1dca24d1 {
+    // CommonHudSwitchHudList
+    var21_ List<entity<Entity>>
+
+}
+
+// Assets\ModeInternal\ModeTemplate_10\DataLog_Global.asset.eca
+declare graph _52b7116d49be4c346b4c16d729551b97 {
+    // hider_member_cnt
+    var2 int
+
+    // seeker_member_cnt
+    var22 int
+
+    // winner
+    var43 int
+
+    // LastwinFaction
+    var77 entity<Faction>
+
+    // 回合开始时间
+    var98 int
+
+    // 回合结束时间
+    var66 int
+
+    // round_duration
+    var27 int
+
+    // 获取活着的阵营人数(阵营实体 Faction)
+    func _1845915827 (param0 entity<Faction>) int
+
+}
+
+// Assets\ModeInternal\ModeTemplate_10\DataLog_Player.asset.eca
+declare graph _96c130a15c038b64caa039ff3deb887b {
+    // faction
+    var2_ int
+
+    // is_faction_win
+    var22_ bool
+
+    // 死亡位置
+    var43_ DirectedPoint
+
+    // death_pos_x
+    var77_ float
+
+    // death_pos_y
+    var5 float
+
+    // death_pos_z
+    var95 float
+
+}
+
+// Assets\ModeInternal\ModeTemplate_10\ErectionSkillButtonHud.asset.eca
+declare graph _736d7d39154ab76499ae8f148d4a3fae {
+    // ErectionSkillButtonHudList
+    var92 List<entity<Entity>>
+
+    // ErectionEntityList
+    var88 List<entity<Entity>>
+
+    // 添加分身(entity LevelObject)
+    func _1245978771 (param0 entity<LevelObject>) 
+
+    // 删除分身(targetEntity LevelObject)
+    func _1245818051 (param0 entity<LevelObject>) 
+
+    // 删除所有分身()
+    func _1246403219 () 
+
+    // 分身技能按钮变灰(grey Bool, player Player)
+    func _565240413 (param0 bool, param1 entity<Player>) 
+
+    // 获取分身技能HUD实体(player Player)
+    func _162943927 (param0 entity<Player>) entity<SkillButtonHud>
+
+}
+
+// Assets\ModeInternal\ModeTemplate_10\ErectionSkillButtonHud_OnClick.asset.eca
+declare graph _54a450598790f7746b7df0d2543f750e {
+}
+
+// Assets\ModeInternal\ModeTemplate_10\FiveSecondCountDownHud.asset.eca
+declare graph _1a70118356204354bbac8124ddc8da62 {
+}
+
+// Assets\ModeInternal\ModeTemplate_10\Global_MatchResultConfig_GP.asset.eca
+declare graph _06ac26df0aebad947a2a0e7355555005 {
+}
+
+// Assets\ModeInternal\ModeTemplate_10\Global__GP.asset.eca
+declare graph _3746b917f8e19764c8ee397d528cd04f {
+    // 随机得到的玩家索引
+    var87 List<int>
+
+    // 每回合被选中的Seeker玩家列表
+    var99 List<entity<Player>>
+
+    // 每回合变身Seeker数量
+    var26 int
+
+    // 阵营实体Hider
+    var81 entity<Faction>
+
+    // 阵营实体Seeker
+    var995 entity<Faction>
+
+    // Hider阵营玩家列表
+    var50 List<entity<Player>>
+
+    // Hider初始形象
+    var46 int
+
+    // 当前阶段
+    var47_ entity<Phase>
+
+    // 参数倍率
+    var662 int
+
+    // 音效组件
+    var63 entity<PresentSound>
+
+    // 音效列表
+    var88_ List<entity<PresentSound>>
+
+    // 特效列表
+    var41 List<entity<Entity>>
+
+    // 获取当前玩家数量()
+    func _1573615550 () int
+
+    // 从中随机多个不同的整数(最小值 Int, 最大值 Int, 随机出的数量 Int)
+    func _1573499725 (param0 int, param1 int, param2 int) List<int>
+
+    // 列表是否包含(列表 List, 具体内容 any)
+    func _1573891086 (param0 List<object>, param1 object) bool
+
+    // 获取当前阵营成员数(阵营ID Int)
+    func _1903955104 (param0 int) int
+
+}
+
+// Assets\ModeInternal\ModeTemplate_10\HUD_SeekerScoreTips.asset.eca
+declare graph _765c4fdae5f3a9d4a8f76d20e48658f2 {
+    // ShowScoreTips(player Player, labelKey String, labelParams List)
+    func _61825861 (param0 entity<Player>, param1 string, param2 List<object>) 
+
+}
+
+// Assets\ModeInternal\ModeTemplate_10\IconNotification_GP.asset.eca
+declare graph _81b0de7aee4c0f14984f1ec57f5c7e89 {
+    // 图片提示信息图标
+    var71 entity<IconNotificationHud>
+
+    // 显示击杀图标()
+    func _1164268179 () 
+
+    // 显示助攻图标()
+    func _1164961456 () 
+
+    // 显示Seeker图标()
+    func _1164221508 () 
+
+}
+
+// Assets\ModeInternal\ModeTemplate_10\IdentityNotifyHud.asset.eca
+declare graph _36642fddb43b4a6408f39da74816cd55 {
+    // ShowIdentityNotifyHud(player Player)
+    func _482296169 (param0 entity<Player>) 
+
+    // ShowHud(player Player, text String, icon String, bgColor Color)
+    func _1663277764 (param0 entity<Player>, param1 string, param2 string, param3 Color) 
+
+    // ShowFeverTime(player Player)
+    func _682175107 (param0 entity<Player>) 
+
+    // 创建音效(玩家 Player, 音效枚举 AudioType)
+    func _610117563 (param0 entity<Player>, param1 AudioType) 
+
+}
+
+// Assets\ModeInternal\ModeTemplate_10\LeaderboardButtonHud.asset.eca
+declare graph a6cddc1f0c12a944aa0dbeb2cf5b87bc {
+    // LeaderboardButtonHudList
+    var78 List<object>
+
+}
+
+// Assets\ModeInternal\ModeTemplate_10\LeaderboardButtonHud_OnClick.asset.eca
+declare graph _4f759d629282ba447aa3a2518cb5957e {
+}
+
+// Assets\ModeInternal\ModeTemplate_10\LockSkillButtonHud.asset.eca
+declare graph _5eddf6c38bce0cf4d9c8636cb0734712 {
+    // LockSkillButtonHudList
+    var99_ List<entity<Entity>>
+
+    // GetLockedState(player Player)
+    func _565891227 (param0 entity<Player>) bool
+
+}
+
+// Assets\ModeInternal\ModeTemplate_10\LockSkillButtonHud_OnClick.asset.eca
+declare graph fff7f591ea4ed654a8ab588285bdd6d0 {
+    // curAimEntity
+    var73 entity<Entity>
+
+    // angle
+    var68 float
+
+}
+
+// Assets\ModeInternal\ModeTemplate_10\MatchResultHud.asset.eca
+declare graph bb6a6c1e32d92e14380197a6e40a9ab8 {
+    // MatchResultHud
+    var29 entity<ResultBannerHud>
+
+    // 创建结算界面(胜负结果 Int)
+    func _2085465612 (param0 int) 
+
+}
+
+// Assets\ModeInternal\ModeTemplate_10\MorphObject.asset.eca
+declare graph _743e19ba45e615f46bf7b4235ceb5305 {
+    // var75
+    var75 int
+
+    // tag
+    var66_ string
+
+}
+
+// Assets\ModeInternal\ModeTemplate_10\MorphSkillButtonHud.asset.eca
+declare graph _6d211b01eb7b1314d82755a678b28af6 {
+    // MorphSkillButonHudList
+    var56 List<entity<Entity>>
+
+}
+
+// Assets\ModeInternal\ModeTemplate_10\MorphSkillButtonHud_OnClick.asset.eca
+declare graph _54fc3513f83b0f5448fb67490a5e8d0a {
+    // 创建音效(玩家 Player, 音效枚举 AudioType)
+    func _943356888 (param0 entity<Player>, param1 AudioType) 
+
+}
+
+// Assets\ModeInternal\ModeTemplate_10\OpeningBannerHud.asset.eca
+declare graph _82f2666a090df37499d13206b44860ad {
+}
+
+// Assets\ModeInternal\ModeTemplate_10\PhaseCountDownHud.asset.eca
+declare graph d8006aedf74188d48b2803700e7125b2 {
+    // HudEntity
+    var89 entity<PhaseCountDownHud>
+
+}
+
+// Assets\ModeInternal\ModeTemplate_10\Player.asset.eca
+declare graph _3a27ca9677194704294f36e13270af13 {
+}
+
+// Assets\ModeInternal\ModeTemplate_10\Player_Effect.asset.eca
+declare graph _235ecfe1be542fb49bd980c2e3af5fb5 {
+    // DeathEffect
+    vJrn4cbiU object
+
+    // 播放1P玩家特效(通知玩家 Player, 资源路径 String, 显示位置 Vector3, 持续时间毫秒 Int, 跟随目标 Entity, 缩放 Float, 颜色 Color)
+    func _898895356 (param0 entity<Player>, param1 string, param2 Vector3, param3 int, param4 entity<Entity>, param5 float, param6 Color) 
+
+    // 播放3P玩家特效(资源路径 String, 显示位置 Vector3, 持续时间毫秒 Int, 跟随目标 Entity, 缩放 Float, 颜色 Color)
+    func _899179978 (param0 string, param1 Vector3, param2 int, param3 entity<Entity>, param4 float, param5 Color) 
+
+    // 播放分身特效()
+    func _898855433 () 
+
+    // 播放变身特效()
+    func _898766008 () 
+
+    // 播放被击杀特效()
+    func _899178618 () 
+
+    // 播放分身被击杀特效(跟随实体 MorphObject)
+    func _899337575 (param0 entity<MorphObject>) 
+
+    // 播放暴走特效()
+    func _899011732 () 
+
+    // 播放音效(通知的玩家 Player, 音效枚举 AudioType, 持续毫秒 Int, 跟随目标 Entity)
+    func _565443518 (param0 entity<Player>, param1 AudioType, param2 int, param3 entity<Entity>) 
+
+}
+
+// Assets\ModeInternal\ModeTemplate_10\Player_Score_GP.asset.eca
+declare graph f1ae4805116c3134180d7b0e37bd9b1e {
+    // Hider累计存活值
+    var52 int
+
+    // Seeker击杀数
+    var64 int
+
+    // Seeker助攻数
+    var34_ int
+
+    // Hider存活结算间隔
+    var58 int
+
+    // Hider存活单次加分
+    var56_ int
+
+    // Timesign
+    var89_ int
+
+    // LoopSign
+    var80 bool
+
+    // 设置玩家总积分()
+    func _12860269 () 
+
+    // 设置玩家生存时长()
+    func _1255447596 () 
+
+    // HiderScoreTips(Hider Player, TipsKey String, TipsParams List)
+    func _325136164 (param0 entity<Player>, param1 string, param2 List<object>) 
+
+}
+
+// Assets\ModeInternal\ModeTemplate_10\Playe_Hider_GP.asset.eca
+declare graph _1843bc7ef3e273b4bb6141c677ef1983 {
+    // 是否是自己死亡
+    var68_ bool
+
+    // Hider伤害百分比
+    var43_ float
+
+    // 当前玩家是否是Hider阵营()
+    func _117 () bool
+
+}
+
+// Assets\ModeInternal\ModeTemplate_10\RoundScoreHud.asset.eca
+declare graph f3c1d9add5c67b544bce765afd45e30d {
+    // RoundScoreHudList
+    var50_ entity<RoundNumHud>
+
+}
+
+// Assets\ModeInternal\ModeTemplate_10\SceneTag.asset.eca
+declare graph _33c70659680d5954986b99bc28ee4bc7 {
+    // itemid
+    var60 int
+
+    // Highlight_tag
+    var96 string
+
+    // 可高亮物件列表
+    var73_ List<int>
+
+}
+
+// Assets\ModeInternal\ModeTemplate_10\SingleLeaderboardHud.asset.eca
+declare graph _0839f5408df85ce49871f57bcb317c33 {
+    // LeaderboardHudList
+    var42 List<entity<Entity>>
+
+    // OpenHud(player Player)
+    func _602020836 (param0 entity<Player>) 
+
+}
+
+// Assets\ModeInternal\ModeTemplate_10\SingleLeaderboardHud_OnClickClose.asset.eca
+declare graph _442c7814f28d24745bcfd4fd8d2f2f42 {
+}
+
+// Assets\ModeInternal\ModeTemplate_10\SpawnPosWithDynamicColliderGraph.asset.eca
+declare graph _4abfe143d9f7de74c85313bb5f693f14 {
+    // DefaultSpawnPosition
+    var61 Vector3
+
+    // 获取玩家出生点(player Player)
+    func _1413368238 (param0 entity<Player>) entity<SpawnBox>
+
+    // 设置出生点类型()
+    func _1562278053 () 
+
+}
+
+// Assets\ModeInternal\ModeTemplate_10\SwitchCampHud.asset.eca
+declare graph _1aba92b2acd0dfd4780734b38fc6874f {
+    // 玩家变身物件
+    var86 entity<MorphObject>
+
+    // death_item_id
+    var30 int
+
+    // ExitPlayerList
+    vaOxZrE7Q List<entity<Player>>
+
+    // ShowSwitchCampHud(player Player)
+    func _1754177447 (param0 entity<Player>) 
+
+}
+
+// Assets\ModeInternal\ModeTemplate_10\SwitchCampHud_OnClick.asset.eca
+declare graph _690b5df3af5a9d44b8839895675dbed3 {
+    // 切换到Seeker阵营(player Player)
+    func _262369160 (param0 entity<Player>) 
+
+}
+
+// Assets\ModeInternal\ModeTemplate_10\TitleBannerHud.asset.eca
+declare graph _63f51ec2e198cd84aaf28787079447e6 {
+}
+
+// Assets\ModeInternal\ModeTemplate_10\TweenTipsHud.asset.eca
+declare graph _69335179e0d55d943b942d06ec7b594d {
+    // TweenTipsHudList
+    var30_ List<entity<Entity>>
+
+    // ShowTips(player Player, content String)
+    func _245785044 (param0 entity<Player>, param1 string) 
+
+}
+
+// Assets\ModeInternal\ModeTemplate_10\UI_WinLoseHud_GP.asset.eca
+declare graph e35e749da6b46d74894549d0b6f6a682 {
+    // 回合切换展示Hud
+    var86_ entity<RoundTransitionHud>
+
+    // 结算结果
+    var71_ int
+
+    // LastwinFaction
+    var39_ entity<Faction>
+
+    // 创建回合结束展示实体()
+    func _1216480629 () 
+
+    // 获取MVP玩家()
+    func _1725842639 () string
+
+}
+
+// Assets\ModeInternal\ModeTemplate_10\WaitingCountDownHud.asset.eca
+declare graph _963c393cd7fbf9d42a78b563ffe635b2 {
+    // fevertime提示HUD
+    var47_ entity<CountdownReminderHud>
+
+    // fevertime提示HUD2
+    var62 entity<CountdownReminderHud>
+
+    // modifyTime(计时提示界面 CountdownReminderHud, 时间 Int)
+    func _718497101_ (param0 entity<CountdownReminderHud>, param1 int) 
+
+    // 获取活着的阵营人数(阵营实体 Faction)
+    func _1845915827_ (param0 entity<Faction>) int
+
+    // InitHud()
+    func _880237458 () 
+
+}
+
+// Assets\ModeInternal\ModeTemplate_10\WaitingCountDown_Hud.asset.eca
+declare graph bc9d10d05703c6c43bad5cc3f610d260 {
+    // 回合数
+    var39_ int
+
+    // modifyTime(计时提示界面 CountdownReminderHud, 时间 Int)
+    func _607215227 (param0 entity<CountdownReminderHud>, param1 int) 
+
+    // 获取活着的阵营人数(阵营实体 Faction)
+    func _607634386 (param0 entity<Faction>) int
+
+    // InitHud()
+    func _607277166 () 
+
+}
+
+// Assets\ModeInternal\ModeTemplate_10\Weapon.asset.eca
+declare graph _96a2091ea5dcb3549856ef4f6bee58f8 {
+    // ShowFindHider(seeker Player)
+    func _1663537229 (param0 entity<Player>) 
+
+}
+
+// Assets\ModeInternal\ModeTemplate_10\WinOrLose.asset.eca
+declare graph e7b92b515985ab149a0e6f84492ee81d {
+    // LastwinFaction
+    var24 entity<Faction>
+
+    // OpenRoundResultHud(player Player)
+    func _1577528134 (param0 entity<Player>) 
+
+}
+
+// Assets\ECA\Heart.eca
+declare graph _25e12ec5_3234_4073_a101_92338495f9d7 {
+    // HeartBeatIndex
+    vkXgtI4ou object
+
+    // HiderList
+    vbnlIYxxg object
+
+    // SeekerList
+    vGDvCjAxQ object
+
+    // UpdateCountFFFF
+    vXtSILiRi object
+
+    // UpdateCount
+    vpkSEBj5F int
+
+    // HeartUIList
+    vMB03sfZU object
+
+    // UI_HeartBeat(player Player, width Int, height Int, beatType Int)
+    func AP_PpXpMK2_T_Z_ZhZPS (param0 entity<Player>, param1 int, param2 int, param3 int) 
+
+    // ClearPlayerHeartUI(Player Player)
+    func BfBOf1__kn5_ec_y_C__ (param0 entity<Player>) 
+
+}
+
+// Assets\ECA\Skill_ScanHud.eca
+declare graph d6777c8a_5e81_4c6e_923e_04a1d11a77ad {
+    // Skill_ScanHudList
+    virHrOx1A List<entity<Entity>>
+
+}
+
+// Assets\ECA\Skill_ScanHud_OnClick.eca
+declare graph d00f614c_c41b_4dfd_829b_446210da1836 {
+    // 创建音效(玩家 Player, 音效枚举 AudioType)
+    func _943356888_ (param0 entity<Player>, param1 AudioType) 
+
+    // CreateIconForPlayer(Player Player)
+    func Qfkes3P_B_BmQx6OO__L (param0 entity<Player>) 
+
+    // CreateEffectFollowPlayer(FollowPlayer Player, Duration Int)
+    func Afpq_T___N_n__9sx_3B (param0 entity<Player>, param1 int) 
+
+}
+
+// Assets\ECA\Buff_Entity.eca
+declare graph _1da11815_60c9_470e_b200_7c53f62b7274 {
+    // buffAvailable
+    vspZ2DeXI bool
+
+    // buffIcon
+    vS5BvC25g entity<PresentIcon>
+
+    // effectEntity1
+    v0TQD4JNq entity<PresentEffect>
+
+    // effectEntity2
+    vkrUrcZzM entity<PresentEffect>
+
+    // deleteBuff()
+    func v_jde_t_8gk___LwYW3_ () 
+
+}
+
+// Assets\ECA\Buff_Controller.eca
+declare graph _23f8ca6c_6213_44d3_8c19_021127af625e {
+    // buff_Entity_List
+    va5F9uvi9 List<object>
+
+    // NumberOfBuff
+    vGmHqRo3c int
+
+    // speedBuffTimeList
+    vMMr3n9DP List<int>
+
+    // buffUIList
+    vZcXEEKmt List<object>
+
+    // HPBuffLevelList
+    vkmLLxURU List<int>
+
+    // DamageBuffLevelList
+    vJuwDoih0 List<int>
+
+    // ignoreWallBuffTimeList
+    vnvAo4p25 List<int>
+
+    // detectionBuffTimeList
+    vGWbGvYG0 List<int>
+
+    // buffSpwanTime
+    vsghwOaZf int
+
+    // playerList
+    vjg8srJvc List<entity<Player>>
+
+    // ExitPlayerList
+    voM4RxSmh List<entity<Player>>
+
+    // Buff_Initialization()
+    func et__6Eu_Ky5___qu_p_H () 
+
+    // PlayerPickUpBuff(Player Player)
+    func _ub_FqdpZ_D6c3C_X6Xz (param0 entity<Player>) 
+
+    // addSpeedBuffToPlayer(Player Player)
+    func Jp__49_2p_w9pE5L_Lp_ (param0 entity<Player>) 
+
+    // applySpeedBuffLogic(Player Player)
+    func X__Yi2g7qQQ_ZaQ_FNUj (param0 entity<Player>) 
+
+    // pickUpBuffEffect(Player Player)
+    func _uVqi3_Q7_NXW_PK0__Z (param0 entity<Player>) 
+
+    // addHpBuffToPlayer(Player Player)
+    func CZzZh_6X_S_9xF_CA_G_ (param0 entity<Player>) 
+
+    // addDamageBuffToPlayer(Player Player)
+    func Yt5Szek78TT8qSR___h_ (param0 entity<Player>) 
+
+    // addIgnoreWallBuffToPlayer(Player Player)
+    func A__7_Cb6_IKF8dOvb__b (param0 entity<Player>) 
+
+    // applyIgnoreWallBuffLogic(Player Player)
+    func O_gk3uvec_5__E__wn_c (param0 entity<Player>) 
+
+    // addDetectionBuffToPlayer(Player Player)
+    func T____au_3MaD_LLeCW_8 (param0 entity<Player>) 
+
+    // applyDetectionBuffLogic(Player Player)
+    func v1_T6r_s_Ua_Ly_72iH2 (param0 entity<Player>) 
+
+    // createDetectionAreaEffect(player Player, findHider Bool, range Float)
+    func K__L_e2n__UkeAI_xV0c (param0 entity<Player>, param1 bool, param2 float) 
+
+    // DisplayBuffUI()
+    func _HxJ_V_n6_Q3PYdP_gid () 
+
+    // playerListInit()
+    func l_G_4v_d0__oUe2_a_0P () 
+
+    // ClearPlayerBuff(player Player)
+    func Ymrqh4cnX_Y9_c_W_n_u (param0 entity<Player>) 
+
+    // CreatePlayerBuffUI(Player Player)
+    func FQR4O4l____AL1_X_09b (param0 entity<Player>) 
+
+}
+
+// Assets\ECA\Tips_Controller.eca
+declare graph aaabd720_f207_43a5_baaf_42ea89538e88 {
+    // playerList
+    vs2mfc8TF List<entity<Player>>
+
+    // tipUIList
+    vWOT42dEi List<object>
+
+    // timeList
+    v9itFMw2c List<int>
+
+    // textList
+    vT7vmbR7Y List<string>
+
+    // textKeyList
+    vSJjZA2yU object
+
+    // showTips(player Player, text String)
+    func Gt9O____PSLoDaaA2K1_ (param0 entity<Player>, param1 string) 
+
+    // tipsRuntime(player Player)
+    func ugtw4E2_iX1BQN____yW (param0 entity<Player>) 
+
+    // showTips2(player Player, text LocString, time Int)
+    func WR__h_VjzuS9T2i6_4Sa (param0 entity<Player>, param1 LocString, param2 int) 
+
+}
+
+// Assets\ECA\PlayerScript_BlockUIManager.eca
+declare graph d31055ee_89ea_4e65_b890_f3578e5b03b9 {
+    // BlockLobbyUI
+    vZYI534RV object
+
+    // OpenBlockUI(player Player)
+    func _9nMg1_6O_JP_Q__k3l_G (param0 entity<Player>) 
+
+    // CloseBlockUI(player Player)
+    func id_PxJBjojptZjTxk_pM (param0 entity<Player>) 
+
+}
+
+// Assets\ECA\Others.eca
+declare graph _545ae464_cbdb_4a7b_ada6_769a42b295f1 {
+}
+
+// Assets\ModeInternal\ModeTemplate_10\FreeCameraHUD.eca
+declare graph _14402e6c_d8c1_4a91_8bb8_e905d40c34c0 {
+    // FreeCameraHudList
+    var99_ List<entity<Entity>>
+
+    // FreeCameraEntityList
+    vAPEm38BA List<entity<Entity>>
+
+    // GetCameraState(player Player)
+    func _565891227_ (param0 entity<Player>) bool
+
+}
+
+// Assets\ModeInternal\ModeTemplate_10\FreeCameraHUD_OnClick.eca
+declare graph cdde2529_04e4_4d7f_a811_e05d2c1efd77 {
+    // curAimEntity
+    var73_ entity<Entity>
+
+    // angle
+    var68_ float
+
+}
+
+// Assets\ModeInternal\ModeTemplate_10\LeftButtonHud_OnClick.asset.eca
+declare graph e9963eae_d159_4d0d_b7bf_89011d581564 {
+    // curAimEntity
+    var73_ entity<Entity>
+
+    // angle
+    var68_ float
+
+}
+
+// Assets\ModeInternal\ModeTemplate_10\LeftButtonHud.asset.eca
+declare graph _1aec8e76_0a55_4108_8dac_18d1c66f3620 {
+    // LeftSkillButtonHudList
+    var99_ List<entity<Entity>>
+
+    // GetLockedState(player Player)
+    func _565891227_ (param0 entity<Player>) bool
+
+}
+
+// Assets\ECA\Old-RankManager.eca
+declare graph e215a893_63ac_45bd_87e4_0178b173b5aa {
+    // PlayerKillData
+    vp9ns3UcX Map<object, object>
+
+    // PlayerWinData
+    v4eLRnGtb Map<object, object>
+
+    // 所有玩家
+    vw4ckoJ9w List<entity<Player>>
+
+    // 服务器记录时间
+    vkawx1vJq int
+
+    // AddWinRank(player Player)
+    func _wLQlU__sH_KjIZz_Y4V (param0 entity<Player>) 
+
+    // AddKillRank(player Player)
+    func _1VzB_QPYp_9_0__EI__H (param0 entity<Player>) 
+
+    // PrintRankList()
+    func Y_O1jzAPMj_eSB6h___B () 
+
+    // 检查清理排行榜()
+    func __I_YAu__jN_Pz_e2kV_ () 
+
+    // 写入玩家排行数据(玩家0 Player)
+    func rId_ux___kQRH___L_7_ (param0 entity<Player>) 
+
+}
+
+// Assets\ECA\RankBtn.eca
+declare graph _709111eb_e046_4160_82b5_8dcf1ed09cdc {
+    // 排行榜HUD
+    vml6SwzMY entity<CustomHud>
+
+}
+
+// Assets\ECA\RankingHUD.eca
+declare graph _1b877eab_e6c8_4113_96d1_dad59ef4a634 {
+    // 表格显示胜利数据()
+    func qOaP_qi____HfcSR5_yx () 
+
+    // 表格显示击杀数据()
+    func HS__H_D_F__e04_ts_i_ () 
+
+    // 刷入数据(排行榜拉取数据表 ListT_any)
+    func _3_YR_pee_Z3nL_Aa_2__ (param0 List<object>) 
+
+}
+
+// Assets\ECA\TokenManager.eca
+declare graph _993398d2_5e9e_4bd1_b55b_ece2684db289 {
+    // 玩家Token字典
+    vJMeoJgez Map<object, object>
+
+    // 此回合击杀数字典
+    v8rcY35fG Map<object, object>
+
+    // 存活时间
+    vlktnJQII Map<object, object>
+
+    // 临时变量1
+    vqGECWxW1 int
+
+    // 显示Token获得(玩家 Player, 提示 String, 数量 String)
+    func _L_CVJr_D__V2PS4_xPi (param0 entity<Player>, param1 string, param2 string) 
+
+}
+
+// Assets\ECA\SecretDebugger.eca
+declare graph e31b7b3d_f321_4925_8173_76ac556ec762 {
+}
+
+// Assets\ECA\DebuggerUI.eca
+declare graph _77af5702_705f_43e5_9ab2_9ef8873c3bb3 {
+}
+
+// Assets\ECA\HidePlayerUI.eca
+declare graph _7eb07f8c_2660_4539_bf3b_dbcd11edb015 {
+}
+
+// Assets\ECA\Hiding倒计时.eca
+declare graph _3063457f_bb67_4ba4_84a5_e1e6af287d1d {
+    // 倒数(玩家 Player)
+    func _____EXPIR0a3_fOi1QX (param0 entity<Player>) 
+
+}
+
+// Assets\ECA\RankMN.eca
+declare graph f1d894fb_5a01_4352_a0d1_d562a3063119 {
+    // 拉取排行榜win结果
+    vHgc1LNiV List<object>
+
+    // 拉取排行榜kill结果
+    vDYgztWc1 List<object>
+
+    // 局内玩家kill字典
+    vTCnHFvMn Map<object, object>
+
+    // 局内玩家win字典
+    vLwpuGFNJ Map<object, object>
+
+    // 对局当前日期戳
+    vGiKRuY36 int
+
+    // 拉取玩家数据字典
+    vFnfozAoE Map<object, object>
+
+    // UID对昵称字典
+    vu4n9195R Map<object, object>
+
+    // 更新玩家数据库数据(玩家 Player, 写入时日期戳 Int)
+    func cj4qhOezm_VnKG_zjZgg (param0 entity<Player>, param1 int) 
+
+    // 清除异位排行榜数据(写入时日期戳 Int)
+    func MvBAmeum_X_ajkFoXc14 (param0 int) 
+
+    // 获取服务器当前日期戳()
+    func q_K_jSR6_2qXMqN_L7V7 () int
+
+    // 判断奇数A榜日(日期戳 Int)
+    func _6_O9yl_pJ7IMO__m_F2P (param0 int) bool
+
+    // 上传玩家数据到排行榜(玩家 Player, kill数 Int, win数 Int, 日期戳 Int)
+    func _6J___W_WiubdpU_v_epu (param0 entity<Player>, param1 int, param2 int, param3 int) 
+
+}
+

@@ -1,0 +1,60 @@
+{
+ "Name": "ColliderCommon_grgEHl6X",
+ "UUID": "ColliderCommon_grgEHl6X",
+ "ShareType": "Private",
+ "PackageType": "Custom",
+ "UseableType": "ClientServer",
+ "Platform": "Any",
+ "Version": "1.0.0",
+ "DataFormatVersion": 1,
+ "ResourceList": [
+  {
+   "UUID": "8dd77cc3-f774-4d5b-9898-98229d37b848-cH3jXo51-collider",
+   "Type": "Collider",
+   "Path": "Assets\\Scene\\Valentines_Park.scene",
+   "Data": "Gj4IABIPDQAAAAAVAAAAAB0AAAAAGg8NAADcQRUAAHBBHQAAAD8iFA0AAAAAFQAAAAAdAAAAACUAAIA/KAAwAA=="
+  },
+  {
+   "UUID": "8dd77cc3-f774-4d5b-9898-98229d37b848-hgC8Lfr3-collider",
+   "Type": "Collider",
+   "Path": "Assets\\Scene\\Valentines_Park.scene",
+   "Data": "Gj4IABIPDQAAAAAVAAAAAB0AAAAAGg8NAAAGQhUAAHBBHQAAAD8iFA0AAAAAFQAAAAAdAAAAACUAAIA/KAAwAA=="
+  },
+  {
+   "UUID": "8dd77cc3-f774-4d5b-9898-98229d37b848-KMs12ndW-collider",
+   "Type": "Collider",
+   "Path": "Assets\\Scene\\Valentines_Park.scene",
+   "Data": "Gj4IABIPDQAAAAAVAAAAAB0AAAAAGg8NAACMQRUAAHBBHQAAAD8iFA0AAAAAFQAAAAAdAAAAACUAAIA/KAAwAA=="
+  },
+  {
+   "UUID": "8dd77cc3-f774-4d5b-9898-98229d37b848-O0PSEl2q-collider",
+   "Type": "Collider",
+   "Path": "Assets\\Scene\\Valentines_Park.scene",
+   "Data": "Gj4IABIPDQAAAAAVAAAAAB0AAAAAGg8NAADcQRUAAHBBHQAAAD8iFA0AAAAAFQAAAAAdAAAAACUAAIA/KAAwAA=="
+  },
+  {
+   "UUID": "8dd77cc3-f774-4d5b-9898-98229d37b848-OdnGW7Qp-collider",
+   "Type": "Collider",
+   "Path": "Assets\\Scene\\Valentines_Park.scene",
+   "Data": "Gj4IABIPDQAAAAAVAAAAAB0AAAAAGg8NAACMQRUAAHBBHQAAAD8iFA0AAAAAFQAAAAAdAAAAACUAAIA/KAAwAA=="
+  },
+  {
+   "UUID": "8dd77cc3-f774-4d5b-9898-98229d37b848-R0kZlOYL-collider",
+   "Type": "Collider",
+   "Path": "Assets\\Scene\\Valentines_Park.scene",
+   "Data": "Gj4IABIPDQAAAAAVAAAAAB0AAAAAGg8NAADcQRUAAHBBHQAAAD8iFA0AAAAAFQAAAAAdAAAAACUAAIA/KAAwAA=="
+  },
+  {
+   "UUID": "8dd77cc3-f774-4d5b-9898-98229d37b848-ulpAaEVR-collider",
+   "Type": "Collider",
+   "Path": "Assets\\Scene\\Valentines_Park.scene",
+   "Data": "Gj4IABIPDQAAAAAVAAAAAB0AAAAAGg8NAADcQRUAAHBBHQAAAD8iFA0AAAAAFQAAAAAdAAAAACUAAIA/KAAwAA=="
+  },
+  {
+   "UUID": "8dd77cc3-f774-4d5b-9898-98229d37b848-XTj937Vw-collider",
+   "Type": "Collider",
+   "Path": "Assets\\Scene\\Valentines_Park.scene",
+   "Data": "Gj4IABIPDQAAAAAVAAAAAB0AAAAAGg8NAAAAQhUAAHBBHQAAAD8iFA0AAAAAFQAAAAAdAAAAACUAAIA/KAAwAA=="
+  }
+ ]
+}
